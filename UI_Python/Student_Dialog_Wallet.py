@@ -11,15 +11,15 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_Student_Dialog(object):
-    def setupUi(self, Student_Dialog):
-        Student_Dialog.setObjectName("Student_Dialog")
-        Student_Dialog.resize(707, 639)
-        Student_Dialog.setStyleSheet("QWidget {\n"
+class Ui_Student_Wallet(object):
+    def setupUi(self, Student_Wallet):
+        Student_Wallet.setObjectName("Student_Wallet")
+        Student_Wallet.resize(707, 639)
+        Student_Wallet.setStyleSheet("QWidget {\n"
 "    background-color: #73C2FB; /* Ice Blue*/\n"
 "    font-family: \'Segoe UI\', sans-serif;\n"
 "}")
-        self.Welcome = QtWidgets.QLineEdit(Student_Dialog)
+        self.Welcome = QtWidgets.QLineEdit(Student_Wallet)
         self.Welcome.setGeometry(QtCore.QRect(180, 80, 371, 51))
         font = QtGui.QFont()
         font.setFamily("Segoe UI,sans-serif")
@@ -34,13 +34,13 @@ class Ui_Student_Dialog(object):
 "    font-weight: bold;\n"
 "}")
         self.Welcome.setObjectName("Welcome")
-        self.label = QtWidgets.QLabel(Student_Dialog)
+        self.label = QtWidgets.QLabel(Student_Wallet)
         self.label.setGeometry(QtCore.QRect(300, 0, 81, 71))
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap("../../Spartan_Ride_App/SpartanLogo.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
-        self.label_2 = QtWidgets.QLabel(Student_Dialog)
+        self.label_2 = QtWidgets.QLabel(Student_Wallet)
         self.label_2.setGeometry(QtCore.QRect(640, 10, 51, 51))
         self.label_2.setStyleSheet("QLabel {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
@@ -55,7 +55,7 @@ class Ui_Student_Dialog(object):
         self.label_2.setPixmap(QtGui.QPixmap("../Images/person.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
-        self.student_name = QtWidgets.QLabel(Student_Dialog)
+        self.student_name = QtWidgets.QLabel(Student_Wallet)
         self.student_name.setGeometry(QtCore.QRect(490, 10, 60, 16))
         self.student_name.setStyleSheet("QLabel\n"
 " {\n"
@@ -64,7 +64,7 @@ class Ui_Student_Dialog(object):
 "    font-weight: bold;\n"
 "}")
         self.student_name.setObjectName("student_name")
-        self.Balamce = QtWidgets.QLabel(Student_Dialog)
+        self.Balamce = QtWidgets.QLabel(Student_Wallet)
         self.Balamce.setGeometry(QtCore.QRect(490, 40, 60, 16))
         self.Balamce.setStyleSheet("QLabel\n"
 " {\n"
@@ -73,12 +73,12 @@ class Ui_Student_Dialog(object):
 "    font-weight: bold;\n"
 "}")
         self.Balamce.setObjectName("Balamce")
-        self.line = QtWidgets.QFrame(Student_Dialog)
+        self.line = QtWidgets.QFrame(Student_Wallet)
         self.line.setGeometry(QtCore.QRect(0, 125, 701, 21))
         self.line.setFrameShape(QtWidgets.QFrame.HLine)
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
-        self.Student_pushbuttons = QtWidgets.QGroupBox(Student_Dialog)
+        self.Student_pushbuttons = QtWidgets.QGroupBox(Student_Wallet)
         self.Student_pushbuttons.setGeometry(QtCore.QRect(0, 150, 701, 51))
         self.Student_pushbuttons.setTitle("")
         self.Student_pushbuttons.setObjectName("Student_pushbuttons")
@@ -138,7 +138,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.Profile.setObjectName("Profile")
-        self.Feedback = QtWidgets.QPushButton(Student_Dialog)
+        self.Feedback = QtWidgets.QPushButton(Student_Wallet)
         self.Feedback.setGeometry(QtCore.QRect(10, 590, 81, 41))
         font = QtGui.QFont()
         font.setFamily("Segoe UI,sans-serif")
@@ -157,7 +157,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.Feedback.setObjectName("Feedback")
-        self.SignOut = QtWidgets.QPushButton(Student_Dialog)
+        self.SignOut = QtWidgets.QPushButton(Student_Wallet)
         self.SignOut.setGeometry(QtCore.QRect(610, 590, 91, 41))
         font = QtGui.QFont()
         font.setFamily("Segoe UI,sans-serif")
@@ -176,7 +176,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.SignOut.setObjectName("SignOut")
-        self.Wallet_2 = QtWidgets.QLabel(Student_Dialog)
+        self.Wallet_2 = QtWidgets.QLabel(Student_Wallet)
         self.Wallet_2.setGeometry(QtCore.QRect(280, 210, 161, 61))
         self.Wallet_2.setStyleSheet("QLabel\n"
 " {\n"
@@ -186,9 +186,9 @@ class Ui_Student_Dialog(object):
 "}")
         self.Wallet_2.setScaledContents(True)
         self.Wallet_2.setObjectName("Wallet_2")
-        self.groupBox = QtWidgets.QGroupBox(Student_Dialog)
-        self.groupBox.setGeometry(QtCore.QRect(90, 270, 491, 271))
-        self.groupBox.setStyleSheet("QGroupBox {\n"
+        self.groupbox = QtWidgets.QGroupBox(Student_Wallet)
+        self.groupbox.setGeometry(QtCore.QRect(90, 270, 491, 271))
+        self.groupbox.setStyleSheet("QGroupBox {\n"
 "    background-color: #FFFACD;\n"
 "    border: 2px solid #FFD700;\n"
 "    border-radius: 10px;\n"
@@ -199,9 +199,9 @@ class Ui_Student_Dialog(object):
 "\n"
 "\n"
 "")
-        self.groupBox.setTitle("")
-        self.groupBox.setObjectName("groupBox")
-        self.CurrentBalanceLabel = QtWidgets.QPushButton(self.groupBox)
+        self.groupbox.setTitle("")
+        self.groupbox.setObjectName("groupbox")
+        self.CurrentBalanceLabel = QtWidgets.QPushButton(self.groupbox)
         self.CurrentBalanceLabel.setGeometry(QtCore.QRect(20, 50, 141, 41))
         self.CurrentBalanceLabel.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
@@ -215,7 +215,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.CurrentBalanceLabel.setObjectName("CurrentBalanceLabel")
-        self.PaymentMethod = QtWidgets.QPushButton(self.groupBox)
+        self.PaymentMethod = QtWidgets.QPushButton(self.groupbox)
         self.PaymentMethod.setGeometry(QtCore.QRect(20, 100, 141, 41))
         self.PaymentMethod.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
@@ -229,7 +229,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.PaymentMethod.setObjectName("PaymentMethod")
-        self.PromoCode = QtWidgets.QPushButton(self.groupBox)
+        self.PromoCode = QtWidgets.QPushButton(self.groupbox)
         self.PromoCode.setGeometry(QtCore.QRect(20, 160, 113, 32))
         self.PromoCode.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
@@ -243,7 +243,7 @@ class Ui_Student_Dialog(object):
 "    background-color: #FAFAD2;\n"
 "}")
         self.PromoCode.setObjectName("PromoCode")
-        self.BillingEmail = QtWidgets.QPushButton(self.groupBox)
+        self.BillingEmail = QtWidgets.QPushButton(self.groupbox)
         self.BillingEmail.setGeometry(QtCore.QRect(20, 210, 121, 41))
         self.BillingEmail.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
@@ -258,23 +258,33 @@ class Ui_Student_Dialog(object):
 "}")
         self.BillingEmail.setObjectName("BillingEmail")
 
-        self.retranslateUi(Student_Dialog)
-        QtCore.QMetaObject.connectSlotsByName(Student_Dialog)
+        self.retranslateUi(Student_Wallet)
+        QtCore.QMetaObject.connectSlotsByName(Student_Wallet)
 
-    def retranslateUi(self, Student_Dialog):
+    def retranslateUi(self, Student_Wallet):
         _translate = QtCore.QCoreApplication.translate
-        Student_Dialog.setWindowTitle(_translate("Student_Dialog", "Dialog"))
-        self.Welcome.setText(_translate("Student_Dialog", "Welcome to Spartan Ride"))
-        self.student_name.setText(_translate("Student_Dialog", "Name"))
-        self.Balamce.setText(_translate("Student_Dialog", "Balance"))
-        self.Wallet.setText(_translate("Student_Dialog", "Wallet"))
-        self.RideHistory.setText(_translate("Student_Dialog", "Ride History"))
-        self.BookaRide.setText(_translate("Student_Dialog", "Book Ride"))
-        self.Profile.setText(_translate("Student_Dialog", "Profile"))
-        self.Feedback.setText(_translate("Student_Dialog", "Feedback"))
-        self.SignOut.setText(_translate("Student_Dialog", "Sign Out"))
-        self.Wallet_2.setText(_translate("Student_Dialog", "Wallet"))
-        self.CurrentBalanceLabel.setText(_translate("Student_Dialog", "Current Balance :"))
-        self.PaymentMethod.setText(_translate("Student_Dialog", "Payment Method :"))
-        self.PromoCode.setText(_translate("Student_Dialog", "Promo Code :"))
-        self.BillingEmail.setText(_translate("Student_Dialog", "Billing Email :"))
+        Student_Wallet.setWindowTitle(_translate("Student_Wallet", "Dialog"))
+        self.Welcome.setText(_translate("Student_Wallet", "Welcome to Spartan Ride"))
+        self.student_name.setText(_translate("Student_Wallet", "Name"))
+        self.Balamce.setText(_translate("Student_Wallet", "Balance"))
+        self.Wallet.setText(_translate("Student_Wallet", "Wallet"))
+        self.RideHistory.setText(_translate("Student_Wallet", "Ride History"))
+        self.BookaRide.setText(_translate("Student_Wallet", "Book Ride"))
+        self.Profile.setText(_translate("Student_Wallet", "Profile"))
+        self.Feedback.setText(_translate("Student_Wallet", "Feedback"))
+        self.SignOut.setText(_translate("Student_Wallet", "Sign Out"))
+        self.Wallet_2.setText(_translate("Student_Wallet", "Wallet"))
+        self.CurrentBalanceLabel.setText(_translate("Student_Wallet", "Current Balance :"))
+        self.PaymentMethod.setText(_translate("Student_Wallet", "Payment Method :"))
+        self.PromoCode.setText(_translate("Student_Wallet", "Promo Code :"))
+        self.BillingEmail.setText(_translate("Student_Wallet", "Billing Email :"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Student_Wallet = QtWidgets.QDialog()
+    ui = Ui_Student_Wallet()
+    ui.setupUi(Student_Wallet)
+    Student_Wallet.show()
+    sys.exit(app.exec_())
