@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Student_Dialog</class>
- <widget class="QDialog" name="Student_Dialog">
+ <class>Student_Wallet</class>
+ <widget class="QDialog" name="Student_Wallet">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -359,10 +359,10 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QGroupBox" name="groupBox">
+  <widget class="QGroupBox" name="groupbox">
    <property name="geometry">
     <rect>
-     <x>90</x>
+     <x>80</x>
      <y>270</y>
      <width>491</width>
      <height>271</height>
@@ -384,7 +384,7 @@ QPushButton:hover {
    <property name="title">
     <string/>
    </property>
-   <widget class="QPushButton" name="CurrentBalanceLabel">
+   <widget class="QPushButton" name="CurrentBalance">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -486,6 +486,58 @@ QPushButton:hover {
     </property>
     <property name="text">
      <string>Billing Email :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentBalanceLabel">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>65</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PaymentMethodLabel">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BillingEmailLabel">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>220</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PromoCodeLabel">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
