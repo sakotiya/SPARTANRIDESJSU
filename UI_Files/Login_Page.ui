@@ -269,26 +269,31 @@ QPushButton:hover {
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="Newhear">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>430</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel {
-    color: #FAFAD2;
-    font-size: 14px;
-    font-weight: bold;
-}</string>
-    </property>
-    <property name="text">
-     <string>New Here!</string>
-    </property>
-   </widget>
+   <widget class="QComboBox" name="roleSelector">
+ <property name="geometry">
+  <rect>
+   <x>30</x>
+   <y>430</y>
+   <width>111</width>
+   <height>31</height>
+  </rect>
+ </property>
+ <item>
+  <property name="text">
+   <string>student</string>
+  </property>
+ </item>
+ <item>
+  <property name="text">
+   <string>faculty</string>
+  </property>
+ </item>
+ <item>
+  <property name="text">
+   <string>driver</string>
+  </property>
+ </item>
+</widget>
    <widget class="QPushButton" name="SignUp">
     <property name="geometry">
      <rect>
