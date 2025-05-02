@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtWidgets
-from Student_Dialog import Ui_Student_Dialog  # <-- Import the auto-generated class
+from Student_Dialog_ui import Ui_Student_Dialog  # <-- Import the auto-generated class
 
 class MyApp(QtWidgets.QMainWindow, Ui_Student_Dialog):
     def __init__(self):
