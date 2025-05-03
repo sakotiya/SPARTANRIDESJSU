@@ -1,0 +1,121 @@
+route_id,shuttle_id,route_name,stop_name,estimated_time,vehicle_number,capacity,Shift code
+r1,68,Orange Route,San Jose State University,11:00 AM,ZC4ULOW,40,Day
+r2,68,Orange Route,SAP Center,11:07 AM,ZC4ULOW,40,Day
+r3,68,Orange Route,Diridon Station,11:10 AM,ZC4ULOW,40,Day
+r4,68,Orange Route,Santana Row,11:20 AM,ZC4ULOW,40,Day
+r5,68,Orange Route,Valley Fair Mall,11:23 AM,ZC4ULOW,40,Day
+r6,68,Orange Route,Winchester Mystery House,11:25 AM,ZC4ULOW,40,Day
+r7,68,Orange Route,Santa Clara University,11:33 AM,ZC4ULOW,40,Day
+r8,68,Orange Route,Levi's Stadium,11:45 AM,ZC4ULOW,40,Day
+r9,68,Orange Route,Great America,11:50 AM,ZC4ULOW,40,Day
+r10,68,Orange Route,Sunnyvale Caltrain,12:02 PM,ZC4ULOW,40,Day
+r11,68,Orange Route,Mountain View Downtown,12:12 PM,ZC4ULOW,40,Day
+r12,68,Orange Route,Shoreline Amphitheatre,12:19 PM,ZC4ULOW,40,Day
+r13,68,Orange Route,Palo Alto University Avenue,12:30 PM,ZC4ULOW,40,Day
+r14,68,Orange Route,Stanford University,12:35 PM,ZC4ULOW,40,Day
+r15,68,Orange Route,Stanford Shopping Center,12:38 PM,ZC4ULOW,40,Day
+r16,81,Yellow Route,Alum Rock,11:00 AM,UZZXPBL,40,Day
+r17,81,Yellow Route,Eastridge Mall,11:06 AM,UZZXPBL,40,Day
+r18,81,Yellow Route,Lake Cunningham Park,11:11 AM,UZZXPBL,40,Day
+r19,81,Yellow Route,Raging Waters,11:14 AM,UZZXPBL,40,Day
+r20,81,Yellow Route,Evergreen Valley College,11:18 AM,UZZXPBL,40,Day
+r21,81,Yellow Route,Silver Creek High School,11:22 AM,UZZXPBL,40,Day
+r22,81,Yellow Route,Hellyer Park,11:28 AM,UZZXPBL,40,Day
+r23,81,Yellow Route,Santa Teresa,11:33 AM,UZZXPBL,40,Day
+r24,81,Yellow Route,Blossom Hill,11:37 AM,UZZXPBL,40,Day
+r25,81,Yellow Route,Oakridge Mall,11:40 AM,UZZXPBL,40,Day
+r26,81,Yellow Route,Camden Community Center,11:45 AM,UZZXPBL,40,Day
+r27,81,Yellow Route,Branham High School,11:49 AM,UZZXPBL,40,Day
+r28,81,Yellow Route,Cambrian Park Plaza,11:52 AM,UZZXPBL,40,Day
+r29,81,Yellow Route,Willow Glen,11:58 AM,UZZXPBL,40,Day
+r30,81,Yellow Route,Downtown San Jose,12:03 PM,UZZXPBL,40,Day
+r31,39,Blue Route,Milpitas BART,11:00 AM,8BQTPBU,40,Day
+r32,39,Blue Route,Great Mall,11:03 AM,8BQTPBU,40,Day
+r33,39,Blue Route,Berryessa,11:08 AM,8BQTPBU,40,Day
+r34,39,Blue Route,Penitencia Creek Park,11:12 AM,8BQTPBU,40,Day
+r35,39,Blue Route,Independence High School,11:16 AM,8BQTPBU,40,Day
+r36,39,Blue Route,Flickinger Park,11:19 AM,8BQTPBU,40,Day
+r37,39,Blue Route,Alviso Marina,11:25 AM,8BQTPBU,40,Day
+r38,39,Blue Route,North San Jose,11:30 AM,8BQTPBU,40,Day
+r39,39,Blue Route,Cisco Campus,11:33 AM,8BQTPBU,40,Day
+r40,39,Blue Route,Baypointe Station,11:37 AM,8BQTPBU,40,Day
+r41,39,Blue Route,River Oaks,11:40 AM,8BQTPBU,40,Day
+r42,39,Blue Route,Champion Station,11:42 AM,8BQTPBU,40,Day
+r43,39,Blue Route,Santa Clara Town Centre,11:47 AM,8BQTPBU,40,Day
+r44,39,Blue Route,Mission College,11:51 AM,8BQTPBU,40,Day
+r45,39,Blue Route,California's Great America,11:54 AM,8BQTPBU,40,Day
+r46,64,Green Route,Fremont BART,11:00 AM,GUE5DYL,40,Day
+r47,64,Green Route,Fremont Hub,11:03 AM,GUE5DYL,40,Day
+r48,64,Green Route,Warm Springs,11:09 AM,GUE5DYL,40,Day
+r49,64,Green Route,Irvington District,11:14 AM,GUE5DYL,40,Day
+r50,64,Green Route,Mission San Jose,11:18 AM,GUE5DYL,40,Day
+r51,64,Green Route,Central Park Fremont,11:23 AM,GUE5DYL,40,Day
+r52,64,Green Route,Lake Elizabeth,11:26 AM,GUE5DYL,40,Day
+r53,64,Green Route,Pacific Commons,11:32 AM,GUE5DYL,40,Day
+r54,64,Green Route,Ardenwood Historic Farm,11:37 AM,GUE5DYL,40,Day
+r55,64,Green Route,Coyote Hills,11:41 AM,GUE5DYL,40,Day
+r56,64,Green Route,Union City BART,11:48 AM,GUE5DYL,40,Day
+r57,64,Green Route,Logan High School,11:51 AM,GUE5DYL,40,Day
+r58,64,Green Route,Decoto District,11:55 AM,GUE5DYL,40,Day
+r59,64,Green Route,Newark Mall,12:00 PM,GUE5DYL,40,Day
+r60,64,Green Route,Don Edwards Wildlife Refuge,12:06 PM,GUE5DYL,40,Day
+r61,68,Orange Route,Stanford Shopping Center  ,4:00 PM,ZC4ULOW,40,Night
+r62,68,Orange Route,Stanford University  ,4:03 PM,ZC4ULOW,40,Night
+r63,68,Orange Route,Palo Alto University Avenue  ,4:08 PM,ZC4ULOW,40,Night
+r64,68,Orange Route,Shoreline Amphitheatre  ,4:19 PM,ZC4ULOW,40,Night
+r65,68,Orange Route,Mountain View Downtown  ,4:26 PM,ZC4ULOW,40,Night
+r66,68,Orange Route,Sunnyvale Caltrain  ,4:36 PM,ZC4ULOW,40,Night
+r67,68,Orange Route,Great America  ,4:48 PM,ZC4ULOW,40,Night
+r68,68,Orange Route,Levi's Stadium  ,4:53 PM,ZC4ULOW,40,Night
+r69,68,Orange Route,Santa Clara University  ,5:05 PM,ZC4ULOW,40,Night
+r70,68,Orange Route,Winchester Mystery House  ,5:17 PM,ZC4ULOW,40,Night
+r71,68,Orange Route,Valley Fair Mall  ,5:29 PM,ZC4ULOW,40,Night
+r72,68,Orange Route,Santana Row  ,5:31 PM,ZC4ULOW,40,Night
+r73,68,Orange Route,Diridon Station  ,5:34 PM,ZC4ULOW,40,Night
+r74,68,Orange Route,SAP Center  ,5:44 PM,ZC4ULOW,40,Night
+r75,68,Orange Route,San Jose State University,5:47 PM,ZC4ULOW,40,Night
+r76,81,Yellow Route,Downtown San Jose  ,4:00 PM,UZZXPBL,40,Night
+r77,81,Yellow Route,Willow Glen  ,4:05 PM,UZZXPBL,40,Night
+r78,81,Yellow Route,Cambrian Park Plaza  ,4:11 PM,UZZXPBL,40,Night
+r79,81,Yellow Route,Branham High School  ,4:15 PM,UZZXPBL,40,Night
+r80,81,Yellow Route,Camden Community Center  ,4:18 PM,UZZXPBL,40,Night
+r81,81,Yellow Route,Oakridge Mall  ,4:24 PM,UZZXPBL,40,Night
+r82,81,Yellow Route,Blossom Hill  ,4:27 PM,UZZXPBL,40,Night
+r83,81,Yellow Route,Santa Teresa  ,4:32 PM,UZZXPBL,40,Night
+r84,81,Yellow Route,Hellyer Park  ,4:38 PM,UZZXPBL,40,Night
+r85,81,Yellow Route,Silver Creek High School  ,4:43 PM,UZZXPBL,40,Night
+r86,81,Yellow Route,Evergreen Valley College  ,4:47 PM,UZZXPBL,40,Night
+r87,81,Yellow Route,Raging Waters  ,4:50 PM,UZZXPBL,40,Night
+r88,81,Yellow Route,Lake Cunningham Park  ,4:52 PM,UZZXPBL,40,Night
+r89,81,Yellow Route,Eastridge Mall  ,4:57 PM,UZZXPBL,40,Night
+r90,81,Yellow Route,Alum Rock,5:03 PM,UZZXPBL,40,Night
+r91,39,Blue Route,California's Great America  ,4:00 PM,8BQTPBU,40,Night
+r92,39,Blue Route,Mission College  ,4:03 PM,8BQTPBU,40,Night
+r93,39,Blue Route,Santa Clara Town Centre  ,4:07 PM,8BQTPBU,40,Night
+r94,39,Blue Route,Champion Station  ,4:12 PM,8BQTPBU,40,Night
+r95,39,Blue Route,River Oaks  ,4:14 PM,8BQTPBU,40,Night
+r96,39,Blue Route,Baypointe Station  ,4:17 PM,8BQTPBU,40,Night
+r97,39,Blue Route,Cisco Campus  ,4:21 PM,8BQTPBU,40,Night
+r98,39,Blue Route,North San Jose  ,4:24 PM,8BQTPBU,40,Night
+r99,39,Blue Route,Alviso Marina  ,4:29 PM,8BQTPBU,40,Night
+r100,39,Blue Route,Flickinger Park  ,4:35 PM,8BQTPBU,40,Night
+r101,39,Blue Route,Independence High School  ,4:38 PM,8BQTPBU,40,Night
+r102,39,Blue Route,Penitencia Creek Park  ,4:42 PM,8BQTPBU,40,Night
+r103,39,Blue Route,Berryessa  ,4:46 PM,8BQTPBU,40,Night
+r104,39,Blue Route,Great Mall  ,4:51 PM,8BQTPBU,40,Night
+r105,39,Blue Route,Milpitas BART,4:54 PM,8BQTPBU,40,Night
+r106,64,Green Route,Don Edwards Wildlife Refuge  ,4:00 PM,GUE5DYL,40,Night
+r107,64,Green Route,Newark Mall  ,4:06 PM,GUE5DYL,40,Night
+r108,64,Green Route,Decoto District  ,4:11 PM,GUE5DYL,40,Night
+r109,64,Green Route,Logan High School  ,4:15 PM,GUE5DYL,40,Night
+r110,64,Green Route,Union City BART  ,4:18 PM,GUE5DYL,40,Night
+r111,64,Green Route,Coyote Hills  ,4:25 PM,GUE5DYL,40,Night
+r112,64,Green Route,Ardenwood Historic Farm  ,4:29 PM,GUE5DYL,40,Night
+r113,64,Green Route,Pacific Commons  ,4:34 PM,GUE5DYL,40,Night
+r114,64,Green Route,Lake Elizabeth  ,4:40 PM,GUE5DYL,40,Night
+r115,64,Green Route,Central Park Fremont  ,4:43 PM,GUE5DYL,40,Night
+r116,64,Green Route,Mission San Jose  ,4:48 PM,GUE5DYL,40,Night
+r117,64,Green Route,Irvington District  ,4:52 PM,GUE5DYL,40,Night
+r118,64,Green Route,Warm Springs  ,4:57 PM,GUE5DYL,40,Night
+r119,64,Green Route,Fremont Hub  ,5:03 PM,GUE5DYL,40,Night
+r120,64,Green Route,Fremont BART,5:06 PM,GUE5DYL,40,Night

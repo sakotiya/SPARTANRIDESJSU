@@ -1,0 +1,22 @@
+driver_id,first_name,last_name,license_number,mobile_phone,email_address,salary,shuttle_id,shift,assigned_route
+D892742864,Emily,Davis,R9470408,12885266454,emily.davis@csu.edu,31785.42,68,Night,Orange Route
+D424394624,Jane,Jones,W7539004,11403253697,jane.jones@csu.edu,31156.73,81,Night,Yellow Route
+D857185609,Chris,Garcia,E3657504,14724144882,chris.garcia@csu.edu,50507.08,39,Day,Blue Route
+D436011360,Laura,Wilson,A4256822,12537447538,laura.wilson@csu.edu,55540.14,64,Day,Green Route
+D611188392,Katie,Brown,U5134847,12400011518,katie.brown@csu.edu,42296.69,68,Night,Orange Route
+D730463144,Emily,Davis,J1491562,15357502075,emily.davis1@csu.edu,44324.59,81,Day,Yellow Route
+D064445961,Jane,Smith,L9210885,16360142935,jane.smith@csu.edu,39973.08,39,Night,Blue Route
+D426761237,Jane,Williams,D5206167,18288016202,jane.williams@csu.edu,54241.58,64,Night,Green Route
+D723102315,Laura,Williams,N7807417,13069717157,laura.williams@csu.edu,53829.99,68,Night,Orange Route
+D199719242,John,Garcia,T4018781,14344603905,john.garcia@csu.edu,30965.46,81,Day,Yellow Route
+D907768726,Sophia,Wilson,F4658327,19629039231,sophia.wilson@csu.edu,41357.32,39,Day,Blue Route
+D241106911,John,Garcia,V6787100,17665244938,john.garcia1@csu.edu,41181.31,64,Day,Green Route
+D944294971,Laura,Smith,Y9629659,19077674848,laura.smith@csu.edu,48161.22,68,Night,Orange Route
+D925172916,Jane,Davis,P8162963,12010939861,jane.davis@csu.edu,59022.82,81,Day,Yellow Route
+D737020043,David,Rodriguez,D9609183,17196408042,david.rodriguez@csu.edu,55752.85,39,Day,Blue Route
+D223163031,Laura,Wilson,W3997916,17890644892,laura.wilson1@csu.edu,35448.32,64,Night,Green Route
+D343676922,Chris,Smith,T3349479,14649613782,chris.smith@csu.edu,50438.91,68,Day,Orange Route
+D352080284,Alex,Miller,L9582304,13196701796,alex.miller@csu.edu,47314.91,81,Night,Yellow Route
+D240496109,Laura,Davis,G1435964,16914735806,laura.davis@csu.edu,30751.15,39,Day,Blue Route
+D418767983,Mike,Johnson,O9215968,18592027275,mike.johnson@csu.edu,54530.53,64,Night,Green Route
+,,,,,,,,,

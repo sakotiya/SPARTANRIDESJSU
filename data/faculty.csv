@@ -1,0 +1,51 @@
+first_name,last_name,faculty_id,email_id,phone,department,balance,spartan_card_no,enrollment_year
+Panchito,Beckmann,F056789012,panchito.beckmann@aol.com,(813) 644-7459,Law,500,35772139,NA
+Andonis,Duchatel,F089012345,andonis.duchatel@hotmail.com,(915) 619-1165,Business,497,51603896,NA
+Clemence,Wittleton,F090123456,clemence.wittleton@gmail.com,(501) 030-1707,Political Science,226,55474378,NA
+Ricki,Atley,F123456789,ricki.atley@gmail.com,(801) 111-8225,Education,555,69803644,NA
+Dottie,Durbridge,F134567890,dottie.durbridge@yahoo.com,(202) 626-9446,Art,428,97246567,NA
+Saloma,Tarpey,F145678901,saloma.tarpey@hotmail.com,(206) 246-8848,Art,818,87727247,NA
+Dick,Vannacci,F167890123,dick.vannacci@aol.com,(610) 837-9405,Philosophy,688,46105114,NA
+Janot,Good,F189012345,janot.good@yahoo.com,(239) 333-8692,History,393,80641783,NA
+Delilah,Janman,F212345678,delilah.janman@yahoo.com,(651) 089-4376,Environmental Science,813,40631733,NA
+Ceciley,Fairbairn,F223456789,ceciley.fairbairn@hotmail.com,(781) 181-5834,Engineering,282,71706853,NA
+Mariquilla,Hanigan,F234567890,mariquilla.hanigan@yahoo.com,(203) 897-4862,Theology,91,69805089,NA
+Wanda,Adamiak,F245678901,wanda.adamiak@rediffmail.com,(704) 104-9849,History,728,73712733,NA
+Albertine,Burgoyne,F256789012,albertine.burgoyne@yahoo.co.jp,(816) 940-3474,Education,822,75429343,NA
+Pauli,Saulter,F334567890,pauli.saulter@yahoo.com,(805) 027-5985,Philosophy,499,62981093,NA
+Madeline,Drabble,F345678901,madeline.drabble@gmail.com,(817) 350-3720,Psychology,929,48561208,NA
+Celestine,Stoner,F390123456,celestine.stoner@libero.it,(941) 968-8221,Linguistics,690,45102500,NA
+Gail,Lycett,F434567890,gail.lycett@gmail.com,(941) 299-3507,Economics,790,59428356,NA
+Miof mela,Parsons,F445678901,miofmela.parsons@gmail.com,(812) 592-0153,Chemistry,63,52838182,NA
+Ruthanne,Bordone,F456789012,ruthanne.bordone@hotmail.com,(617) 116-0804,Business,625,88703046,NA
+Hector,Sperwell,F478901234,hector.sperwell@orange.fr,(406) 476-2438,Anthropology,547,67221150,NA
+Vergil,MacMeanma,F490123456,vergil.macmeanma@hotmail.com,(513) 136-4585,English,586,67705052,NA
+Shepard,Matzkaitis,F501234567,shepard.matzkaitis@libero.it,(205) 967-5348,Physics,775,87104548,NA
+Odilia,Danter,F545678901,odilia.danter@msn.com,(408) 960-5723,Engineering,656,83311697,NA
+Gothart,Lummis,F556789012,gothart.lummis@yahoo.com,(972) 718-4346,Linguistics,308,30736067,NA
+Sebastiano,O'Hannen,F578901234,sebastiano.ohannen@msn.com,(503) 021-9515,Nursing,150,62889176,NA
+Lona,Ninnoli,F590123456,lona.ninnoli@hotmail.fr,(754) 560-1319,Music,428,82133167,NA
+Delila,Suett,F612345678,delila.suett@yahoo.com,(719) 671-5114,Physics,684,32997140,NA
+Jacklin,Gentile,F623456789,jacklin.gentile@msn.com,(757) 675-7436,Chemistry,275,47894399,NA
+Charlie,Hritzko,F634567890,charlie.hritzko@gmail.com,(702) 472-3447,English,228,35202215,NA
+Maxine,Cogswell,F645678901,maxine.cogswell@aol.com,(316) 610-7773,Music,622,80800889,NA
+Etan,Carmen,F667890123,etan.carmen@yahoo.com,(208) 495-6247,Theology,501,83218942,NA
+Viviene,Tammadge,F678901234,viviene.tammadge@gmail.com,(719) 486-8599,Anthropology,967,68234331,NA
+Brion,Ambrosi,F689012345,brion.ambrosi@yahoo.it,(915) 545-0942,Geography,394,34831447,NA
+Malissia,Allewell,F723456789,malissia.allewell@comcast.net,(202) 501-5764,Law,746,62536880,NA
+Currie,Hovenden,F756789012,currie.hovenden@msn.com,(309) 793-4321,Mathematics,159,64262482,NA
+Reta,Worham,F767890123,reta.worham@hotmail.com,(504) 253-5619,Computer Science,635,27160507,NA
+Fairleigh,Goldster,F778901234,fairleigh.goldster@gmail.com,(505) 428-8103,Economics,80,83724432,NA
+Ofelia,Colleer,F789012345,ofelia.colleer@hotmail.com,(952) 392-2395,Environmental Science,73,32194928,NA
+Harriett,Deare,F801234567,harriett.deare@aol.com,(225) 445-9908,Sociology,961,69927687,NA
+Irv,Ure,F823456789,irv.ure@hotmail.com,(312) 151-5898,Geography,196,90121269,NA
+Manon,Scholefield,F834567890,manon.scholefield@gmail.com,(281) 130-2236,Biology,204,72520193,NA
+Joachim,Blown,F856789012,joachim.blown@rediffmail.com,(312) 205-9249,Sociology,683,28713334,NA
+Marlena,Schoenleiter,F878901234,marlena.schoenleiter@hotmail.com,(903) 987-7519,Computer Science,909,44916559,NA
+Verna,Simmgen,F890123456,verna.simmgen@yahoo.com,(304) 064-3101,Biology,645,71919763,NA
+Cammi,Autie,F901234567,cammi.autie@gmail.com,(704) 127-8510,Statistics,579,32988759,NA
+Mellicent,McGeaney,F923456789,mellicent.mcgeaney@yahoo.com,(585) 322-6277,Nursing,685,56895022,NA
+Gabriello,Hallam,F934567890,gabriello.hallam@gmail.com,(865) 394-7993,Mathematics,185,69206826,NA
+Christean,Revel,F945678901,christean.revel@hotmail.com,(321) 785-6512,Statistics,772,61382179,NA
+Bowie,Querrard,F978901234,bowie.querrard@yahoo.com,(716) 780-1613,Political Science,604,97123871,NA
+Yolande,Westwood,F990123456,yolande.westwood@yahoo.com,(202) 914-8662,Psychology,619,52758682,NA
