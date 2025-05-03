@@ -15,5 +15,13 @@ Ashmitha - Files uploaded for Login_Page and Student_Dialogue
 10. Driver_MyProfile_ui.py
 11. baskbashers.ini (Connection to Remote server)
 
+Shreya - There are 4 folders 
+Config folder has config.ini (lets keep it common for everyone )
+SourceCode folder has all the python files we created for coding running the app
+UI_files folder has all the .ui files in it 
+UI_python folder has all the .ui files that are converted to .py files 
+Also we dont need to have all the files in one folder 
+now all the files can run from their respective folders 
+
 Before running application ----> Connect to Remote server
     Use Terminal to run the file Login_Page.py
