@@ -1,0 +1,401 @@
+student_id,balance,phone,email,first_name,last_name,emergency_contact,spartan_card_no,department,course,enrollment_year
+S742678387,498,(727) 872-7477,noreen.cowderoy@yahoo.com,Noreen,Cowderoy,(727) 872-7477,23529951,Nursing,BSN (Clinical Nursing),2024
+S322678363,289,(309) 376-1244,franky.garlick@aol.com,Franky,Garlick,(309) 376-1244,42149694,Political Science,BS (Political Theory),2025
+S792678437,530,(614) 862-3557,kelly.nolder@hotmail.com,Kelly,Nolder,(614) 862-3557,48782265,Physics,BS (Theoretical Physics),2023
+S572678415,428,(304) 606-1704,trevor.pfertner@gmail.com,Trevor,Pfertner,(304) 606-1704,37293250,Mathematics,BS (Pure Mathematics),2023
+S672678416,177,(414) 909-8649,welsh.stuer@gmail.com,Welsh,Stuer,(414) 909-8649,16004495,Psychology,MS (Industrial Psychology),2025
+S212678352,667,(720) 370-8912,jeremiah.bosdet@gmail.com,Jeremiah,Bosdet,(720) 370-8912,89682370,Music,BS (Music Composition),2023
+S412678354,378,(213) 700-4354,hashim.dorken@hotmail.fr,Hashim,Dorken,(213) 700-4354,87057225,Philosophy,BS (Ethics and Logic),2022
+S612678356,859,(845) 387-7491,lora.scrinage@yahoo.com,Lora,Scrinage,(845) 387-7491,20589143,Business,MBA (International Business),2024
+S982678429,740,(817) 669-2900,taber.insko@hotmail.com,Taber,Insko,(817) 669-2900,70499234,Theology,BS (Religious Studies),2022
+S192678431,75,(619) 365-3540,loy.fenlon@hotmail.com,Loy,Fenlon,(619) 365-3540,88287814,Chemistry,BS (Analytical Chemistry),2025
+S162678401,615,(510) 762-0649,dredi.loosemore@gmail.com,Dredi,Loosemore,(510) 762-0649,93405713,Statistics,BS (Statistical Modelling),2024
+S542678385,801,(213) 497-3526,rafaello.farndell@gmail.com,Rafaello,Farndell,(213) 497-3526,62815968,Nursing,BSN (Clinical Nursing),2024
+S332678373,72,(404) 740-4802,saundra.boston@yahoo.com,Saundra,Boston,(404) 740-4802,43820715,Biology,BS (Molecular Biology),2024
+S152678391,174,(814) 444-7852,ninnetta.ruddell@hotmail.co.uk,Ninnetta,Ruddell,(814) 444-7852,34886463,Anthropology,BS (Cultural Anthropology),2022
+S942678389,334,(704) 352-3674,walker.mackeogh@yahoo.com,Walker,MacKeogh,(704) 352-3674,86876601,Philosophy,BS (Ethics and Logic),2025
+S552678395,712,(830) 327-2051,roderich.callington@hotmail.com,Roderich,Callington,(830) 327-2051,54932271,Environmental Science,BS (Environmental Policy),2025
+S652678396,601,(501) 390-8623,lisle.cushe@yahoo.com,Lisle,Cushe,(501) 390-8623,78782349,Theology,BS (Religious Studies),2024
+S712678357,31,(410) 292-2923,paulie.puttrell@gmx.de,Paulie,Puttrell,(410) 292-2923,26809991,Computer Science,BS (Artificial Intelligence),2024
+S392678433,637,(713) 522-7555,raff.huguenet@gmail.com,Raff,Huguenet,(713) 522-7555,48473301,Law,BS (Corporate Law),2024
+S822678368,728,(515) 084-2210,rowan.pedrozzi@yahoo.com,Rowan,Pedrozzi,(515) 084-2210,99449790,Anthropology,BS (Cultural Anthropology),2023
+S952678399,253,(605) 037-0813,therine.nore@gmail.com,Therine,Nore,(605) 037-0813,95424977,Economics,BS (Development Economics),2024
+S532678375,596,(405) 987-1859,shanta.zebedee@aol.com,Shanta,Zebedee,(405) 987-1859,98387200,Anthropology,BS (Cultural Anthropology),2023
+S762678407,986,(562) 357-4899,ludwig.oluby@hotmail.com,Ludwig,O'Luby,(562) 357-4899,76661776,Statistics,BS (Statistical Modelling),2024
+S182678421,213,(978) 145-8935,noni.bullus@gmail.com,Noni,Bullus,(978) 145-8935,79770159,Education,BS (Curriculum Studies),2024
+S832678378,135,(941) 411-3782,lorant.duchesne@yahoo.fr,Lorant,Duchesne,(941) 411-3782,56541632,Biology,BS (Molecular Biology),2022
+S292678432,512,(651) 119-6869,kirsten.tart@hotmail.com,Kirsten,Tart,(651) 119-6869,71862444,Linguistics,MS (Applied Linguistics),2025
+S072678410,358,(704) 207-4715,harriett.wiburn@hotmail.com,Harriett,Wiburn,(704) 207-4715,84625326,Biology,BS (Molecular Biology),2025
+S862678408,115,(202) 553-2502,micky.janik@wanadoo.fr,Micky,Janik,(202) 553-2502,92868347,Art,BS (Visual Arts),2024
+S012678350,203,(480) 275-9140,morey.saer@yahoo.com,Morey,Saer,(480) 275-9140,73518140,Philosophy,BS (Ethics and Logic),2022
+S362678403,107,(916) 028-5044,quintin.rawlings@msn.com,Quintin,Rawlings,(916) 028-5044,14624774,Art,BS (Visual Arts),2025
+S092678430,72,(626) 275-5481,creighton.dingsdale@hotmail.co.uk,Creighton,Dingsdale,(626) 275-5481,71684087,Business,MBA (International Business),2024
+S242678382,938,(770) 765-9617,dulcy.demendoza@aol.com,Dulcy,de Mendoza,(770) 765-9617,33048031,Business,MBA (International Business),2023
+S812678358,522,(202) 196-2821,eilis.halversen@gmail.com,Eilis,Halversen,(202) 196-2821,85476239,Nursing,BSN (Clinical Nursing),2023
+S912678359,941,(410) 903-1053,nathalie.pelchat@free.fr,Nathalie,Pelchat,(410) 903-1053,59989021,Philosophy,BS (Ethics and Logic),2022
+S992678439,775,(415) 885-4257,sayres.yurinov@gmail.com,Sayres,Yurinov,(415) 885-4257,72851175,Mathematics,BS (Pure Mathematics),2025
+S782678427,187,(907) 936-1962,regan.springthorp@yahoo.com,Regan,Springthorp,(907) 936-1962,32375497,Education,BS (Curriculum Studies),2023
+S282678422,335,(757) 839-9979,tucker.ondrich@hotmail.co.uk,Tucker,Ondrich,(757) 839-9979,76396912,Anthropology,BS (Cultural Anthropology),2023
+S312678353,44,(407) 216-2589,ange.buddell@hotmail.com,Ange,Buddell,(407) 216-2589,34054081,Environmental Science,BS (Environmental Policy),2023
+S132678371,954,(718) 094-0336,kevina.scurman@msn.com,Kevina,Scurman,(718) 094-0336,94240864,Music,BS (Music Composition),2024
+S422678364,492,(571) 665-0526,conway.blakeley@hotmail.fr,Conway,Blakeley,(571) 665-0526,90775347,Mathematics,BS (Pure Mathematics),2024
+S492678434,391,(518) 017-2329,evey.hestrop@wanadoo.fr,Evey,Hestrop,(518) 017-2329,70072163,Political Science,BS (Political Theory),2023
+S842678388,516,(407) 147-6808,sibella.causbey@yahoo.es,Sibella,Causbey,(407) 147-6808,40914277,Chemistry,BS (Analytical Chemistry),2025
+S642678386,238,(571) 318-5319,max.titcumb@yahoo.com,Max,Titcumb,(571) 318-5319,73665086,Chemistry,BS (Analytical Chemistry),2022
+S262678402,461,(602) 213-8085,will.rame@gmail.com,Will,Rame,(602) 213-8085,70287427,Computer Science,BS (Artificial Intelligence),2023
+S692678436,914,(202) 656-1385,sisely.leyshon@hotmail.com,Sisely,Leyshon,(202) 656-1385,88851968,Economics,BS (Development Economics),2024
+S172678411,503,(319) 729-5356,walt.burker@laposte.net,Walt,Burker,(319) 729-5356,51519341,Sociology,BS (Social Research),2022
+S052678390,436,(225) 945-1030,ethan.borlease@freenet.de,Ethan,Borlease,(225) 945-1030,51200342,Law,BS (Corporate Law),2023
+S932678379,914,(212) 415-2004,kali.gibbins@yahoo.com,Kali,Gibbins,(212) 415-2004,84658669,Nursing,BSN (Clinical Nursing),2023
+S122678361,711,(862) 865-1395,ema.statersfield@hotmail.com,Ema,Statersfield,(862) 865-1395,67313415,Anthropology,BS (Cultural Anthropology),2025
+S582678425,774,(615) 226-8890,nicky.cornejo@gmail.com,Nicky,Cornejo,(615) 226-8890,66342359,Geography,BS (Human Geography),2024
+S232678372,897,(757) 987-7352,royall.abrahamowitcz@gmail.com,Royall,Abrahamowitcz,(757) 987-7352,29535928,Political Science,BS (Political Theory),2022
+S682678426,662,(251) 438-5394,ethelyn.northen@hotmail.com,Ethelyn,Northen,(251) 438-5394,42734905,Education,BS (Curriculum Studies),2023
+S352678393,411,(571) 689-0425,bianka.gremain@aol.com,Bianka,Gremain,(571) 689-0425,24922332,Anthropology,BS (Cultural Anthropology),2022
+S852678398,964,(630) 327-6866,randee.scading@gmail.com,Randee,Scading,(630) 327-6866,31307159,Anthropology,BS (Cultural Anthropology),2024
+S592678435,70,(757) 688-2030,becki.scott@live.com,Becki,Scott,(757) 688-2030,66893137,Statistics,BS (Statistical Modelling),2025
+S062678400,113,(330) 329-7446,zonnya.butterly@orange.fr,Zonnya,Butterly,(330) 329-7446,75981560,Political Science,BS (Political Theory),2025
+S342678383,410,(563) 543-6927,stevena.pinchon@gmail.com,Stevena,Pinchon,(563) 543-6927,60447751,Political Science,BS (Political Theory),2025
+S432678374,660,(716) 697-7581,rochester.rutigliano@hotmail.com,Rochester,Rutigliano,(716) 697-7581,19081644,Geography,BS (Human Geography),2024
+S892678438,832,(913) 601-8213,coralie.lenham@gmail.com,Coralie,Lenham,(913) 601-8213,37894911,Geography,BS (Human Geography),2025
+S112678351,959,(305) 734-9785,elberta.blackeby@yahoo.com,Elberta,Blackeby,(305) 734-9785,15570623,Computer Science,BS (Artificial Intelligence),2024
+S522678365,76,(312) 815-3503,bernadette.trevance@yahoo.com,Bernadette,Trevance,(312) 815-3503,33321504,Sociology,BS (Social Research),2024
+S962678409,733,(520) 806-5781,torey.colbeck@msn.com,Torey,Colbeck,(520) 806-5781,55333124,Computer Science,BS (Artificial Intelligence),2023
+S662678406,976,(816) 108-7932,shayne.oppery@gmail.com,Shayne,Oppery,(816) 108-7932,42701174,History,BS (Modern History),2023
+S752678397,66,(718) 304-5801,aubrette.trett@hotmail.com,Aubrette,Trett,(718) 304-5801,96219012,Physics,BS (Theoretical Physics),2025
+S382678423,592,(502) 141-8050,jori.gilberthorpe@aim.com,Jori,Gilberthorpe,(502) 141-8050,12296465,Anthropology,BS (Cultural Anthropology),2025
+S732678377,997,(914) 477-3674,neall.bedburrow@hotmail.fr,Neall,Bedburrow,(914) 477-3674,67103196,Linguistics,MS (Applied Linguistics),2025
+S142678381,551,(202) 974-8031,minta.semrad@hotmail.com,Minta,Semrad,(202) 974-8031,25724717,Art,BS (Visual Arts),2023
+S482678424,504,(859) 365-8812,loree.izacenko@hotmail.com,Loree,Izacenko,(859) 365-8812,35243562,Psychology,MS (Industrial Psychology),2025
+S222678362,516,(254) 078-9149,ingunna.schuchmacher@hotmail.com,Ingunna,Schuchmacher,(254) 078-9149,54614760,English,BS (English Literature),2024
+S032678370,442,(860) 452-9606,wayne.pettigree@neuf.fr,Wayne,Pettigree,(860) 452-9606,44459004,Nursing,BSN (Clinical Nursing),2024
+S272678412,894,(361) 110-2090,fidole.huckster@yahoo.com,Fidole,Huckster,(361) 110-2090,97109316,Psychology,MS (Industrial Psychology),2023
+S882678428,819,(816) 194-2341,osborn.digg@yahoo.com,Osborn,Digg,(816) 194-2341,33212392,Theology,BS (Religious Studies),2023
+S622678366,752,(410) 350-3353,anthiathia.aizlewood@rediffmail.com,Anthiathia,Aizlewood,(410) 350-3353,38806584,Computer Science,BS (Artificial Intelligence),2022
+S922678369,79,(505) 004-8698,huey.grzes@gmail.com,Huey,Grzes,(505) 004-8698,51611130,Nursing,BSN (Clinical Nursing),2024
+S372678413,49,(419) 037-6093,rycca.thunderman@hotmail.com,Rycca,Thunderman,(419) 037-6093,38796137,Business,MBA (International Business),2022
+S512678355,694,(608) 988-0859,dolph.ever@hotmail.com,Dolph,Ever,(608) 988-0859,98150126,Linguistics,MS (Applied Linguistics),2023
+S252678392,982,(858) 382-9129,rhys.sheed@msn.com,Rhys,Sheed,(858) 382-9129,37728802,History,BS (Modern History),2024
+S872678418,687,(817) 044-4559,margarita.swainsbury@hotmail.com,Margarita,Swainsbury,(817) 044-4559,40154088,Theology,BS (Religious Studies),2025
+S972678419,231,(770) 956-4819,gallard.chuck@aol.com,Gallard,Chuck,(770) 956-4819,64226742,Engineering,BS (Mechanical Engineering),2024
+S722678367,393,(480) 905-5906,alaric.mcphail@gmail.com,Alaric,McPhail,(480) 905-5906,17778042,Geography,BS (Human Geography),2023
+S082678420,771,(860) 898-5708,windham.taillard@uol.com.br,Windham,Taillard,(860) 898-5708,14294129,Environmental Science,BS (Environmental Policy),2022
+S772678417,425,(269) 209-7084,loella.dealmeida@gmx.de,Loella,de Almeida,(269) 209-7084,16706050,Computer Science,BS (Artificial Intelligence),2025
+S442678384,506,(315) 548-1556,creight.glaze@aol.com,Creight,Glaze,(315) 548-1556,57397204,Computer Science,BS (Artificial Intelligence),2023
+S452678394,138,(972) 223-4650,marjory.birkbeck@yahoo.com,Marjory,Birkbeck,(972) 223-4650,79073993,Nursing,BSN (Clinical Nursing),2025
+S472678414,144,(337) 279-4791,nicola.pitson@tin.it,Nicola,Pitson,(337) 279-4791,73344489,Statistics,BS (Statistical Modelling),2024
+S632678376,988,(551) 683-5004,marcie.eykelbosch@gmail.com,Marcie,Eykelbosch,(551) 683-5004,45816511,Philosophy,BS (Ethics and Logic),2023
+S462678404,49,(253) 270-6202,vaclav.hedditeh@yahoo.es,Vaclav,Hedditeh,(253) 270-6202,27894372,Environmental Science,BS (Environmental Policy),2023
+S562678405,593,(805) 028-0744,kean.heathorn@tiscali.it,Kean,Heathorn,(805) 028-0744,43906319,Music,BS (Music Composition),2022
+S022678360,102,(319) 037-6193,arline.doumic@gmail.com,Arline,Doumic,(319) 037-6193,80539909,Geography,BS (Human Geography),2022
+S042678380,827,(360) 085-1123,heath.lorenzo@gmail.com,Heath,Lorenzo,(360) 085-1123,97772151,Engineering,BS (Mechanical Engineering),2025
+S272678412,714,(301) 732-1585,tiff.ffrench@hotmail.com,Tiff,Ffrench,(301) 732-1585,20952045,Music,BS (Music Composition),2022
+S112678351,450,(860) 272-5899,guss.pavluk@hotmail.com,Guss,Pavluk,(860) 272-5899,89978529,English,BS (English Literature),2025
+S152678391,429,(312) 847-0548,nowell.dymock@gmail.com,Nowell,Dymock,(312) 847-0548,23061999,Political Science,BS (Political Theory),2022
+S932678379,944,(603) 186-1793,jilleen.whiff@hotmail.com,Jilleen,Whiff,(603) 186-1793,58281681,Linguistics,MS (Applied Linguistics),2023
+S372678413,242,(260) 925-0118,carlen.maidens@gmail.com,Carlen,Maidens,(260) 925-0118,31379870,Sociology,BS (Social Research),2025
+S962678409,307,(904) 459-3608,gray.harford@live.com,Gray,Harford,(904) 459-3608,71761950,Psychology,MS (Industrial Psychology),2022
+S072678410,415,(706) 514-5530,steffi.geaves@yahoo.com,Steffi,Geaves,(706) 514-5530,12272416,Economics,BS (Development Economics),2024
+S042678380,292,(210) 352-9165,olivier.hackleton@uol.com.br,Olivier,Hackleton,(210) 352-9165,43054219,Economics,BS (Development Economics),2024
+S212678352,987,(214) 506-7238,frazier.kemshell@hotmail.com,Frazier,Kemshell,(214) 506-7238,40347197,Theology,BS (Religious Studies),2022
+S342678383,710,(650) 243-9790,horton.louch@gmx.de,Horton,Louch,(650) 243-9790,63436628,Business,MBA (International Business),2025
+S602276804,147,(181) 960-0133,danielle.johnson@hotmail.com,Danielle,Johnson,(181) 960-0133,13999315,Geography,BS (Human Geography),2023
+S250165258,488,(794) 026-5423,carolyn.hoffman@yahoo.com,Carolyn,Hoffman,(794) 026-5423,10872248,Business,MBA (International Business),2024
+S863193008,235,(078) 161-8495,curtis.james@hotmail.com,Curtis,James,(078) 161-8495,91030736,Nursing,BSN (Clinical Nursing),2024
+S875935868,198,(647) 525-5341,james.jones@hotmail.com,James,Jones,(647) 525-5341,87490893,Psychology,MS (Industrial Psychology),2025
+S702202126,183,(276) 483-5030,cynthia.ferguson@yahoo.com,Cynthia,Ferguson,(276) 483-5030,58966946,Geography,BS (Human Geography),2022
+S322966171,238,(537) 672-4238,richard.jones@hotmail.com,Richard,Jones,(537) 672-4238,60929647,Chemistry,BS (Analytical Chemistry),2024
+S965687203,133,(653) 287-1012,jose.richards@hotmail.com,Jose,Richards,(653) 287-1012,45935572,Anthropology,BS (Cultural Anthropology),2024
+S298363942,481,(978) 480-1845,ernest.becker@gmail.com,Ernest,Becker,(978) 480-1845,43101783,Art,BS (Visual Arts),2023
+S525832950,540,(482) 814-8932,kelly.moore@yahoo.com,Kelly,Moore,(482) 814-8932,16323852,Computer Science,BS (Artificial Intelligence),2024
+S167403959,448,(015) 430-3911,kathryn.ryan@hotmail.com,Kathryn,Ryan,(015) 430-3911,11540956,Philosophy,BS (Ethics and Logic),2025
+S765261449,597,(248) 963-8346,todd.jones@hotmail.com,Todd,Jones,(248) 963-8346,45351479,Business,MBA (International Business),2025
+S519826617,588,(509) 839-3010,debra.kim@gmail.com,Debra,Kim,(509) 839-3010,82394227,Law,BS (Corporate Law),2025
+S750309883,223,(382) 997-3763,carlos.johnson@gmail.com,Carlos,Johnson,(382) 997-3763,17774584,Business,MBA (International Business),2024
+S890407714,184,(651) 333-8726,collin.jordan@gmail.com,Collin,Jordan,(651) 333-8726,83793389,Theology,BS (Religious Studies),2022
+S284257239,291,(781) 080-1326,joshua.wright@yahoo.com,Joshua,Wright,(781) 080-1326,97225156,Art,BS (Visual Arts),2025
+S451235220,130,(260) 647-4687,timothy.hancock@gmail.com,Timothy,Hancock,(260) 647-4687,94705205,Theology,BS (Religious Studies),2022
+S298026219,395,(980) 500-9788,james.robinson@gmail.com,James,Robinson,(980) 500-9788,86644106,Linguistics,MS (Applied Linguistics),2024
+S478104447,430,(191) 361-9399,brian.romero@gmail.com,Brian,Romero,(191) 361-9399,97705310,Theology,BS (Religious Studies),2024
+S043821442,547,(985) 435-3462,christine.barnes@hotmail.com,Christine,Barnes,(985) 435-3462,43528453,Biology,BS (Molecular Biology),2023
+S948509899,185,(118) 384-2513,debbie.bryant@yahoo.com,Debbie,Bryant,(118) 384-2513,41726318,Nursing,BSN (Clinical Nursing),2025
+S448910397,316,(498) 084-1241,justin.kim@gmail.com,Justin,Kim,(498) 084-1241,48285503,History,BS (Modern History),2023
+S677641207,482,(487) 401-6400,julia.moore@yahoo.com,Julia,Moore,(487) 401-6400,18181586,Economics,BS (Development Economics),2024
+S304950580,445,(680) 112-8059,kellie.walsh@hotmail.com,Kellie,Walsh,(680) 112-8059,19121552,Linguistics,MS (Applied Linguistics),2024
+S849550065,578,(315) 869-2322,earl.anderson@yahoo.com,Earl,Anderson,(315) 869-2322,52462441,Statistics,BS (Statistical Modelling),2022
+S263216499,334,(607) 337-5433,angel.doyle@gmail.com,Angel,Doyle,(607) 337-5433,11250299,Linguistics,MS (Applied Linguistics),2023
+S650551302,180,(868) 501-4294,donna.ross@gmail.com,Donna,Ross,(868) 501-4294,48250360,Chemistry,BS (Analytical Chemistry),2023
+S453985659,580,(169) 340-6088,daniel.hamilton@hotmail.com,Daniel,Hamilton,(169) 340-6088,23903144,Engineering,BS (Mechanical Engineering),2023
+S828712236,358,(951) 484-6564,jennifer.harmon@hotmail.com,Jennifer,Harmon,(951) 484-6564,45431319,Mathematics,BS (Pure Mathematics),2025
+S498042076,182,(680) 443-6995,david.fisher@yahoo.com,David,Fisher,(680) 443-6995,45159040,History,BS (Modern History),2022
+S754008958,382,(951) 343-3200,scott.lowe@gmail.com,Scott,Lowe,(951) 343-3200,88183110,Mathematics,BS (Pure Mathematics),2024
+S113878822,281,(676) 320-1632,tracey.carr@hotmail.com,Tracey,Carr,(676) 320-1632,23796726,Political Science,BS (Political Theory),2025
+S784619898,112,(172) 788-9579,april.williams@hotmail.com,April,Williams,(172) 788-9579,65337219,Law,BS (Corporate Law),2024
+S197467217,546,(727) 743-4873,patricia.simmons@yahoo.com,Patricia,Simmons,(727) 743-4873,61343880,Business,MBA (International Business),2025
+S041938826,268,(455) 812-2362,scott.reeves@hotmail.com,Scott,Reeves,(455) 812-2362,63481198,Computer Science,BS (Artificial Intelligence),2024
+S207356830,191,(669) 096-7054,jason.perry@yahoo.com,Jason,Perry,(669) 096-7054,45059710,Geography,BS (Human Geography),2023
+S590537491,197,(346) 706-5627,melissa.ashley@gmail.com,Melissa,Ashley,(346) 706-5627,87388337,Philosophy,BS (Ethics and Logic),2024
+S270957763,585,(627) 204-6537,tina.ferguson@yahoo.com,Tina,Ferguson,(627) 204-6537,19391725,Philosophy,BS (Ethics and Logic),2024
+S633873344,383,(708) 053-1003,matthew.hobbs@gmail.com,Matthew,Hobbs,(708) 053-1003,49682169,Philosophy,BS (Ethics and Logic),2022
+S149696350,207,(271) 937-4529,mary.howell@hotmail.com,Mary,Howell,(271) 937-4529,48508907,Philosophy,BS (Ethics and Logic),2022
+S456442497,437,(496) 631-9314,tamara.higgins@hotmail.com,Tamara,Higgins,(496) 631-9314,32775593,Physics,BS (Theoretical Physics),2024
+S056387621,123,(058) 651-8506,caroline.martinez@yahoo.com,Caroline,Martinez,(058) 651-8506,13278320,Economics,BS (Development Economics),2024
+S248046164,175,(849) 877-6945,daniel.yu@gmail.com,Daniel,Yu,(849) 877-6945,42747037,Computer Science,BS (Artificial Intelligence),2025
+S607714195,385,(965) 075-2735,mariah.miller@yahoo.com,Mariah,Miller,(965) 075-2735,16740197,Statistics,BS (Statistical Modelling),2022
+S284869598,517,(831) 367-8377,matthew.beard@yahoo.com,Matthew,Beard,(831) 367-8377,92228802,Nursing,BSN (Clinical Nursing),2024
+S758587422,241,(634) 957-8856,laura.davis@hotmail.com,Laura,Davis,(634) 957-8856,95585469,Linguistics,MS (Applied Linguistics),2025
+S756202235,177,(313) 518-2337,andrea.bell@yahoo.com,Andrea,Bell,(313) 518-2337,28572252,Education,BS (Curriculum Studies),2022
+S267045424,584,(352) 408-2400,jenny.bray@hotmail.com,Jenny,Bray,(352) 408-2400,88393811,Art,BS (Visual Arts),2024
+S687303789,375,(477) 752-0471,kelly.raymond@gmail.com,Kelly,Raymond,(477) 752-0471,66240084,Mathematics,BS (Pure Mathematics),2024
+S756224036,470,(941) 318-6999,crystal.brown@gmail.com,Crystal,Brown,(941) 318-6999,64266464,Philosophy,BS (Ethics and Logic),2024
+S141603506,543,(499) 091-3341,kimberly.james@gmail.com,Kimberly,James,(499) 091-3341,28213276,English,BS (English Literature),2025
+S403237378,527,(067) 974-0344,john.arnold@hotmail.com,John,Arnold,(067) 974-0344,43859311,Biology,BS (Molecular Biology),2024
+S005936767,202,(493) 618-3242,michele.jones@gmail.com,Michele,Jones,(493) 618-3242,43189803,Nursing,BSN (Clinical Nursing),2024
+S862419423,410,(174) 648-8771,brian.sparks@hotmail.com,Brian,Sparks,(174) 648-8771,91321540,Nursing,BSN (Clinical Nursing),2025
+S977135959,303,(990) 490-2787,bill.reynolds@yahoo.com,Bill,Reynolds,(990) 490-2787,60372847,History,BS (Modern History),2024
+S915826368,500,(655) 125-6746,howard.richards@hotmail.com,Howard,Richards,(655) 125-6746,85958181,Sociology,BS (Social Research),2024
+S056060444,425,(808) 760-3859,benjamin.miller@yahoo.com,Benjamin,Miller,(808) 760-3859,58612055,Computer Science,BS (Artificial Intelligence),2025
+S841156697,323,(482) 477-1093,colleen.wolf@hotmail.com,Colleen,Wolf,(482) 477-1093,72394301,Linguistics,MS (Applied Linguistics),2024
+S853292475,294,(613) 171-2748,eric.pierce@hotmail.com,Eric,Pierce,(613) 171-2748,99682738,Philosophy,BS (Ethics and Logic),2025
+S343432258,105,(639) 821-4658,joshua.davenport@yahoo.com,Joshua,Davenport,(639) 821-4658,84597009,Environmental Science,BS (Environmental Policy),2023
+S512452474,147,(787) 558-8675,lori.campbell@gmail.com,Lori,Campbell,(787) 558-8675,12314351,Chemistry,BS (Analytical Chemistry),2022
+S242635395,459,(766) 270-2895,tina.allen@gmail.com,Tina,Allen,(766) 270-2895,57219209,English,BS (English Literature),2022
+S432737961,241,(174) 596-1586,morgan.alexander@yahoo.com,Morgan,Alexander,(174) 596-1586,74988034,Anthropology,BS (Cultural Anthropology),2023
+S795211210,164,(343) 161-1724,courtney.clay@gmail.com,Courtney,Clay,(343) 161-1724,81690398,Law,BS (Corporate Law),2022
+S295618485,345,(386) 922-2196,brandon.flynn@hotmail.com,Brandon,Flynn,(386) 922-2196,73001391,Statistics,BS (Statistical Modelling),2022
+S410948406,177,(237) 474-0748,felicia.jimenez@gmail.com,Felicia,Jimenez,(237) 474-0748,17195288,Statistics,BS (Statistical Modelling),2023
+S153917672,294,(464) 743-6713,charles.landry@yahoo.com,Charles,Landry,(464) 743-6713,80138498,Mathematics,BS (Pure Mathematics),2025
+S448936679,420,(409) 097-4395,ashley.andrews@gmail.com,Ashley,Andrews,(409) 097-4395,37888820,Anthropology,BS (Cultural Anthropology),2025
+S261100452,247,(095) 214-5623,dana.oliver@gmail.com,Dana,Oliver,(095) 214-5623,41068214,Anthropology,BS (Cultural Anthropology),2024
+S774697669,158,(247) 451-7123,kristin.walter@hotmail.com,Kristin,Walter,(247) 451-7123,67061186,Environmental Science,BS (Environmental Policy),2022
+S569801375,324,(516) 048-1754,jennifer.whitney@hotmail.com,Jennifer,Whitney,(516) 048-1754,48736657,Nursing,BSN (Clinical Nursing),2022
+S166954004,409,(098) 593-1746,parker.little@gmail.com,Parker,Little,(098) 593-1746,53261270,Economics,BS (Development Economics),2025
+S209859962,490,(826) 758-6926,donald.shah@hotmail.com,Donald,Shah,(826) 758-6926,15399803,Engineering,BS (Mechanical Engineering),2022
+S746915640,309,(735) 158-5064,corey.burns@gmail.com,Corey,Burns,(735) 158-5064,56702542,History,BS (Modern History),2024
+S368362985,145,(005) 329-3183,tammy.rush@hotmail.com,Tammy,Rush,(005) 329-3183,71045700,Engineering,BS (Mechanical Engineering),2023
+S339459654,365,(284) 210-2053,jason.kane@hotmail.com,Jason,Kane,(284) 210-2053,35176902,History,BS (Modern History),2023
+S376725946,114,(268) 117-7589,mario.thompson@gmail.com,Mario,Thompson,(268) 117-7589,26297533,Physics,BS (Theoretical Physics),2024
+S962155099,584,(700) 766-1771,shannon.walker@gmail.com,Shannon,Walker,(700) 766-1771,71934487,Biology,BS (Molecular Biology),2024
+S184752892,174,(499) 856-9847,marc.hernandez@hotmail.com,Marc,Hernandez,(499) 856-9847,83989546,Physics,BS (Theoretical Physics),2024
+S395882749,236,(673) 657-6615,catherine.garcia@yahoo.com,Catherine,Garcia,(673) 657-6615,78147397,Art,BS (Visual Arts),2022
+S822594153,490,(711) 116-1528,larry.scott@gmail.com,Larry,Scott,(711) 116-1528,84077101,Economics,BS (Development Economics),2024
+S543165270,461,(494) 519-8327,brenda.hoffman@gmail.com,Brenda,Hoffman,(494) 519-8327,73481797,History,BS (Modern History),2023
+S939761919,545,(514) 936-8998,melanie.bell@gmail.com,Melanie,Bell,(514) 936-8998,54559574,Business,MBA (International Business),2024
+S180901890,273,(445) 502-2961,chelsea.barrett@gmail.com,Chelsea,Barrett,(445) 502-2961,45570755,Computer Science,BS (Artificial Intelligence),2025
+S630365968,546,(836) 675-2545,joyce.bonilla@hotmail.com,Joyce,Bonilla,(836) 675-2545,75491202,Mathematics,BS (Pure Mathematics),2024
+S562622097,327,(290) 147-6797,caitlyn.ware@yahoo.com,Caitlyn,Ware,(290) 147-6797,23489853,Psychology,MS (Industrial Psychology),2024
+S120303424,187,(561) 497-8403,joshua.fischer@yahoo.com,Joshua,Fischer,(561) 497-8403,34166826,Environmental Science,BS (Environmental Policy),2022
+S163645264,104,(076) 226-8388,james.dougherty@hotmail.com,James,Dougherty,(076) 226-8388,99501846,Education,BS (Curriculum Studies),2023
+S842509929,333,(159) 696-6416,linda.jones@gmail.com,Linda,Jones,(159) 696-6416,43567615,Law,BS (Corporate Law),2023
+S813425592,302,(613) 696-8164,tammy.jackson@hotmail.com,Tammy,Jackson,(613) 696-8164,98346110,Economics,BS (Development Economics),2025
+S256706492,410,(181) 883-5523,matthew.cook@gmail.com,Matthew,Cook,(181) 883-5523,40885967,Environmental Science,BS (Environmental Policy),2024
+S821277610,430,(779) 979-9552,dwayne.gonzalez@yahoo.com,Dwayne,Gonzalez,(779) 979-9552,94216001,Sociology,BS (Social Research),2025
+S070319342,548,(814) 770-0541,carlos.ramos@hotmail.com,Carlos,Ramos,(814) 770-0541,82398083,Psychology,MS (Industrial Psychology),2022
+S959828487,511,(798) 079-3597,michelle.wyatt@hotmail.com,Michelle,Wyatt,(798) 079-3597,55461591,Music,BS (Music Composition),2024
+S191987998,146,(518) 203-7788,edward.brown@hotmail.com,Edward,Brown,(518) 203-7788,59093496,Anthropology,BS (Cultural Anthropology),2022
+S705466589,445,(051) 518-6449,erik.watson@gmail.com,Erik,Watson,(051) 518-6449,24541967,Statistics,BS (Statistical Modelling),2025
+S208592089,432,(546) 291-4865,mathew.aguilar@gmail.com,Mathew,Aguilar,(546) 291-4865,50559278,Mathematics,BS (Pure Mathematics),2025
+S419340814,586,(505) 423-5733,elizabeth.calderon@gmail.com,Elizabeth,Calderon,(505) 423-5733,99991136,Engineering,BS (Mechanical Engineering),2023
+S794714044,116,(888) 059-2962,eric.phillips@gmail.com,Eric,Phillips,(888) 059-2962,47546086,Nursing,BSN (Clinical Nursing),2022
+S624239396,303,(653) 794-7383,henry.schwartz@yahoo.com,Henry,Schwartz,(653) 794-7383,18126895,Nursing,BSN (Clinical Nursing),2024
+S299802690,224,(597) 746-8862,tammy.mueller@gmail.com,Tammy,Mueller,(597) 746-8862,54762841,English,BS (English Literature),2024
+S972855827,101,(818) 141-2478,laurie.taylor@gmail.com,Laurie,Taylor,(818) 141-2478,89991301,Linguistics,MS (Applied Linguistics),2023
+S299571813,401,(685) 361-5305,renee.velasquez@gmail.com,Renee,Velasquez,(685) 361-5305,41934639,Biology,BS (Molecular Biology),2024
+S310757475,331,(204) 727-7901,mary.santos@gmail.com,Mary,Santos,(204) 727-7901,24636981,Engineering,BS (Mechanical Engineering),2024
+S590785490,533,(986) 143-4103,jonathan.conley@yahoo.com,Jonathan,Conley,(986) 143-4103,74287863,Environmental Science,BS (Environmental Policy),2022
+S464900602,399,(179) 808-9324,danielle.dean@yahoo.com,Danielle,Dean,(179) 808-9324,94970119,Art,BS (Visual Arts),2024
+S539546078,549,(621) 851-8888,aaron.gomez@hotmail.com,Aaron,Gomez,(621) 851-8888,97364555,Physics,BS (Theoretical Physics),2022
+S772423440,260,(654) 051-5319,andrew.marks@hotmail.com,Andrew,Marks,(654) 051-5319,67279295,Chemistry,BS (Analytical Chemistry),2023
+S631908007,384,(772) 217-0430,katherine.anderson@gmail.com,Katherine,Anderson,(772) 217-0430,27463800,Environmental Science,BS (Environmental Policy),2025
+S095648949,595,(403) 450-5415,nina.stewart@yahoo.com,Nina,Stewart,(403) 450-5415,16904975,Linguistics,MS (Applied Linguistics),2022
+S231514835,490,(584) 161-6928,pamela.paul@yahoo.com,Pamela,Paul,(584) 161-6928,25419645,Music,BS (Music Composition),2025
+S224576656,524,(275) 705-9640,manuel.miller@gmail.com,Manuel,Miller,(275) 705-9640,98292612,Music,BS (Music Composition),2024
+S602793116,172,(021) 355-6909,emily.sullivan@gmail.com,Emily,Sullivan,(021) 355-6909,19339597,Chemistry,BS (Analytical Chemistry),2022
+S790534133,405,(285) 654-3102,erika.rush@yahoo.com,Erika,Rush,(285) 654-3102,86181117,Sociology,BS (Social Research),2022
+S001662644,210,(447) 394-7312,april.mcintyre@gmail.com,April,Mcintyre,(447) 394-7312,46663833,Biology,BS (Molecular Biology),2023
+S714264603,128,(188) 442-2583,shannon.roach@gmail.com,Shannon,Roach,(188) 442-2583,90440034,Sociology,BS (Social Research),2023
+S032123071,372,(705) 895-7829,tracie.conner@gmail.com,Tracie,Conner,(705) 895-7829,61030579,Physics,BS (Theoretical Physics),2022
+S758808009,394,(691) 251-7785,cameron.sanders@gmail.com,Cameron,Sanders,(691) 251-7785,52018286,Philosophy,BS (Ethics and Logic),2025
+S446249194,145,(801) 824-2253,natalie.deleon@yahoo.com,Natalie,Deleon,(801) 824-2253,58567046,Philosophy,BS (Ethics and Logic),2022
+S414408727,361,(424) 981-8299,stacey.stone@gmail.com,Stacey,Stone,(424) 981-8299,20251466,Computer Science,BS (Artificial Intelligence),2023
+S651739611,201,(010) 943-9690,george.weber@yahoo.com,George,Weber,(010) 943-9690,44355473,Psychology,MS (Industrial Psychology),2025
+S117096455,429,(471) 027-6773,pamela.gardner@yahoo.com,Pamela,Gardner,(471) 027-6773,85764804,Sociology,BS (Social Research),2022
+S668610432,280,(258) 815-3714,catherine.edwards@yahoo.com,Catherine,Edwards,(258) 815-3714,17539294,Theology,BS (Religious Studies),2025
+S534080886,296,(595) 327-8774,kelly.cruz@yahoo.com,Kelly,Cruz,(595) 327-8774,78057490,Anthropology,BS (Cultural Anthropology),2024
+S457848634,590,(950) 047-9748,william.levy@gmail.com,William,Levy,(950) 047-9748,30248230,Linguistics,MS (Applied Linguistics),2025
+S018375124,368,(983) 584-1687,nicole.luna@hotmail.com,Nicole,Luna,(983) 584-1687,68978194,Political Science,BS (Political Theory),2024
+S513243576,268,(558) 523-9868,joshua.hays@gmail.com,Joshua,Hays,(558) 523-9868,18846539,Business,MBA (International Business),2025
+S062769835,569,(259) 526-9495,mason.wells@hotmail.com,Mason,Wells,(259) 526-9495,28982195,English,BS (English Literature),2023
+S396359337,443,(055) 169-4097,maria.patel@yahoo.com,Maria,Patel,(055) 169-4097,27152188,Anthropology,BS (Cultural Anthropology),2025
+S799906503,274,(728) 962-3091,tammy.patton@gmail.com,Tammy,Patton,(728) 962-3091,38748452,English,BS (English Literature),2024
+S942108178,119,(838) 578-6527,edward.vaughn@hotmail.com,Edward,Vaughn,(838) 578-6527,80669879,Linguistics,MS (Applied Linguistics),2022
+S686511669,122,(348) 434-4375,kelsey.le@yahoo.com,Kelsey,Le,(348) 434-4375,68743530,Art,BS (Visual Arts),2024
+S462427453,562,(866) 524-0415,michael.peck@yahoo.com,Michael,Peck,(866) 524-0415,72950208,Political Science,BS (Political Theory),2024
+S839942359,510,(384) 842-1993,diana.burgess@gmail.com,Diana,Burgess,(384) 842-1993,36802975,Nursing,BSN (Clinical Nursing),2025
+S680439751,490,(301) 657-1208,brent.stein@gmail.com,Brent,Stein,(301) 657-1208,21257528,Chemistry,BS (Analytical Chemistry),2024
+S145809889,127,(401) 938-0262,richard.donovan@gmail.com,Richard,Donovan,(401) 938-0262,65686520,Psychology,MS (Industrial Psychology),2025
+S333023073,170,(499) 154-7887,wendy.sanders@gmail.com,Wendy,Sanders,(499) 154-7887,29602406,Computer Science,BS (Artificial Intelligence),2022
+S094874690,527,(152) 742-0549,melissa.mcdonald@hotmail.com,Melissa,Mcdonald,(152) 742-0549,38944689,Education,BS (Curriculum Studies),2024
+S196472126,334,(227) 530-4637,melissa.prince@yahoo.com,Melissa,Prince,(227) 530-4637,93592219,Statistics,BS (Statistical Modelling),2023
+S084565720,223,(301) 742-6841,stephanie.turner@hotmail.com,Stephanie,Turner,(301) 742-6841,57354167,Engineering,BS (Mechanical Engineering),2023
+S516539575,299,(727) 956-8783,sabrina.phillips@gmail.com,Sabrina,Phillips,(727) 956-8783,12729224,Statistics,BS (Statistical Modelling),2025
+S803373026,495,(878) 519-1088,erin.larson@gmail.com,Erin,Larson,(878) 519-1088,23913528,Sociology,BS (Social Research),2024
+S571336869,423,(397) 187-0728,mark.meyer@yahoo.com,Mark,Meyer,(397) 187-0728,74227366,Statistics,BS (Statistical Modelling),2023
+S117902783,363,(403) 910-6518,stephen.brown@gmail.com,Stephen,Brown,(403) 910-6518,51617680,Education,BS (Curriculum Studies),2023
+S384062806,163,(265) 676-6182,sarah.jones@hotmail.com,Sarah,Jones,(265) 676-6182,46670512,Computer Science,BS (Artificial Intelligence),2025
+S744493163,236,(682) 300-4786,michelle.wilson@hotmail.com,Michelle,Wilson,(682) 300-4786,79696025,Art,BS (Visual Arts),2024
+S870685306,328,(310) 690-3311,nicolas.hall@hotmail.com,Nicolas,Hall,(310) 690-3311,51137177,Political Science,BS (Political Theory),2023
+S646308392,138,(673) 830-2843,arthur.harper@hotmail.com,Arthur,Harper,(673) 830-2843,17698469,Engineering,BS (Mechanical Engineering),2024
+S645710864,134,(364) 408-9268,barbara.ray@yahoo.com,Barbara,Ray,(364) 408-9268,26942307,Statistics,BS (Statistical Modelling),2025
+S263901434,393,(624) 628-7334,brandon.cooper@hotmail.com,Brandon,Cooper,(624) 628-7334,20319387,Environmental Science,BS (Environmental Policy),2024
+S133290159,234,(866) 882-6343,drew.ford@yahoo.com,Drew,Ford,(866) 882-6343,25805613,Business,MBA (International Business),2022
+S772669210,560,(046) 990-1398,deborah.nielsen@gmail.com,Deborah,Nielsen,(046) 990-1398,33173544,Linguistics,MS (Applied Linguistics),2023
+S798996752,535,(739) 363-8546,timothy.booth@yahoo.com,Timothy,Booth,(739) 363-8546,50259503,Philosophy,BS (Ethics and Logic),2022
+S177132972,113,(717) 535-5609,amanda.howard@gmail.com,Amanda,Howard,(717) 535-5609,76306502,Geography,BS (Human Geography),2024
+S354918037,369,(996) 423-5369,joyce.smith@gmail.com,Joyce,Smith,(996) 423-5369,74245343,Anthropology,BS (Cultural Anthropology),2025
+S445130451,427,(252) 287-2808,victor.pena@gmail.com,Victor,Pena,(252) 287-2808,83994695,Education,BS (Curriculum Studies),2022
+S571588531,277,(623) 120-3875,lisa.williams@gmail.com,Lisa,Williams,(623) 120-3875,40262109,Geography,BS (Human Geography),2022
+S952019266,357,(088) 600-8484,christine.estrada@gmail.com,Christine,Estrada,(088) 600-8484,22539748,Geography,BS (Human Geography),2025
+S655169390,141,(339) 845-4615,wayne.wolfe@yahoo.com,Wayne,Wolfe,(339) 845-4615,13808225,Education,BS (Curriculum Studies),2023
+S065674646,428,(016) 668-7002,stephen.sanchez@gmail.com,Stephen,Sanchez,(016) 668-7002,48879071,Psychology,MS (Industrial Psychology),2025
+S948620044,274,(397) 401-4890,vincent.hamilton@gmail.com,Vincent,Hamilton,(397) 401-4890,37383505,Psychology,MS (Industrial Psychology),2022
+S637789135,223,(396) 856-2185,suzanne.matthews@gmail.com,Suzanne,Matthews,(396) 856-2185,52831009,Psychology,MS (Industrial Psychology),2023
+S422023628,516,(599) 965-0477,connor.hall@gmail.com,Connor,Hall,(599) 965-0477,31434525,Linguistics,MS (Applied Linguistics),2024
+S353745430,358,(431) 142-6265,michael.pugh@yahoo.com,Michael,Pugh,(431) 142-6265,62780072,Law,BS (Corporate Law),2022
+S425025862,533,(267) 888-6101,kyle.ward@yahoo.com,Kyle,Ward,(267) 888-6101,11097552,Chemistry,BS (Analytical Chemistry),2024
+S112340053,137,(183) 982-6224,angela.carlson@yahoo.com,Angela,Carlson,(183) 982-6224,48735464,Music,BS (Music Composition),2025
+S345866103,385,(646) 471-5437,joseph.thomas@hotmail.com,Joseph,Thomas,(646) 471-5437,55511258,Biology,BS (Molecular Biology),2024
+S971550134,176,(406) 596-5756,christina.ellis@hotmail.com,Christina,Ellis,(406) 596-5756,71335966,Sociology,BS (Social Research),2024
+S653619723,372,(654) 793-5646,terri.taylor@yahoo.com,Terri,Taylor,(654) 793-5646,78412668,Music,BS (Music Composition),2023
+S454031438,113,(828) 073-7416,daniel.elliott@hotmail.com,Daniel,Elliott,(828) 073-7416,94457912,Chemistry,BS (Analytical Chemistry),2023
+S526952045,496,(426) 617-9796,victor.schultz@hotmail.com,Victor,Schultz,(426) 617-9796,93179531,Law,BS (Corporate Law),2024
+S816091031,310,(589) 113-5290,william.knapp@hotmail.com,William,Knapp,(589) 113-5290,37365878,Law,BS (Corporate Law),2023
+S564877559,369,(143) 888-9937,tonya.byrd@yahoo.com,Tonya,Byrd,(143) 888-9937,74205866,Music,BS (Music Composition),2022
+S394556868,412,(825) 071-4611,peter.barton@hotmail.com,Peter,Barton,(825) 071-4611,45482091,Philosophy,BS (Ethics and Logic),2022
+S492299776,262,(571) 775-1401,donald.collins@gmail.com,Donald,Collins,(571) 775-1401,75632882,Computer Science,BS (Artificial Intelligence),2025
+S459725583,588,(258) 673-6226,melinda.wong@yahoo.com,Melinda,Wong,(258) 673-6226,56323191,Environmental Science,BS (Environmental Policy),2025
+S710909672,238,(796) 603-3419,anthony.mendez@gmail.com,Anthony,Mendez,(796) 603-3419,82286705,Political Science,BS (Political Theory),2024
+S961652656,151,(147) 859-6969,lauren.herrera@gmail.com,Lauren,Herrera,(147) 859-6969,17045237,Economics,BS (Development Economics),2024
+S471705949,344,(912) 513-4125,michael.bruce@hotmail.com,Michael,Bruce,(912) 513-4125,73847325,Environmental Science,BS (Environmental Policy),2022
+S672207627,567,(627) 828-2742,donald.price@gmail.com,Donald,Price,(627) 828-2742,15006085,Business,MBA (International Business),2024
+S948908717,548,(507) 236-8876,leonard.hayes@hotmail.com,Leonard,Hayes,(507) 236-8876,48851599,Business,MBA (International Business),2022
+S026934658,535,(903) 404-3842,travis.mckinney@yahoo.com,Travis,Mckinney,(903) 404-3842,28012011,Biology,BS (Molecular Biology),2024
+S528376703,390,(148) 580-7836,ariel.barton@gmail.com,Ariel,Barton,(148) 580-7836,49597485,Linguistics,MS (Applied Linguistics),2025
+S616644340,344,(407) 451-7133,jill.valdez@hotmail.com,Jill,Valdez,(407) 451-7133,28872606,Chemistry,BS (Analytical Chemistry),2022
+S322279370,284,(923) 309-5849,brianna.bell@hotmail.com,Brianna,Bell,(923) 309-5849,97735896,Chemistry,BS (Analytical Chemistry),2025
+S601345873,427,(126) 042-2325,gary.werner@gmail.com,Gary,Werner,(126) 042-2325,25759274,Psychology,MS (Industrial Psychology),2025
+S926211764,567,(671) 168-4577,kathleen.lowe@yahoo.com,Kathleen,Lowe,(671) 168-4577,83717007,Nursing,BSN (Clinical Nursing),2024
+S456227804,139,(863) 637-4545,brandi.melton@hotmail.com,Brandi,Melton,(863) 637-4545,58557943,Education,BS (Curriculum Studies),2023
+S918925184,467,(701) 277-0632,becky.knight@hotmail.com,Becky,Knight,(701) 277-0632,37568520,Statistics,BS (Statistical Modelling),2025
+S505845404,470,(152) 064-3611,kevin.baxter@gmail.com,Kevin,Baxter,(152) 064-3611,51361818,Economics,BS (Development Economics),2022
+S020204750,578,(162) 713-6111,brittney.stone@yahoo.com,Brittney,Stone,(162) 713-6111,19263592,Music,BS (Music Composition),2024
+S421167938,545,(909) 275-3269,michael.evans@hotmail.com,Michael,Evans,(909) 275-3269,70201634,Art,BS (Visual Arts),2022
+S930981819,370,(965) 652-3413,peggy.taylor@hotmail.com,Peggy,Taylor,(965) 652-3413,62755436,Sociology,BS (Social Research),2024
+S198794743,226,(983) 640-3761,carolyn.griffith@gmail.com,Carolyn,Griffith,(983) 640-3761,40824989,Mathematics,BS (Pure Mathematics),2022
+S411870669,223,(965) 827-1091,victor.wheeler@gmail.com,Victor,Wheeler,(965) 827-1091,12099943,Law,BS (Corporate Law),2022
+S210570742,486,(188) 924-1418,bruce.mccormick@gmail.com,Bruce,Mccormick,(188) 924-1418,39161379,Philosophy,BS (Ethics and Logic),2022
+S805287356,221,(316) 179-9042,mark.willis@gmail.com,Mark,Willis,(316) 179-9042,53038943,Statistics,BS (Statistical Modelling),2023
+S316230989,447,(275) 884-2524,alexander.taylor@hotmail.com,Alexander,Taylor,(275) 884-2524,94019376,Philosophy,BS (Ethics and Logic),2022
+S449967341,194,(564) 814-9177,olivia.wise@hotmail.com,Olivia,Wise,(564) 814-9177,60527631,Law,BS (Corporate Law),2025
+S748378959,371,(252) 419-1380,michael.porter@gmail.com,Michael,Porter,(252) 419-1380,84797762,Economics,BS (Development Economics),2025
+S122698071,293,(208) 635-3654,brandon.cox@gmail.com,Brandon,Cox,(208) 635-3654,46032304,Education,BS (Curriculum Studies),2023
+S668177548,255,(617) 445-1870,jeffrey.black@yahoo.com,Jeffrey,Black,(617) 445-1870,54689713,Nursing,BSN (Clinical Nursing),2023
+S909919426,303,(060) 385-0506,steven.vargas@hotmail.com,Steven,Vargas,(060) 385-0506,37449289,Geography,BS (Human Geography),2023
+S957353254,511,(410) 386-5719,jessica.garcia@gmail.com,Jessica,Garcia,(410) 386-5719,23234972,Theology,BS (Religious Studies),2023
+S948934521,383,(623) 445-6557,preston.vargas@yahoo.com,Preston,Vargas,(623) 445-6557,45000508,Physics,BS (Theoretical Physics),2023
+S954133846,231,(912) 127-7561,jesus.harding@hotmail.com,Jesus,Harding,(912) 127-7561,55307111,Geography,BS (Human Geography),2022
+S747747315,569,(112) 490-3521,michael.townsend@hotmail.com,Michael,Townsend,(112) 490-3521,34702473,English,BS (English Literature),2022
+S899580800,531,(678) 831-7121,john.kelly@gmail.com,John,Kelly,(678) 831-7121,28453800,Anthropology,BS (Cultural Anthropology),2024
+S601240699,349,(236) 519-9410,bryan.norman@gmail.com,Bryan,Norman,(236) 519-9410,98487646,Business,MBA (International Business),2022
+S054075256,512,(151) 070-2966,james.brewer@yahoo.com,James,Brewer,(151) 070-2966,67790557,Political Science,BS (Political Theory),2024
+S919526237,291,(532) 447-2099,anthony.vega@hotmail.com,Anthony,Vega,(532) 447-2099,20605783,Mathematics,BS (Pure Mathematics),2022
+S942628096,147,(146) 263-8380,robert.pierce@yahoo.com,Robert,Pierce,(146) 263-8380,14252622,Business,MBA (International Business),2025
+S434670863,558,(856) 420-5930,amy.washington@yahoo.com,Amy,Washington,(856) 420-5930,22799248,Political Science,BS (Political Theory),2023
+S502884009,388,(334) 803-9652,brian.frey@gmail.com,Brian,Frey,(334) 803-9652,82884346,Linguistics,MS (Applied Linguistics),2024
+S618021889,183,(992) 937-8427,joel.stewart@gmail.com,Joel,Stewart,(992) 937-8427,50168264,Education,BS (Curriculum Studies),2023
+S558653776,356,(087) 059-3252,christopher.hall@yahoo.com,Christopher,Hall,(087) 059-3252,20526386,History,BS (Modern History),2024
+S730206659,115,(851) 569-1545,janet.thomas@gmail.com,Janet,Thomas,(851) 569-1545,53805532,Nursing,BSN (Clinical Nursing),2024
+S674253153,251,(539) 264-4220,theresa.oconnor@hotmail.com,Theresa,Oconnor,(539) 264-4220,93029219,Philosophy,BS (Ethics and Logic),2023
+S770176731,582,(939) 172-5135,stacy.myers@yahoo.com,Stacy,Myers,(939) 172-5135,10697290,Nursing,BSN (Clinical Nursing),2025
+S332114540,383,(570) 433-1541,gary.mcclure@hotmail.com,Gary,Mcclure,(570) 433-1541,57501571,Law,BS (Corporate Law),2023
+S053323099,392,(179) 327-1040,jessica.costa@yahoo.com,Jessica,Costa,(179) 327-1040,42580349,Psychology,MS (Industrial Psychology),2025
+S561221122,284,(181) 599-7062,matthew.barron@hotmail.com,Matthew,Barron,(181) 599-7062,20324210,Political Science,BS (Political Theory),2022
+S226511393,294,(688) 444-3106,craig.harris@hotmail.com,Craig,Harris,(688) 444-3106,93240786,Chemistry,BS (Analytical Chemistry),2022
+S833889139,345,(506) 149-7310,andrea.henry@gmail.com,Andrea,Henry,(506) 149-7310,36957830,English,BS (English Literature),2022
+S399264523,286,(714) 677-4186,george.carter@gmail.com,George,Carter,(714) 677-4186,62738860,Nursing,BSN (Clinical Nursing),2024
+S155565947,508,(704) 774-3490,nathan.james@gmail.com,Nathan,James,(704) 774-3490,68848427,Psychology,MS (Industrial Psychology),2025
+S268744626,504,(586) 938-0686,karen.contreras@hotmail.com,Karen,Contreras,(586) 938-0686,66791272,Sociology,BS (Social Research),2025
+S345559840,459,(374) 160-8989,gloria.mayer@hotmail.com,Gloria,Mayer,(374) 160-8989,58255231,Economics,BS (Development Economics),2023
+S856076360,446,(332) 061-6329,stacy.cole@yahoo.com,Stacy,Cole,(332) 061-6329,96574622,English,BS (English Literature),2024
+S693710275,213,(168) 685-4870,luis.acosta@hotmail.com,Luis,Acosta,(168) 685-4870,87206788,Environmental Science,BS (Environmental Policy),2023
+S437553014,159,(991) 191-4856,cindy.mills@yahoo.com,Cindy,Mills,(991) 191-4856,21523236,Geography,BS (Human Geography),2025
+S873375307,263,(462) 996-0653,patrick.washington@gmail.com,Patrick,Washington,(462) 996-0653,70726434,Economics,BS (Development Economics),2025
+S007031897,189,(447) 132-4754,julie.mccall@hotmail.com,Julie,Mccall,(447) 132-4754,79255529,English,BS (English Literature),2025
+S534476163,552,(214) 862-8902,jacob.lewis@gmail.com,Jacob,Lewis,(214) 862-8902,92424037,Geography,BS (Human Geography),2024
+S153727801,195,(307) 053-4578,nancy.gonzalez@yahoo.com,Nancy,Gonzalez,(307) 053-4578,82060023,Mathematics,BS (Pure Mathematics),2025
+S311649333,278,(241) 406-0293,brooke.thompson@gmail.com,Brooke,Thompson,(241) 406-0293,25331969,Statistics,BS (Statistical Modelling),2022
+S341689563,256,(072) 290-3494,joseph.ortiz@hotmail.com,Joseph,Ortiz,(072) 290-3494,42020689,Engineering,BS (Mechanical Engineering),2025
+S131355445,576,(748) 969-1085,tammy.day@hotmail.com,Tammy,Day,(748) 969-1085,96605343,Psychology,MS (Industrial Psychology),2022
+S954134030,199,(454) 443-2830,deborah.lynch@hotmail.com,Deborah,Lynch,(454) 443-2830,28325379,Art,BS (Visual Arts),2022
+S895464840,507,(074) 466-6099,richard.flores@gmail.com,Richard,Flores,(074) 466-6099,14142053,Chemistry,BS (Analytical Chemistry),2024
+S722514775,393,(824) 172-4825,gina.little@hotmail.com,Gina,Little,(824) 172-4825,25194922,Sociology,BS (Social Research),2023
+S178380759,476,(170) 999-1738,julie.parker@gmail.com,Julie,Parker,(170) 999-1738,23746101,Nursing,BSN (Clinical Nursing),2024
+S872943849,207,(356) 972-5217,mikayla.james@yahoo.com,Mikayla,James,(356) 972-5217,41802361,Economics,BS (Development Economics),2022
+S853761122,391,(927) 129-6666,joshua.juarez@yahoo.com,Joshua,Juarez,(927) 129-6666,17966873,Philosophy,BS (Ethics and Logic),2022
+S325372289,169,(542) 168-9421,alexis.morris@gmail.com,Alexis,Morris,(542) 168-9421,22780905,Law,BS (Corporate Law),2024
+S979981827,489,(625) 753-2603,kenneth.carter@gmail.com,Kenneth,Carter,(625) 753-2603,43226234,Political Science,BS (Political Theory),2024
+S831663077,363,(150) 648-9090,jessica.lawrence@hotmail.com,Jessica,Lawrence,(150) 648-9090,64069715,Political Science,BS (Political Theory),2022
+S768445880,425,(167) 618-4723,daniel.huff@hotmail.com,Daniel,Huff,(167) 618-4723,71532017,Anthropology,BS (Cultural Anthropology),2025
+S630524228,380,(891) 411-7393,abigail.dean@yahoo.com,Abigail,Dean,(891) 411-7393,55332729,Economics,BS (Development Economics),2025
+S554360074,575,(087) 375-3001,marie.dudley@gmail.com,Marie,Dudley,(087) 375-3001,26674831,Biology,BS (Molecular Biology),2022
+S840926161,147,(181) 143-7447,mary.caldwell@gmail.com,Mary,Caldwell,(181) 143-7447,46778269,Geography,BS (Human Geography),2022
+S623913362,146,(455) 611-0022,cory.thompson@yahoo.com,Cory,Thompson,(455) 611-0022,97977738,Business,MBA (International Business),2024
+S704126068,455,(552) 166-7467,christy.johns@yahoo.com,Christy,Johns,(552) 166-7467,66682016,Music,BS (Music Composition),2023
+S103713817,428,(202) 169-7972,deborah.robles@hotmail.com,Deborah,Robles,(202) 169-7972,27870584,Sociology,BS (Social Research),2022
+S915064761,415,(277) 167-0145,noah.howard@gmail.com,Noah,Howard,(277) 167-0145,65258766,Physics,BS (Theoretical Physics),2024
+S680175393,226,(891) 637-5628,janet.gregory@hotmail.com,Janet,Gregory,(891) 637-5628,28767690,Linguistics,MS (Applied Linguistics),2024
+S205667686,205,(877) 217-5354,brian.schneider@gmail.com,Brian,Schneider,(877) 217-5354,50486688,Statistics,BS (Statistical Modelling),2022
+S557208941,426,(779) 717-7517,nicholas.montoya@hotmail.com,Nicholas,Montoya,(779) 717-7517,77052833,History,BS (Modern History),2025
+S559991853,490,(994) 883-7550,denise.garcia@gmail.com,Denise,Garcia,(994) 883-7550,33188838,Business,MBA (International Business),2025
+S490502993,421,(113) 055-4885,megan.rivera@hotmail.com,Megan,Rivera,(113) 055-4885,48451741,Mathematics,BS (Pure Mathematics),2024
+S774465100,598,(331) 637-3516,travis.underwood@gmail.com,Travis,Underwood,(331) 637-3516,37272705,Computer Science,BS (Artificial Intelligence),2024
+S853686067,129,(177) 982-7080,sara.monroe@hotmail.com,Sara,Monroe,(177) 982-7080,42029368,Computer Science,BS (Artificial Intelligence),2022
+S291606610,459,(216) 995-8669,savannah.roberson@hotmail.com,Savannah,Roberson,(216) 995-8669,28416255,Theology,BS (Religious Studies),2024
+S043582378,494,(984) 858-3339,kathryn.hill@hotmail.com,Kathryn,Hill,(984) 858-3339,25845304,Physics,BS (Theoretical Physics),2023
+S834529645,355,(158) 799-6846,kelly.reed@gmail.com,Kelly,Reed,(158) 799-6846,17440911,Psychology,MS (Industrial Psychology),2022
+S811786170,225,(003) 424-4204,alexandra.johnson@gmail.com,Alexandra,Johnson,(003) 424-4204,11649277,Political Science,BS (Political Theory),2024
+S039190876,264,(863) 840-6665,miranda.stevenson@hotmail.com,Miranda,Stevenson,(863) 840-6665,40133935,Computer Science,BS (Artificial Intelligence),2025
+S293851602,123,(973) 598-9334,brian.manning@yahoo.com,Brian,Manning,(973) 598-9334,79226031,Sociology,BS (Social Research),2023
+S904283502,501,(281) 606-4842,gregory.fleming@gmail.com,Gregory,Fleming,(281) 606-4842,85672859,Law,BS (Corporate Law),2024
+S364547197,177,(909) 479-8515,brandy.scott@hotmail.com,Brandy,Scott,(909) 479-8515,42900372,Education,BS (Curriculum Studies),2022
+S042388906,153,(826) 886-1533,jeffrey.white@hotmail.com,Jeffrey,White,(826) 886-1533,51273379,Physics,BS (Theoretical Physics),2023
+S294991202,311,(987) 801-5739,martin.ward@hotmail.com,Martin,Ward,(987) 801-5739,79760901,Engineering,BS (Mechanical Engineering),2022
+S739001805,439,(858) 877-0435,jonathan.ramsey@hotmail.com,Jonathan,Ramsey,(858) 877-0435,68382413,Sociology,BS (Social Research),2022
+S922387732,583,(013) 361-3861,teresa.ayala@hotmail.com,Teresa,Ayala,(013) 361-3861,20024377,Biology,BS (Molecular Biology),2023
+S275114459,331,(466) 766-5061,johnathan.jones@hotmail.com,Johnathan,Jones,(466) 766-5061,37868462,History,BS (Modern History),2023
+S321168608,175,(901) 581-4491,adam.cortez@yahoo.com,Adam,Cortez,(901) 581-4491,53995720,Music,BS (Music Composition),2024
+S023562904,384,(326) 842-4508,kathy.kim@hotmail.com,Kathy,Kim,(326) 842-4508,70693413,Theology,BS (Religious Studies),2024
+S724810891,290,(143) 536-8222,ashley.long@gmail.com,Ashley,Long,(143) 536-8222,63765180,Engineering,BS (Mechanical Engineering),2022
+S690590916,147,(290) 878-1414,christina.king@gmail.com,Christina,King,(290) 878-1414,27286109,Political Science,BS (Political Theory),2024
+S983041583,295,(913) 577-5949,james.carpenter@gmail.com,James,Carpenter,(913) 577-5949,13957046,Psychology,MS (Industrial Psychology),2025
+S612128062,355,(364) 525-7775,ariana.diaz@yahoo.com,Ariana,Diaz,(364) 525-7775,49608344,Linguistics,MS (Applied Linguistics),2025
+S450211856,506,(834) 110-8099,tony.rodriguez@yahoo.com,Tony,Rodriguez,(834) 110-8099,82968364,Mathematics,BS (Pure Mathematics),2022
+S037473532,263,(848) 872-5639,kayla.lewis@hotmail.com,Kayla,Lewis,(848) 872-5639,13498112,Nursing,BSN (Clinical Nursing),2023
+S508284352,151,(039) 282-7229,mercedes.anderson@hotmail.com,Mercedes,Anderson,(039) 282-7229,31424479,Linguistics,MS (Applied Linguistics),2025
+S225777959,281,(731) 453-0385,donna.faulkner@yahoo.com,Donna,Faulkner,(731) 453-0385,62133188,Psychology,MS (Industrial Psychology),2024
+S991237357,585,(051) 844-9892,terry.gibson@yahoo.com,Terry,Gibson,(051) 844-9892,57201978,Sociology,BS (Social Research),2024
+S519889510,219,(386) 557-7908,desiree.diaz@gmail.com,Desiree,Diaz,(386) 557-7908,17538738,Art,BS (Visual Arts),2023
+S604368318,130,(225) 913-6517,xavier.campbell@hotmail.com,Xavier,Campbell,(225) 913-6517,53431355,Education,BS (Curriculum Studies),2023
+S059788939,400,(603) 029-9228,timothy.clark@gmail.com,Timothy,Clark,(603) 029-9228,63095937,Music,BS (Music Composition),2024
+S131197961,455,(137) 977-2369,gabriel.nielsen@gmail.com,Gabriel,Nielsen,(137) 977-2369,85427317,Statistics,BS (Statistical Modelling),2023
+S863683721,585,(984) 257-9913,laura.hoover@yahoo.com,Laura,Hoover,(984) 257-9913,10241310,Computer Science,BS (Artificial Intelligence),2023
+S758751386,389,(886) 291-2799,paul.rodriguez@gmail.com,Paul,Rodriguez,(886) 291-2799,95851936,Political Science,BS (Political Theory),2023
+S143033698,427,(806) 865-0863,natalie.schmidt@yahoo.com,Natalie,Schmidt,(806) 865-0863,99929175,Sociology,BS (Social Research),2025
+S730263770,475,(916) 247-3149,kristine.james@hotmail.com,Kristine,James,(916) 247-3149,68816911,Economics,BS (Development Economics),2023
+S414833875,183,(180) 635-6512,ricky.lopez@yahoo.com,Ricky,Lopez,(180) 635-6512,40277201,Anthropology,BS (Cultural Anthropology),2022
+S470021381,380,(368) 872-5887,melissa.henderson@yahoo.com,Melissa,Henderson,(368) 872-5887,20066654,Psychology,MS (Industrial Psychology),2024
+S993987466,180,(213) 865-8902,vanessa.lane@yahoo.com,Vanessa,Lane,(213) 865-8902,68277389,English,BS (English Literature),2022
+S039459562,125,(435) 190-6698,sara.graham@yahoo.com,Sara,Graham,(435) 190-6698,22873617,Geography,BS (Human Geography),2023
+S354000864,113,(843) 098-8392,sonya.wilkins@hotmail.com,Sonya,Wilkins,(843) 098-8392,23017361,English,BS (English Literature),2025
+S269417482,378,(214) 656-6938,barry.allen@gmail.com,Barry,Allen,(214) 656-6938,96149847,Computer Science,BS (Artificial Intelligence),2025
+S333104285,485,(848) 955-4393,jillian.jones@yahoo.com,Jillian,Jones,(848) 955-4393,30284415,Computer Science,BS (Artificial Intelligence),2022

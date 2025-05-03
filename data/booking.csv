@@ -1,0 +1,1318 @@
+booking_id,sjsu_id,bus_stop,day,time,route_name,route_id
+1,S742678387,Pacific Commons,Thursday,10:00 AM,Green Route,r53
+2,S742678387,Cisco Campus,Wednesday,02:00 PM,Blue Route,r39
+3,S322678363,Logan High School,Friday,04:00 PM,Green Route,r57
+4,S322678363,Valley Fair Mall,Thursday,12:00 PM,Orange Route,r5
+5,S792678437,Eastridge Mall,Monday,04:00 PM,Yellow Route,r17
+6,S792678437,Central Park Fremont,Monday,10:00 AM,Green Route,r51
+7,S792678437,Baypointe Station,Thursday,04:00 PM,Blue Route,r40
+8,S792678437,Valley Fair Mall,Monday,04:00 PM,Orange Route,r5
+9,S572678415,Mountain View Downtown,Friday,02:00 PM,Orange Route,r11
+10,S572678415,Independence High School,Tuesday,10:00 AM,Blue Route,r35
+11,S572678415,Alviso Marina,Friday,12:00 PM,Blue Route,r37
+12,S672678416,Evergreen Valley College,Wednesday,08:00 AM,Yellow Route,r20
+13,S672678416,Hellyer Park,Monday,08:00 AM,Yellow Route,r22
+14,S672678416,Champion Station,Monday,12:00 PM,Blue Route,r42
+15,S672678416,Valley Fair Mall,Wednesday,10:00 AM,Orange Route,r5
+16,S212678352,Eastridge Mall,Wednesday,04:00 PM,Yellow Route,r17
+17,S212678352,Palo Alto University Avenue,Friday,02:00 PM,Orange Route,r13
+18,S212678352,Champion Station,Tuesday,08:00 AM,Blue Route,r42
+19,S212678352,Diridon Station,Tuesday,04:00 PM,Orange Route,r3
+20,S412678354,Santana Row,Tuesday,08:00 AM,Orange Route,r4
+21,S412678354,Baypointe Station,Thursday,08:00 AM,Blue Route,r40
+22,S412678354,Evergreen Valley College,Friday,02:00 PM,Yellow Route,r20
+23,S612678356,Oakridge Mall,Tuesday,10:00 AM,Yellow Route,r25
+24,S612678356,Great Mall,Monday,12:00 PM,Blue Route,r32
+25,S982678429,Santa Teresa,Tuesday,02:00 PM,Yellow Route,r23
+26,S982678429,Central Park Fremont,Tuesday,08:00 AM,Green Route,r51
+27,S192678431,Coyote Hills,Friday,12:00 PM,Green Route,r55
+28,S192678431,Santa Clara University,Thursday,04:00 PM,Orange Route,r7
+29,S192678431,Pacific Commons,Tuesday,04:00 PM,Green Route,r53
+30,S162678401,Santana Row,Friday,02:00 PM,Orange Route,r4
+31,S162678401,Milpitas BART,Wednesday,08:00 AM,Blue Route,r31
+32,S542678385,SAP Center,Tuesday,12:00 PM,Orange Route,r2
+33,S542678385,Fremont Hub,Monday,12:00 PM,Green Route,r47
+34,S542678385,Newark Mall,Thursday,12:00 PM,Green Route,r59
+35,S542678385,Oakridge Mall,Wednesday,04:00 PM,Yellow Route,r25
+36,S332678373,California's Great America,Thursday,10:00 AM,Blue Route,r45
+37,S332678373,Santana Row,Thursday,04:00 PM,Orange Route,r4
+38,S332678373,Levi's Stadium,Wednesday,02:00 PM,Orange Route,r8
+39,S332678373,Great America,Thursday,02:00 PM,Orange Route,r9
+40,S152678391,Decoto District,Monday,12:00 PM,Green Route,r58
+41,S152678391,Shoreline Amphitheatre,Tuesday,04:00 PM,Orange Route,r12
+42,S942678389,Warm Springs,Monday,12:00 PM,Green Route,r48
+43,S942678389,Alviso Marina,Thursday,10:00 AM,Blue Route,r37
+44,S942678389,Irvington District,Wednesday,08:00 AM,Green Route,r49
+45,S552678395,Mission San Jose,Friday,04:00 PM,Green Route,r50
+46,S552678395,Fremont Hub,Tuesday,04:00 PM,Green Route,r47
+47,S652678396,Valley Fair Mall,Wednesday,08:00 AM,Orange Route,r5
+48,S652678396,Levi's Stadium,Wednesday,08:00 AM,Orange Route,r8
+49,S652678396,California's Great America,Thursday,12:00 PM,Blue Route,r45
+50,S652678396,Baypointe Station,Tuesday,04:00 PM,Blue Route,r40
+51,S712678357,Logan High School,Tuesday,04:00 PM,Green Route,r57
+52,S712678357,Levi's Stadium,Friday,02:00 PM,Orange Route,r8
+53,S712678357,Blossom Hill,Wednesday,02:00 PM,Yellow Route,r24
+54,S392678433,Downtown San Jose,Tuesday,02:00 PM,Yellow Route,r30
+55,S392678433,Great Mall,Thursday,12:00 PM,Blue Route,r32
+56,S392678433,SAP Center,Monday,12:00 PM,Orange Route,r2
+57,S822678368,Coyote Hills,Tuesday,12:00 PM,Green Route,r55
+58,S822678368,Baypointe Station,Thursday,10:00 AM,Blue Route,r40
+59,S822678368,Oakridge Mall,Friday,12:00 PM,Yellow Route,r25
+60,S952678399,Stanford Shopping Center,Wednesday,04:00 PM,Orange Route,r15
+61,S952678399,River Oaks,Monday,04:00 PM,Blue Route,r41
+62,S952678399,Fremont BART,Thursday,04:00 PM,Green Route,r46
+63,S952678399,River Oaks,Thursday,04:00 PM,Blue Route,r41
+64,S532678375,Santa Clara Town Centre,Thursday,08:00 AM,Blue Route,r43
+65,S532678375,Mission College,Friday,04:00 PM,Blue Route,r44
+66,S532678375,Alviso Marina,Friday,10:00 AM,Blue Route,r37
+67,S532678375,SAP Center,Tuesday,04:00 PM,Orange Route,r2
+68,S762678407,Fremont Hub,Wednesday,04:00 PM,Green Route,r47
+69,S762678407,Stanford University,Tuesday,04:00 PM,Orange Route,r14
+70,S182678421,River Oaks,Thursday,10:00 AM,Blue Route,r41
+71,S182678421,Berryessa,Tuesday,12:00 PM,Blue Route,r33
+72,S182678421,Irvington District,Monday,12:00 PM,Green Route,r49
+73,S832678378,Champion Station,Thursday,10:00 AM,Blue Route,r42
+74,S832678378,Shoreline Amphitheatre,Wednesday,04:00 PM,Orange Route,r12
+75,S832678378,Alum Rock,Tuesday,10:00 AM,Yellow Route,r16
+76,S832678378,Ardenwood Historic Farm,Wednesday,02:00 PM,Green Route,r54
+77,S292678432,Flickinger Park,Wednesday,08:00 AM,Blue Route,r36
+78,S292678432,Shoreline Amphitheatre,Monday,12:00 PM,Orange Route,r12
+79,S292678432,Diridon Station,Thursday,04:00 PM,Orange Route,r3
+80,S292678432,Ardenwood Historic Farm,Wednesday,08:00 AM,Green Route,r54
+81,S072678410,Santana Row,Friday,08:00 AM,Orange Route,r4
+82,S072678410,Santa Teresa,Monday,12:00 PM,Yellow Route,r23
+83,S072678410,Sunnyvale Caltrain,Monday,08:00 AM,Orange Route,r10
+84,S072678410,Santa Clara University,Thursday,12:00 PM,Orange Route,r7
+85,S862678408,Mission College,Wednesday,12:00 PM,Blue Route,r44
+86,S862678408,Cisco Campus,Tuesday,04:00 PM,Blue Route,r39
+87,S862678408,Blossom Hill,Thursday,02:00 PM,Yellow Route,r24
+88,S012678350,Central Park Fremont,Monday,02:00 PM,Green Route,r51
+89,S012678350,Lake Elizabeth,Monday,10:00 AM,Green Route,r52
+90,S012678350,Diridon Station,Thursday,08:00 AM,Orange Route,r3
+91,S362678403,Irvington District,Tuesday,08:00 AM,Green Route,r49
+92,S362678403,Fremont BART,Wednesday,02:00 PM,Green Route,r46
+93,S362678403,California's Great America,Thursday,02:00 PM,Blue Route,r45
+94,S092678430,Levi's Stadium,Friday,04:00 PM,Orange Route,r8
+95,S092678430,Fremont BART,Wednesday,10:00 AM,Green Route,r46
+96,S242678382,Penitencia Creek Park,Tuesday,10:00 AM,Blue Route,r34
+97,S242678382,Fremont Hub,Friday,08:00 AM,Green Route,r47
+98,S812678358,Lake Elizabeth,Thursday,04:00 PM,Green Route,r52
+99,S812678358,Fremont BART,Wednesday,04:00 PM,Green Route,r46
+100,S812678358,Willow Glen,Thursday,04:00 PM,Yellow Route,r29
+101,S812678358,Palo Alto University Avenue,Monday,04:00 PM,Orange Route,r13
+102,S912678359,Newark Mall,Friday,08:00 AM,Green Route,r59
+103,S912678359,Santa Teresa,Monday,08:00 AM,Yellow Route,r23
+104,S992678439,Sunnyvale Caltrain,Tuesday,12:00 PM,Orange Route,r10
+105,S992678439,Eastridge Mall,Tuesday,08:00 AM,Yellow Route,r17
+106,S992678439,Alum Rock,Tuesday,12:00 PM,Yellow Route,r16
+107,S782678427,Mission San Jose,Friday,04:00 PM,Green Route,r50
+108,S782678427,Independence High School,Monday,08:00 AM,Blue Route,r35
+109,S282678422,Newark Mall,Monday,04:00 PM,Green Route,r59
+110,S282678422,Valley Fair Mall,Monday,10:00 AM,Orange Route,r5
+111,S282678422,Fremont Hub,Friday,12:00 PM,Green Route,r47
+112,S282678422,Alviso Marina,Tuesday,08:00 AM,Blue Route,r37
+113,S312678353,Santa Clara University,Monday,02:00 PM,Orange Route,r7
+114,S312678353,Blossom Hill,Thursday,10:00 AM,Yellow Route,r24
+115,S312678353,Irvington District,Friday,08:00 AM,Green Route,r49
+116,S312678353,Stanford University,Monday,04:00 PM,Orange Route,r14
+117,S132678371,Downtown San Jose,Tuesday,10:00 AM,Yellow Route,r30
+118,S132678371,Berryessa,Monday,12:00 PM,Blue Route,r33
+119,S132678371,Mission College,Monday,02:00 PM,Blue Route,r44
+120,S422678364,Central Park Fremont,Monday,12:00 PM,Green Route,r51
+121,S422678364,Fremont Hub,Tuesday,10:00 AM,Green Route,r47
+122,S422678364,Warm Springs,Monday,10:00 AM,Green Route,r48
+123,S422678364,Fremont Hub,Friday,08:00 AM,Green Route,r47
+124,S492678434,SAP Center,Monday,04:00 PM,Orange Route,r2
+125,S492678434,Alum Rock,Thursday,02:00 PM,Yellow Route,r16
+126,S492678434,Great America,Monday,12:00 PM,Orange Route,r9
+127,S492678434,Penitencia Creek Park,Thursday,08:00 AM,Blue Route,r34
+128,S842678388,Coyote Hills,Friday,10:00 AM,Green Route,r55
+129,S842678388,Great Mall,Monday,08:00 AM,Blue Route,r32
+130,S642678386,Central Park Fremont,Wednesday,12:00 PM,Green Route,r51
+131,S642678386,Blossom Hill,Friday,10:00 AM,Yellow Route,r24
+132,S262678402,Santa Clara Town Centre,Tuesday,10:00 AM,Blue Route,r43
+133,S262678402,Valley Fair Mall,Tuesday,02:00 PM,Orange Route,r5
+134,S692678436,Mountain View Downtown,Monday,04:00 PM,Orange Route,r11
+135,S692678436,Evergreen Valley College,Friday,02:00 PM,Yellow Route,r20
+136,S172678411,Milpitas BART,Monday,02:00 PM,Blue Route,r31
+137,S172678411,North San Jose,Tuesday,04:00 PM,Blue Route,r38
+138,S172678411,Penitencia Creek Park,Tuesday,10:00 AM,Blue Route,r34
+139,S052678390,Palo Alto University Avenue,Tuesday,12:00 PM,Orange Route,r13
+140,S052678390,Santa Clara University,Tuesday,10:00 AM,Orange Route,r7
+141,S052678390,Ardenwood Historic Farm,Tuesday,10:00 AM,Green Route,r54
+142,S932678379,Central Park Fremont,Wednesday,08:00 AM,Green Route,r51
+143,S932678379,Willow Glen,Friday,10:00 AM,Yellow Route,r29
+144,S932678379,Silver Creek High School,Friday,12:00 PM,Yellow Route,r21
+145,S122678361,Pacific Commons,Tuesday,12:00 PM,Green Route,r53
+146,S122678361,Berryessa,Monday,10:00 AM,Blue Route,r33
+147,S122678361,River Oaks,Monday,12:00 PM,Blue Route,r41
+148,S122678361,River Oaks,Wednesday,02:00 PM,Blue Route,r41
+149,S582678425,Decoto District,Wednesday,04:00 PM,Green Route,r58
+150,S582678425,Central Park Fremont,Monday,04:00 PM,Green Route,r51
+151,S232678372,Lake Cunningham Park,Wednesday,08:00 AM,Yellow Route,r18
+152,S232678372,Evergreen Valley College,Friday,10:00 AM,Yellow Route,r20
+153,S682678426,Pacific Commons,Monday,12:00 PM,Green Route,r53
+154,S682678426,Central Park Fremont,Tuesday,10:00 AM,Green Route,r51
+155,S682678426,Willow Glen,Friday,04:00 PM,Yellow Route,r29
+156,S352678393,Lake Cunningham Park,Thursday,12:00 PM,Yellow Route,r18
+157,S352678393,Mission College,Wednesday,12:00 PM,Blue Route,r44
+158,S852678398,Mission San Jose,Wednesday,10:00 AM,Green Route,r50
+159,S852678398,Raging Waters,Wednesday,08:00 AM,Yellow Route,r19
+160,S852678398,Milpitas BART,Wednesday,12:00 PM,Blue Route,r31
+161,S852678398,Branham High School,Wednesday,10:00 AM,Yellow Route,r27
+162,S592678435,Mission College,Thursday,08:00 AM,Blue Route,r44
+163,S592678435,Penitencia Creek Park,Wednesday,12:00 PM,Blue Route,r34
+164,S062678400,Pacific Commons,Tuesday,12:00 PM,Green Route,r53
+165,S062678400,Cambrian Park Plaza,Tuesday,02:00 PM,Yellow Route,r28
+166,S062678400,Penitencia Creek Park,Monday,10:00 AM,Blue Route,r34
+167,S062678400,Penitencia Creek Park,Tuesday,08:00 AM,Blue Route,r34
+168,S342678383,Penitencia Creek Park,Monday,02:00 PM,Blue Route,r34
+169,S342678383,San Jose State University,Friday,04:00 PM,Orange Route,r1
+170,S342678383,Baypointe Station,Tuesday,08:00 AM,Blue Route,r40
+171,S432678374,Eastridge Mall,Tuesday,12:00 PM,Yellow Route,r17
+172,S432678374,Newark Mall,Thursday,10:00 AM,Green Route,r59
+173,S432678374,Silver Creek High School,Monday,04:00 PM,Yellow Route,r21
+174,S432678374,Penitencia Creek Park,Thursday,04:00 PM,Blue Route,r34
+175,S892678438,Penitencia Creek Park,Wednesday,12:00 PM,Blue Route,r34
+176,S892678438,Mission College,Monday,12:00 PM,Blue Route,r44
+177,S112678351,Great America,Wednesday,04:00 PM,Orange Route,r9
+178,S112678351,Fremont Hub,Wednesday,12:00 PM,Green Route,r47
+179,S112678351,Logan High School,Friday,08:00 AM,Green Route,r57
+180,S112678351,Baypointe Station,Monday,04:00 PM,Blue Route,r40
+181,S522678365,Santana Row,Wednesday,04:00 PM,Orange Route,r4
+182,S522678365,Santa Clara Town Centre,Wednesday,04:00 PM,Blue Route,r43
+183,S962678409,Hellyer Park,Wednesday,12:00 PM,Yellow Route,r22
+184,S962678409,Mountain View Downtown,Wednesday,08:00 AM,Orange Route,r11
+185,S962678409,Mission San Jose,Monday,02:00 PM,Green Route,r50
+186,S662678406,Mountain View Downtown,Thursday,04:00 PM,Orange Route,r11
+187,S662678406,Lake Cunningham Park,Thursday,08:00 AM,Yellow Route,r18
+188,S662678406,Silver Creek High School,Friday,10:00 AM,Yellow Route,r21
+189,S752678397,Pacific Commons,Thursday,04:00 PM,Green Route,r53
+190,S752678397,Levi's Stadium,Monday,08:00 AM,Orange Route,r8
+191,S752678397,Baypointe Station,Wednesday,12:00 PM,Blue Route,r40
+192,S382678423,Cambrian Park Plaza,Friday,08:00 AM,Yellow Route,r28
+193,S382678423,Branham High School,Monday,02:00 PM,Yellow Route,r27
+194,S382678423,Union City BART,Wednesday,02:00 PM,Green Route,r56
+195,S732678377,Mountain View Downtown,Monday,04:00 PM,Orange Route,r11
+196,S732678377,Santa Teresa,Thursday,12:00 PM,Yellow Route,r23
+197,S732678377,Penitencia Creek Park,Monday,12:00 PM,Blue Route,r34
+198,S732678377,Union City BART,Tuesday,12:00 PM,Green Route,r56
+199,S142678381,Decoto District,Tuesday,08:00 AM,Green Route,r58
+200,S142678381,Decoto District,Friday,08:00 AM,Green Route,r58
+201,S142678381,Mountain View Downtown,Monday,12:00 PM,Orange Route,r11
+202,S142678381,Raging Waters,Monday,02:00 PM,Yellow Route,r19
+203,S482678424,Ardenwood Historic Farm,Thursday,08:00 AM,Green Route,r54
+204,S482678424,Warm Springs,Wednesday,12:00 PM,Green Route,r48
+205,S482678424,Santana Row,Wednesday,10:00 AM,Orange Route,r4
+206,S222678362,Raging Waters,Wednesday,04:00 PM,Yellow Route,r19
+207,S222678362,Don Edwards Wildlife Refuge,Monday,04:00 PM,Green Route,r60
+208,S222678362,Mission San Jose,Monday,04:00 PM,Green Route,r50
+209,S032678370,Shoreline Amphitheatre,Wednesday,08:00 AM,Orange Route,r12
+210,S032678370,Great Mall,Monday,10:00 AM,Blue Route,r32
+211,S032678370,Ardenwood Historic Farm,Thursday,02:00 PM,Green Route,r54
+212,S272678412,Eastridge Mall,Wednesday,02:00 PM,Yellow Route,r17
+213,S272678412,Santana Row,Wednesday,10:00 AM,Orange Route,r4
+214,S882678428,Alum Rock,Monday,02:00 PM,Yellow Route,r16
+215,S882678428,Silver Creek High School,Tuesday,04:00 PM,Yellow Route,r21
+216,S882678428,Baypointe Station,Wednesday,04:00 PM,Blue Route,r40
+217,S622678366,Blossom Hill,Tuesday,02:00 PM,Yellow Route,r24
+218,S622678366,Flickinger Park,Tuesday,04:00 PM,Blue Route,r36
+219,S622678366,Willow Glen,Thursday,08:00 AM,Yellow Route,r29
+220,S922678369,Winchester Mystery House,Wednesday,04:00 PM,Orange Route,r6
+221,S922678369,Mission College,Friday,12:00 PM,Blue Route,r44
+222,S922678369,Blossom Hill,Friday,04:00 PM,Yellow Route,r24
+223,S372678413,Branham High School,Thursday,10:00 AM,Yellow Route,r27
+224,S372678413,Mission College,Thursday,02:00 PM,Blue Route,r44
+225,S372678413,Mission College,Tuesday,02:00 PM,Blue Route,r44
+226,S512678355,Mountain View Downtown,Thursday,12:00 PM,Orange Route,r11
+227,S512678355,Santa Clara University,Friday,04:00 PM,Orange Route,r7
+228,S512678355,Pacific Commons,Wednesday,08:00 AM,Green Route,r53
+229,S252678392,Valley Fair Mall,Monday,10:00 AM,Orange Route,r5
+230,S252678392,Cisco Campus,Thursday,08:00 AM,Blue Route,r39
+231,S872678418,Camden Community Center,Tuesday,04:00 PM,Yellow Route,r26
+232,S872678418,Baypointe Station,Monday,12:00 PM,Blue Route,r40
+233,S872678418,Newark Mall,Monday,02:00 PM,Green Route,r59
+234,S872678418,Levi's Stadium,Thursday,08:00 AM,Orange Route,r8
+235,S972678419,Valley Fair Mall,Tuesday,08:00 AM,Orange Route,r5
+236,S972678419,Evergreen Valley College,Thursday,12:00 PM,Yellow Route,r20
+237,S972678419,Central Park Fremont,Thursday,10:00 AM,Green Route,r51
+238,S972678419,San Jose State University,Thursday,10:00 AM,Orange Route,r1
+239,S722678367,Levi's Stadium,Tuesday,12:00 PM,Orange Route,r8
+240,S722678367,Central Park Fremont,Friday,04:00 PM,Green Route,r51
+241,S082678420,Hellyer Park,Wednesday,04:00 PM,Yellow Route,r22
+242,S082678420,Milpitas BART,Thursday,08:00 AM,Blue Route,r31
+243,S082678420,Union City BART,Friday,04:00 PM,Green Route,r56
+244,S772678417,Santa Clara Town Centre,Wednesday,12:00 PM,Blue Route,r43
+245,S772678417,Palo Alto University Avenue,Wednesday,10:00 AM,Orange Route,r13
+246,S772678417,Shoreline Amphitheatre,Thursday,02:00 PM,Orange Route,r12
+247,S442678384,Blossom Hill,Monday,12:00 PM,Yellow Route,r24
+248,S442678384,Eastridge Mall,Tuesday,04:00 PM,Yellow Route,r17
+249,S452678394,Hellyer Park,Tuesday,08:00 AM,Yellow Route,r22
+250,S452678394,Santa Clara Town Centre,Thursday,02:00 PM,Blue Route,r43
+251,S452678394,Warm Springs,Friday,12:00 PM,Green Route,r48
+252,S472678414,Santana Row,Tuesday,04:00 PM,Orange Route,r4
+253,S472678414,Raging Waters,Friday,08:00 AM,Yellow Route,r19
+254,S632678376,Branham High School,Wednesday,02:00 PM,Yellow Route,r27
+255,S632678376,Alviso Marina,Friday,08:00 AM,Blue Route,r37
+256,S462678404,Decoto District,Friday,12:00 PM,Green Route,r58
+257,S462678404,Ardenwood Historic Farm,Monday,02:00 PM,Green Route,r54
+258,S462678404,Cisco Campus,Monday,04:00 PM,Blue Route,r39
+259,S462678404,Great Mall,Friday,12:00 PM,Blue Route,r32
+260,S562678405,Penitencia Creek Park,Monday,10:00 AM,Blue Route,r34
+261,S562678405,Eastridge Mall,Thursday,10:00 AM,Yellow Route,r17
+262,S562678405,Evergreen Valley College,Wednesday,12:00 PM,Yellow Route,r20
+263,S562678405,North San Jose,Tuesday,02:00 PM,Blue Route,r38
+264,S022678360,Willow Glen,Friday,04:00 PM,Yellow Route,r29
+265,S022678360,Baypointe Station,Wednesday,04:00 PM,Blue Route,r40
+266,S022678360,Blossom Hill,Wednesday,04:00 PM,Yellow Route,r24
+267,S042678380,Lake Elizabeth,Thursday,04:00 PM,Green Route,r52
+268,S042678380,Diridon Station,Tuesday,04:00 PM,Orange Route,r3
+269,S042678380,Lake Elizabeth,Tuesday,04:00 PM,Green Route,r52
+270,S602276804,Irvington District,Thursday,10:00 AM,Green Route,r49
+271,S602276804,Santa Clara University,Wednesday,10:00 AM,Orange Route,r7
+272,S602276804,Mission San Jose,Wednesday,12:00 PM,Green Route,r50
+273,S602276804,Penitencia Creek Park,Friday,12:00 PM,Blue Route,r34
+274,S250165258,Mountain View Downtown,Wednesday,12:00 PM,Orange Route,r11
+275,S250165258,Irvington District,Thursday,02:00 PM,Green Route,r49
+276,S250165258,Palo Alto University Avenue,Monday,04:00 PM,Orange Route,r13
+277,S863193008,Baypointe Station,Wednesday,08:00 AM,Blue Route,r40
+278,S863193008,Silver Creek High School,Tuesday,08:00 AM,Yellow Route,r21
+279,S875935868,Branham High School,Friday,04:00 PM,Yellow Route,r27
+280,S875935868,Oakridge Mall,Friday,08:00 AM,Yellow Route,r25
+281,S702202126,Sunnyvale Caltrain,Tuesday,10:00 AM,Orange Route,r10
+282,S702202126,North San Jose,Monday,10:00 AM,Blue Route,r38
+283,S702202126,Raging Waters,Friday,04:00 PM,Yellow Route,r19
+284,S702202126,Oakridge Mall,Friday,02:00 PM,Yellow Route,r25
+285,S322966171,Blossom Hill,Tuesday,02:00 PM,Yellow Route,r24
+286,S322966171,Fremont Hub,Monday,04:00 PM,Green Route,r47
+287,S965687203,Coyote Hills,Wednesday,02:00 PM,Green Route,r55
+288,S965687203,San Jose State University,Wednesday,04:00 PM,Orange Route,r1
+289,S298363942,Great Mall,Monday,08:00 AM,Blue Route,r32
+290,S298363942,Santa Teresa,Wednesday,10:00 AM,Yellow Route,r23
+291,S298363942,River Oaks,Thursday,08:00 AM,Blue Route,r41
+292,S525832950,Logan High School,Tuesday,10:00 AM,Green Route,r57
+293,S525832950,Great America,Friday,08:00 AM,Orange Route,r9
+294,S525832950,Logan High School,Thursday,12:00 PM,Green Route,r57
+295,S525832950,Lake Cunningham Park,Wednesday,10:00 AM,Yellow Route,r18
+296,S167403959,Irvington District,Friday,10:00 AM,Green Route,r49
+297,S167403959,Valley Fair Mall,Thursday,10:00 AM,Orange Route,r5
+298,S765261449,Flickinger Park,Wednesday,10:00 AM,Blue Route,r36
+299,S765261449,Independence High School,Tuesday,02:00 PM,Blue Route,r35
+300,S519826617,Great America,Wednesday,04:00 PM,Orange Route,r9
+301,S519826617,San Jose State University,Friday,08:00 AM,Orange Route,r1
+302,S519826617,SAP Center,Tuesday,08:00 AM,Orange Route,r2
+303,S519826617,Santana Row,Wednesday,04:00 PM,Orange Route,r4
+304,S750309883,Blossom Hill,Friday,10:00 AM,Yellow Route,r24
+305,S750309883,Coyote Hills,Monday,02:00 PM,Green Route,r55
+306,S750309883,Penitencia Creek Park,Friday,10:00 AM,Blue Route,r34
+307,S890407714,California's Great America,Tuesday,12:00 PM,Blue Route,r45
+308,S890407714,Santa Teresa,Tuesday,10:00 AM,Yellow Route,r23
+309,S284257239,California's Great America,Wednesday,04:00 PM,Blue Route,r45
+310,S284257239,Berryessa,Tuesday,10:00 AM,Blue Route,r33
+311,S284257239,Pacific Commons,Monday,10:00 AM,Green Route,r53
+312,S284257239,Camden Community Center,Thursday,10:00 AM,Yellow Route,r26
+313,S451235220,Pacific Commons,Monday,08:00 AM,Green Route,r53
+314,S451235220,Pacific Commons,Friday,08:00 AM,Green Route,r53
+315,S451235220,Central Park Fremont,Monday,02:00 PM,Green Route,r51
+316,S451235220,Mission San Jose,Monday,10:00 AM,Green Route,r50
+317,S298026219,North San Jose,Thursday,08:00 AM,Blue Route,r38
+318,S298026219,Valley Fair Mall,Wednesday,10:00 AM,Orange Route,r5
+319,S478104447,Valley Fair Mall,Monday,02:00 PM,Orange Route,r5
+320,S478104447,Camden Community Center,Tuesday,12:00 PM,Yellow Route,r26
+321,S478104447,Fremont BART,Thursday,02:00 PM,Green Route,r46
+322,S043821442,Blossom Hill,Tuesday,08:00 AM,Yellow Route,r24
+323,S043821442,Lake Elizabeth,Monday,10:00 AM,Green Route,r52
+324,S948509899,Central Park Fremont,Tuesday,04:00 PM,Green Route,r51
+325,S948509899,San Jose State University,Thursday,04:00 PM,Orange Route,r1
+326,S448910397,Lake Cunningham Park,Thursday,08:00 AM,Yellow Route,r18
+327,S448910397,Levi's Stadium,Tuesday,08:00 AM,Orange Route,r8
+328,S677641207,Mission College,Thursday,10:00 AM,Blue Route,r44
+329,S677641207,Hellyer Park,Monday,02:00 PM,Yellow Route,r22
+330,S677641207,Independence High School,Thursday,12:00 PM,Blue Route,r35
+331,S677641207,San Jose State University,Thursday,10:00 AM,Orange Route,r1
+332,S304950580,Stanford Shopping Center,Monday,08:00 AM,Orange Route,r15
+333,S304950580,Stanford University,Friday,02:00 PM,Orange Route,r14
+334,S849550065,Mountain View Downtown,Thursday,04:00 PM,Orange Route,r11
+335,S849550065,Newark Mall,Friday,12:00 PM,Green Route,r59
+336,S849550065,Raging Waters,Wednesday,12:00 PM,Yellow Route,r19
+337,S263216499,Silver Creek High School,Friday,12:00 PM,Yellow Route,r21
+338,S263216499,Branham High School,Thursday,02:00 PM,Yellow Route,r27
+339,S263216499,San Jose State University,Monday,04:00 PM,Orange Route,r1
+340,S650551302,Oakridge Mall,Friday,10:00 AM,Yellow Route,r25
+341,S650551302,Milpitas BART,Friday,02:00 PM,Blue Route,r31
+342,S650551302,Newark Mall,Tuesday,12:00 PM,Green Route,r59
+343,S650551302,Coyote Hills,Thursday,02:00 PM,Green Route,r55
+344,S453985659,Union City BART,Monday,02:00 PM,Green Route,r56
+345,S453985659,Irvington District,Thursday,12:00 PM,Green Route,r49
+346,S453985659,Diridon Station,Wednesday,04:00 PM,Orange Route,r3
+347,S828712236,San Jose State University,Friday,04:00 PM,Orange Route,r1
+348,S828712236,Willow Glen,Monday,12:00 PM,Yellow Route,r29
+349,S498042076,Union City BART,Friday,08:00 AM,Green Route,r56
+350,S498042076,Decoto District,Thursday,08:00 AM,Green Route,r58
+351,S498042076,Decoto District,Tuesday,08:00 AM,Green Route,r58
+352,S498042076,Baypointe Station,Thursday,02:00 PM,Blue Route,r40
+353,S754008958,Levi's Stadium,Tuesday,02:00 PM,Orange Route,r8
+354,S754008958,River Oaks,Friday,02:00 PM,Blue Route,r41
+355,S754008958,Alviso Marina,Wednesday,08:00 AM,Blue Route,r37
+356,S113878822,Downtown San Jose,Friday,08:00 AM,Yellow Route,r30
+357,S113878822,Cambrian Park Plaza,Friday,08:00 AM,Yellow Route,r28
+358,S113878822,Shoreline Amphitheatre,Thursday,04:00 PM,Orange Route,r12
+359,S113878822,Oakridge Mall,Monday,10:00 AM,Yellow Route,r25
+360,S784619898,Newark Mall,Thursday,12:00 PM,Green Route,r59
+361,S784619898,Mountain View Downtown,Wednesday,02:00 PM,Orange Route,r11
+362,S784619898,Ardenwood Historic Farm,Friday,12:00 PM,Green Route,r54
+363,S784619898,Ardenwood Historic Farm,Wednesday,12:00 PM,Green Route,r54
+364,S197467217,Silver Creek High School,Thursday,04:00 PM,Yellow Route,r21
+365,S197467217,Newark Mall,Wednesday,08:00 AM,Green Route,r59
+366,S197467217,Irvington District,Wednesday,04:00 PM,Green Route,r49
+367,S197467217,Great Mall,Tuesday,12:00 PM,Blue Route,r32
+368,S041938826,Sunnyvale Caltrain,Friday,08:00 AM,Orange Route,r10
+369,S041938826,Alum Rock,Monday,12:00 PM,Yellow Route,r16
+370,S207356830,River Oaks,Wednesday,02:00 PM,Blue Route,r41
+371,S207356830,Ardenwood Historic Farm,Friday,12:00 PM,Green Route,r54
+372,S590537491,Diridon Station,Tuesday,08:00 AM,Orange Route,r3
+373,S590537491,Warm Springs,Thursday,08:00 AM,Green Route,r48
+374,S270957763,Eastridge Mall,Tuesday,10:00 AM,Yellow Route,r17
+375,S270957763,Willow Glen,Monday,02:00 PM,Yellow Route,r29
+376,S270957763,Pacific Commons,Monday,04:00 PM,Green Route,r53
+377,S633873344,Cisco Campus,Tuesday,08:00 AM,Blue Route,r39
+378,S633873344,River Oaks,Wednesday,04:00 PM,Blue Route,r41
+379,S149696350,Union City BART,Monday,12:00 PM,Green Route,r56
+380,S149696350,Stanford Shopping Center,Tuesday,02:00 PM,Orange Route,r15
+381,S149696350,Fremont BART,Monday,08:00 AM,Green Route,r46
+382,S149696350,Downtown San Jose,Tuesday,04:00 PM,Yellow Route,r30
+383,S456442497,Mountain View Downtown,Thursday,02:00 PM,Orange Route,r11
+384,S456442497,Champion Station,Friday,04:00 PM,Blue Route,r42
+385,S456442497,Great America,Monday,10:00 AM,Orange Route,r9
+386,S056387621,Cisco Campus,Monday,12:00 PM,Blue Route,r39
+387,S056387621,Fremont Hub,Friday,04:00 PM,Green Route,r47
+388,S056387621,River Oaks,Thursday,02:00 PM,Blue Route,r41
+389,S248046164,Baypointe Station,Tuesday,02:00 PM,Blue Route,r40
+390,S248046164,Independence High School,Wednesday,04:00 PM,Blue Route,r35
+391,S248046164,SAP Center,Wednesday,02:00 PM,Orange Route,r2
+392,S607714195,Blossom Hill,Friday,04:00 PM,Yellow Route,r24
+393,S607714195,Flickinger Park,Friday,08:00 AM,Blue Route,r36
+394,S284869598,Winchester Mystery House,Tuesday,12:00 PM,Orange Route,r6
+395,S284869598,Logan High School,Wednesday,08:00 AM,Green Route,r57
+396,S758587422,Shoreline Amphitheatre,Thursday,08:00 AM,Orange Route,r12
+397,S758587422,Alum Rock,Thursday,08:00 AM,Yellow Route,r16
+398,S758587422,Santana Row,Thursday,08:00 AM,Orange Route,r4
+399,S756202235,Lake Elizabeth,Tuesday,02:00 PM,Green Route,r52
+400,S756202235,Penitencia Creek Park,Wednesday,10:00 AM,Blue Route,r34
+401,S756202235,Stanford University,Friday,02:00 PM,Orange Route,r14
+402,S267045424,Decoto District,Tuesday,02:00 PM,Green Route,r58
+403,S267045424,Santa Clara Town Centre,Tuesday,02:00 PM,Blue Route,r43
+404,S687303789,Branham High School,Monday,12:00 PM,Yellow Route,r27
+405,S687303789,Mission San Jose,Friday,04:00 PM,Green Route,r50
+406,S756224036,Mission San Jose,Wednesday,08:00 AM,Green Route,r50
+407,S756224036,River Oaks,Friday,04:00 PM,Blue Route,r41
+408,S756224036,Blossom Hill,Monday,02:00 PM,Yellow Route,r24
+409,S141603506,Irvington District,Monday,04:00 PM,Green Route,r49
+410,S141603506,Willow Glen,Thursday,12:00 PM,Yellow Route,r29
+411,S141603506,Santa Teresa,Wednesday,10:00 AM,Yellow Route,r23
+412,S141603506,Great America,Thursday,12:00 PM,Orange Route,r9
+413,S403237378,North San Jose,Wednesday,08:00 AM,Blue Route,r38
+414,S403237378,Union City BART,Wednesday,08:00 AM,Green Route,r56
+415,S005936767,Santa Teresa,Friday,08:00 AM,Yellow Route,r23
+416,S005936767,Santa Clara University,Friday,04:00 PM,Orange Route,r7
+417,S005936767,Hellyer Park,Friday,10:00 AM,Yellow Route,r22
+418,S862419423,Raging Waters,Monday,02:00 PM,Yellow Route,r19
+419,S862419423,Blossom Hill,Tuesday,04:00 PM,Yellow Route,r24
+420,S977135959,Santa Clara University,Friday,04:00 PM,Orange Route,r7
+421,S977135959,River Oaks,Friday,08:00 AM,Blue Route,r41
+422,S977135959,Coyote Hills,Monday,08:00 AM,Green Route,r55
+423,S915826368,Stanford University,Monday,10:00 AM,Orange Route,r14
+424,S915826368,River Oaks,Thursday,04:00 PM,Blue Route,r41
+425,S915826368,Baypointe Station,Wednesday,10:00 AM,Blue Route,r40
+426,S915826368,Camden Community Center,Monday,08:00 AM,Yellow Route,r26
+427,S056060444,Diridon Station,Monday,08:00 AM,Orange Route,r3
+428,S056060444,Decoto District,Monday,04:00 PM,Green Route,r58
+429,S841156697,Santana Row,Tuesday,12:00 PM,Orange Route,r4
+430,S841156697,Fremont Hub,Friday,08:00 AM,Green Route,r47
+431,S853292475,Willow Glen,Thursday,12:00 PM,Yellow Route,r29
+432,S853292475,Cambrian Park Plaza,Thursday,12:00 PM,Yellow Route,r28
+433,S853292475,Alviso Marina,Thursday,10:00 AM,Blue Route,r37
+434,S343432258,Fremont Hub,Tuesday,04:00 PM,Green Route,r47
+435,S343432258,SAP Center,Thursday,04:00 PM,Orange Route,r2
+436,S343432258,California's Great America,Monday,04:00 PM,Blue Route,r45
+437,S512452474,Downtown San Jose,Friday,02:00 PM,Yellow Route,r30
+438,S512452474,Great Mall,Wednesday,08:00 AM,Blue Route,r32
+439,S512452474,Eastridge Mall,Tuesday,02:00 PM,Yellow Route,r17
+440,S242635395,SAP Center,Wednesday,10:00 AM,Orange Route,r2
+441,S242635395,Diridon Station,Wednesday,08:00 AM,Orange Route,r3
+442,S242635395,Central Park Fremont,Wednesday,12:00 PM,Green Route,r51
+443,S242635395,Baypointe Station,Monday,10:00 AM,Blue Route,r40
+444,S432737961,Warm Springs,Friday,04:00 PM,Green Route,r48
+445,S432737961,Branham High School,Monday,04:00 PM,Yellow Route,r27
+446,S432737961,Mission San Jose,Friday,10:00 AM,Green Route,r50
+447,S795211210,Lake Elizabeth,Wednesday,04:00 PM,Green Route,r52
+448,S795211210,Pacific Commons,Wednesday,10:00 AM,Green Route,r53
+449,S795211210,Santa Teresa,Tuesday,12:00 PM,Yellow Route,r23
+450,S795211210,Oakridge Mall,Tuesday,12:00 PM,Yellow Route,r25
+451,S295618485,Valley Fair Mall,Monday,02:00 PM,Orange Route,r5
+452,S295618485,SAP Center,Friday,04:00 PM,Orange Route,r2
+453,S295618485,Alum Rock,Tuesday,10:00 AM,Yellow Route,r16
+454,S410948406,Penitencia Creek Park,Monday,10:00 AM,Blue Route,r34
+455,S410948406,North San Jose,Tuesday,02:00 PM,Blue Route,r38
+456,S153917672,Santa Teresa,Thursday,04:00 PM,Yellow Route,r23
+457,S153917672,Warm Springs,Thursday,04:00 PM,Green Route,r48
+458,S153917672,Baypointe Station,Wednesday,02:00 PM,Blue Route,r40
+459,S153917672,Fremont BART,Friday,12:00 PM,Green Route,r46
+460,S448936679,Alviso Marina,Wednesday,10:00 AM,Blue Route,r37
+461,S448936679,San Jose State University,Monday,04:00 PM,Orange Route,r1
+462,S448936679,Baypointe Station,Thursday,02:00 PM,Blue Route,r40
+463,S261100452,Hellyer Park,Wednesday,04:00 PM,Yellow Route,r22
+464,S261100452,Mission San Jose,Thursday,12:00 PM,Green Route,r50
+465,S774697669,Mission San Jose,Wednesday,04:00 PM,Green Route,r50
+466,S774697669,Fremont Hub,Monday,08:00 AM,Green Route,r47
+467,S774697669,Santa Teresa,Friday,02:00 PM,Yellow Route,r23
+468,S569801375,Valley Fair Mall,Tuesday,10:00 AM,Orange Route,r5
+469,S569801375,Santa Teresa,Tuesday,04:00 PM,Yellow Route,r23
+470,S569801375,Evergreen Valley College,Tuesday,10:00 AM,Yellow Route,r20
+471,S569801375,Pacific Commons,Monday,10:00 AM,Green Route,r53
+472,S166954004,Decoto District,Tuesday,10:00 AM,Green Route,r58
+473,S166954004,Hellyer Park,Tuesday,02:00 PM,Yellow Route,r22
+474,S209859962,Warm Springs,Wednesday,12:00 PM,Green Route,r48
+475,S209859962,North San Jose,Tuesday,04:00 PM,Blue Route,r38
+476,S746915640,Warm Springs,Wednesday,04:00 PM,Green Route,r48
+477,S746915640,Winchester Mystery House,Monday,10:00 AM,Orange Route,r6
+478,S746915640,Flickinger Park,Friday,10:00 AM,Blue Route,r36
+479,S368362985,Evergreen Valley College,Wednesday,10:00 AM,Yellow Route,r20
+480,S368362985,Mountain View Downtown,Friday,04:00 PM,Orange Route,r11
+481,S339459654,Milpitas BART,Friday,10:00 AM,Blue Route,r31
+482,S339459654,Evergreen Valley College,Friday,10:00 AM,Yellow Route,r20
+483,S376725946,Independence High School,Wednesday,10:00 AM,Blue Route,r35
+484,S376725946,River Oaks,Tuesday,12:00 PM,Blue Route,r41
+485,S376725946,Oakridge Mall,Wednesday,12:00 PM,Yellow Route,r25
+486,S376725946,Stanford Shopping Center,Tuesday,10:00 AM,Orange Route,r15
+487,S962155099,Sunnyvale Caltrain,Wednesday,10:00 AM,Orange Route,r10
+488,S962155099,Stanford University,Wednesday,04:00 PM,Orange Route,r14
+489,S962155099,Stanford University,Wednesday,02:00 PM,Orange Route,r14
+490,S184752892,Milpitas BART,Tuesday,08:00 AM,Blue Route,r31
+491,S184752892,San Jose State University,Thursday,12:00 PM,Orange Route,r1
+492,S395882749,Central Park Fremont,Friday,08:00 AM,Green Route,r51
+493,S395882749,Cambrian Park Plaza,Monday,08:00 AM,Yellow Route,r28
+494,S822594153,Shoreline Amphitheatre,Monday,04:00 PM,Orange Route,r12
+495,S822594153,Great Mall,Monday,04:00 PM,Blue Route,r32
+496,S822594153,Berryessa,Monday,12:00 PM,Blue Route,r33
+497,S822594153,Fremont BART,Monday,08:00 AM,Green Route,r46
+498,S543165270,Santa Clara Town Centre,Tuesday,10:00 AM,Blue Route,r43
+499,S543165270,Baypointe Station,Monday,04:00 PM,Blue Route,r40
+500,S543165270,Great Mall,Tuesday,04:00 PM,Blue Route,r32
+501,S543165270,Alum Rock,Friday,08:00 AM,Yellow Route,r16
+502,S939761919,Evergreen Valley College,Thursday,10:00 AM,Yellow Route,r20
+503,S939761919,Palo Alto University Avenue,Tuesday,04:00 PM,Orange Route,r13
+504,S939761919,Silver Creek High School,Thursday,08:00 AM,Yellow Route,r21
+505,S939761919,San Jose State University,Tuesday,04:00 PM,Orange Route,r1
+506,S180901890,Cisco Campus,Friday,12:00 PM,Blue Route,r39
+507,S180901890,Levi's Stadium,Monday,10:00 AM,Orange Route,r8
+508,S180901890,Mountain View Downtown,Thursday,12:00 PM,Orange Route,r11
+509,S630365968,Lake Elizabeth,Thursday,12:00 PM,Green Route,r52
+510,S630365968,Santana Row,Tuesday,02:00 PM,Orange Route,r4
+511,S630365968,Shoreline Amphitheatre,Thursday,04:00 PM,Orange Route,r12
+512,S562622097,Eastridge Mall,Friday,04:00 PM,Yellow Route,r17
+513,S562622097,Santa Clara University,Friday,08:00 AM,Orange Route,r7
+514,S562622097,Don Edwards Wildlife Refuge,Monday,08:00 AM,Green Route,r60
+515,S120303424,Santa Clara University,Friday,08:00 AM,Orange Route,r7
+516,S120303424,Santa Teresa,Wednesday,04:00 PM,Yellow Route,r23
+517,S163645264,Flickinger Park,Wednesday,08:00 AM,Blue Route,r36
+518,S163645264,Diridon Station,Friday,02:00 PM,Orange Route,r3
+519,S163645264,Alum Rock,Friday,04:00 PM,Yellow Route,r16
+520,S163645264,Hellyer Park,Monday,10:00 AM,Yellow Route,r22
+521,S842509929,North San Jose,Monday,04:00 PM,Blue Route,r38
+522,S842509929,Hellyer Park,Wednesday,12:00 PM,Yellow Route,r22
+523,S842509929,Mission College,Friday,04:00 PM,Blue Route,r44
+524,S842509929,Milpitas BART,Monday,10:00 AM,Blue Route,r31
+525,S813425592,Evergreen Valley College,Wednesday,12:00 PM,Yellow Route,r20
+526,S813425592,Palo Alto University Avenue,Tuesday,02:00 PM,Orange Route,r13
+527,S813425592,Logan High School,Monday,02:00 PM,Green Route,r57
+528,S813425592,San Jose State University,Friday,02:00 PM,Orange Route,r1
+529,S256706492,Alviso Marina,Thursday,10:00 AM,Blue Route,r37
+530,S256706492,Alviso Marina,Monday,04:00 PM,Blue Route,r37
+531,S256706492,Milpitas BART,Tuesday,04:00 PM,Blue Route,r31
+532,S821277610,Lake Elizabeth,Tuesday,08:00 AM,Green Route,r52
+533,S821277610,Santa Clara University,Friday,08:00 AM,Orange Route,r7
+534,S070319342,Great America,Friday,04:00 PM,Orange Route,r9
+535,S070319342,Camden Community Center,Monday,04:00 PM,Yellow Route,r26
+536,S070319342,Santana Row,Monday,08:00 AM,Orange Route,r4
+537,S959828487,Decoto District,Tuesday,10:00 AM,Green Route,r58
+538,S959828487,Central Park Fremont,Wednesday,08:00 AM,Green Route,r51
+539,S959828487,Santa Teresa,Wednesday,02:00 PM,Yellow Route,r23
+540,S191987998,Mountain View Downtown,Wednesday,12:00 PM,Orange Route,r11
+541,S191987998,Downtown San Jose,Thursday,04:00 PM,Yellow Route,r30
+542,S191987998,Palo Alto University Avenue,Friday,08:00 AM,Orange Route,r13
+543,S705466589,SAP Center,Friday,08:00 AM,Orange Route,r2
+544,S705466589,Ardenwood Historic Farm,Friday,12:00 PM,Green Route,r54
+545,S705466589,Raging Waters,Monday,10:00 AM,Yellow Route,r19
+546,S705466589,Logan High School,Tuesday,12:00 PM,Green Route,r57
+547,S208592089,Pacific Commons,Friday,02:00 PM,Green Route,r53
+548,S208592089,Valley Fair Mall,Tuesday,10:00 AM,Orange Route,r5
+549,S208592089,Branham High School,Wednesday,08:00 AM,Yellow Route,r27
+550,S419340814,Flickinger Park,Wednesday,02:00 PM,Blue Route,r36
+551,S419340814,Pacific Commons,Thursday,10:00 AM,Green Route,r53
+552,S794714044,Levi's Stadium,Friday,08:00 AM,Orange Route,r8
+553,S794714044,Cambrian Park Plaza,Thursday,12:00 PM,Yellow Route,r28
+554,S624239396,Sunnyvale Caltrain,Monday,04:00 PM,Orange Route,r10
+555,S624239396,Santa Teresa,Thursday,04:00 PM,Yellow Route,r23
+556,S299802690,Ardenwood Historic Farm,Thursday,08:00 AM,Green Route,r54
+557,S299802690,Fremont BART,Tuesday,10:00 AM,Green Route,r46
+558,S972855827,Champion Station,Monday,08:00 AM,Blue Route,r42
+559,S972855827,Santa Teresa,Monday,12:00 PM,Yellow Route,r23
+560,S972855827,Alviso Marina,Tuesday,08:00 AM,Blue Route,r37
+561,S299571813,Warm Springs,Friday,12:00 PM,Green Route,r48
+562,S299571813,Hellyer Park,Monday,02:00 PM,Yellow Route,r22
+563,S299571813,Eastridge Mall,Thursday,02:00 PM,Yellow Route,r17
+564,S299571813,Mission College,Wednesday,08:00 AM,Blue Route,r44
+565,S310757475,San Jose State University,Tuesday,04:00 PM,Orange Route,r1
+566,S310757475,Ardenwood Historic Farm,Monday,08:00 AM,Green Route,r54
+567,S310757475,Sunnyvale Caltrain,Wednesday,10:00 AM,Orange Route,r10
+568,S590785490,Palo Alto University Avenue,Wednesday,10:00 AM,Orange Route,r13
+569,S590785490,Mission San Jose,Friday,10:00 AM,Green Route,r50
+570,S590785490,Levi's Stadium,Monday,02:00 PM,Orange Route,r8
+571,S464900602,Lake Cunningham Park,Thursday,12:00 PM,Yellow Route,r18
+572,S464900602,North San Jose,Tuesday,12:00 PM,Blue Route,r38
+573,S464900602,Irvington District,Wednesday,08:00 AM,Green Route,r49
+574,S464900602,Union City BART,Friday,04:00 PM,Green Route,r56
+575,S539546078,Great Mall,Wednesday,12:00 PM,Blue Route,r32
+576,S539546078,Branham High School,Monday,04:00 PM,Yellow Route,r27
+577,S539546078,Shoreline Amphitheatre,Thursday,10:00 AM,Orange Route,r12
+578,S772423440,Lake Cunningham Park,Tuesday,12:00 PM,Yellow Route,r18
+579,S772423440,Newark Mall,Wednesday,10:00 AM,Green Route,r59
+580,S772423440,Silver Creek High School,Thursday,04:00 PM,Yellow Route,r21
+581,S631908007,North San Jose,Wednesday,02:00 PM,Blue Route,r38
+582,S631908007,Mission San Jose,Monday,12:00 PM,Green Route,r50
+583,S631908007,Coyote Hills,Monday,02:00 PM,Green Route,r55
+584,S631908007,Logan High School,Friday,04:00 PM,Green Route,r57
+585,S095648949,Great America,Friday,12:00 PM,Orange Route,r9
+586,S095648949,Mission San Jose,Thursday,12:00 PM,Green Route,r50
+587,S231514835,Alum Rock,Friday,08:00 AM,Yellow Route,r16
+588,S231514835,Eastridge Mall,Monday,04:00 PM,Yellow Route,r17
+589,S224576656,Winchester Mystery House,Tuesday,12:00 PM,Orange Route,r6
+590,S224576656,Flickinger Park,Friday,04:00 PM,Blue Route,r36
+591,S224576656,North San Jose,Wednesday,04:00 PM,Blue Route,r38
+592,S602793116,Santana Row,Tuesday,02:00 PM,Orange Route,r4
+593,S602793116,Mountain View Downtown,Wednesday,08:00 AM,Orange Route,r11
+594,S602793116,Berryessa,Thursday,04:00 PM,Blue Route,r33
+595,S790534133,Camden Community Center,Friday,10:00 AM,Yellow Route,r26
+596,S790534133,Camden Community Center,Wednesday,12:00 PM,Yellow Route,r26
+597,S001662644,SAP Center,Wednesday,12:00 PM,Orange Route,r2
+598,S001662644,Mission College,Thursday,08:00 AM,Blue Route,r44
+599,S714264603,Pacific Commons,Friday,12:00 PM,Green Route,r53
+600,S714264603,Newark Mall,Tuesday,08:00 AM,Green Route,r59
+601,S714264603,Levi's Stadium,Wednesday,12:00 PM,Orange Route,r8
+602,S032123071,Don Edwards Wildlife Refuge,Friday,08:00 AM,Green Route,r60
+603,S032123071,Silver Creek High School,Monday,02:00 PM,Yellow Route,r21
+604,S032123071,Coyote Hills,Thursday,12:00 PM,Green Route,r55
+605,S032123071,Stanford University,Wednesday,08:00 AM,Orange Route,r14
+606,S758808009,Evergreen Valley College,Wednesday,12:00 PM,Yellow Route,r20
+607,S758808009,Camden Community Center,Monday,08:00 AM,Yellow Route,r26
+608,S758808009,California's Great America,Friday,08:00 AM,Blue Route,r45
+609,S758808009,Baypointe Station,Wednesday,02:00 PM,Blue Route,r40
+610,S446249194,Coyote Hills,Wednesday,08:00 AM,Green Route,r55
+611,S446249194,Berryessa,Monday,02:00 PM,Blue Route,r33
+612,S446249194,North San Jose,Thursday,04:00 PM,Blue Route,r38
+613,S414408727,Union City BART,Tuesday,10:00 AM,Green Route,r56
+614,S414408727,North San Jose,Monday,08:00 AM,Blue Route,r38
+615,S414408727,Newark Mall,Monday,10:00 AM,Green Route,r59
+616,S414408727,Evergreen Valley College,Friday,10:00 AM,Yellow Route,r20
+617,S651739611,Irvington District,Friday,10:00 AM,Green Route,r49
+618,S651739611,Irvington District,Wednesday,02:00 PM,Green Route,r49
+619,S651739611,Stanford University,Thursday,08:00 AM,Orange Route,r14
+620,S117096455,California's Great America,Friday,04:00 PM,Blue Route,r45
+621,S117096455,Raging Waters,Thursday,10:00 AM,Yellow Route,r19
+622,S668610432,Willow Glen,Thursday,12:00 PM,Yellow Route,r29
+623,S668610432,Independence High School,Thursday,02:00 PM,Blue Route,r35
+624,S668610432,Evergreen Valley College,Tuesday,12:00 PM,Yellow Route,r20
+625,S534080886,Logan High School,Monday,02:00 PM,Green Route,r57
+626,S534080886,Cisco Campus,Monday,08:00 AM,Blue Route,r39
+627,S457848634,Newark Mall,Monday,10:00 AM,Green Route,r59
+628,S457848634,Pacific Commons,Wednesday,04:00 PM,Green Route,r53
+629,S457848634,Coyote Hills,Monday,08:00 AM,Green Route,r55
+630,S018375124,Central Park Fremont,Monday,04:00 PM,Green Route,r51
+631,S018375124,Ardenwood Historic Farm,Wednesday,12:00 PM,Green Route,r54
+632,S018375124,Irvington District,Wednesday,02:00 PM,Green Route,r49
+633,S018375124,Cambrian Park Plaza,Wednesday,10:00 AM,Yellow Route,r28
+634,S513243576,Shoreline Amphitheatre,Wednesday,12:00 PM,Orange Route,r12
+635,S513243576,Shoreline Amphitheatre,Tuesday,12:00 PM,Orange Route,r12
+636,S513243576,Mission College,Tuesday,08:00 AM,Blue Route,r44
+637,S513243576,Don Edwards Wildlife Refuge,Tuesday,04:00 PM,Green Route,r60
+638,S062769835,SAP Center,Tuesday,04:00 PM,Orange Route,r2
+639,S062769835,Great Mall,Thursday,10:00 AM,Blue Route,r32
+640,S062769835,Oakridge Mall,Thursday,04:00 PM,Yellow Route,r25
+641,S396359337,River Oaks,Thursday,08:00 AM,Blue Route,r41
+642,S396359337,Irvington District,Thursday,12:00 PM,Green Route,r49
+643,S396359337,Branham High School,Friday,04:00 PM,Yellow Route,r27
+644,S799906503,Great Mall,Monday,12:00 PM,Blue Route,r32
+645,S799906503,Diridon Station,Thursday,12:00 PM,Orange Route,r3
+646,S799906503,River Oaks,Friday,02:00 PM,Blue Route,r41
+647,S942108178,SAP Center,Thursday,12:00 PM,Orange Route,r2
+648,S942108178,Levi's Stadium,Friday,02:00 PM,Orange Route,r8
+649,S942108178,River Oaks,Wednesday,10:00 AM,Blue Route,r41
+650,S942108178,Decoto District,Thursday,08:00 AM,Green Route,r58
+651,S686511669,Santa Teresa,Monday,12:00 PM,Yellow Route,r23
+652,S686511669,Valley Fair Mall,Monday,10:00 AM,Orange Route,r5
+653,S686511669,California's Great America,Wednesday,10:00 AM,Blue Route,r45
+654,S462427453,Fremont BART,Monday,08:00 AM,Green Route,r46
+655,S462427453,SAP Center,Friday,12:00 PM,Orange Route,r2
+656,S839942359,Pacific Commons,Tuesday,02:00 PM,Green Route,r53
+657,S839942359,Willow Glen,Wednesday,04:00 PM,Yellow Route,r29
+658,S839942359,Coyote Hills,Wednesday,10:00 AM,Green Route,r55
+659,S680439751,Diridon Station,Tuesday,04:00 PM,Orange Route,r3
+660,S680439751,Lake Cunningham Park,Tuesday,04:00 PM,Yellow Route,r18
+661,S680439751,Santa Teresa,Tuesday,08:00 AM,Yellow Route,r23
+662,S680439751,Raging Waters,Tuesday,12:00 PM,Yellow Route,r19
+663,S145809889,Silver Creek High School,Monday,02:00 PM,Yellow Route,r21
+664,S145809889,Valley Fair Mall,Monday,08:00 AM,Orange Route,r5
+665,S145809889,Champion Station,Friday,02:00 PM,Blue Route,r42
+666,S145809889,Decoto District,Tuesday,12:00 PM,Green Route,r58
+667,S333023073,Diridon Station,Wednesday,02:00 PM,Orange Route,r3
+668,S333023073,Evergreen Valley College,Thursday,12:00 PM,Yellow Route,r20
+669,S094874690,Independence High School,Friday,08:00 AM,Blue Route,r35
+670,S094874690,Sunnyvale Caltrain,Monday,04:00 PM,Orange Route,r10
+671,S094874690,Central Park Fremont,Monday,02:00 PM,Green Route,r51
+672,S196472126,Central Park Fremont,Wednesday,10:00 AM,Green Route,r51
+673,S196472126,Shoreline Amphitheatre,Wednesday,02:00 PM,Orange Route,r12
+674,S196472126,Sunnyvale Caltrain,Friday,04:00 PM,Orange Route,r10
+675,S196472126,Fremont Hub,Friday,02:00 PM,Green Route,r47
+676,S084565720,Irvington District,Wednesday,10:00 AM,Green Route,r49
+677,S084565720,Lake Elizabeth,Friday,02:00 PM,Green Route,r52
+678,S084565720,Ardenwood Historic Farm,Tuesday,04:00 PM,Green Route,r54
+679,S084565720,Diridon Station,Tuesday,02:00 PM,Orange Route,r3
+680,S516539575,Flickinger Park,Tuesday,04:00 PM,Blue Route,r36
+681,S516539575,Santa Teresa,Friday,10:00 AM,Yellow Route,r23
+682,S516539575,California's Great America,Monday,02:00 PM,Blue Route,r45
+683,S516539575,Mission College,Thursday,02:00 PM,Blue Route,r44
+684,S803373026,Hellyer Park,Tuesday,02:00 PM,Yellow Route,r22
+685,S803373026,Union City BART,Thursday,02:00 PM,Green Route,r56
+686,S803373026,Union City BART,Tuesday,04:00 PM,Green Route,r56
+687,S571336869,Warm Springs,Monday,10:00 AM,Green Route,r48
+688,S571336869,Sunnyvale Caltrain,Friday,10:00 AM,Orange Route,r10
+689,S571336869,Logan High School,Wednesday,08:00 AM,Green Route,r57
+690,S571336869,Branham High School,Wednesday,10:00 AM,Yellow Route,r27
+691,S117902783,Logan High School,Thursday,02:00 PM,Green Route,r57
+692,S117902783,Central Park Fremont,Tuesday,08:00 AM,Green Route,r51
+693,S117902783,Shoreline Amphitheatre,Wednesday,02:00 PM,Orange Route,r12
+694,S384062806,Ardenwood Historic Farm,Tuesday,04:00 PM,Green Route,r54
+695,S384062806,Raging Waters,Monday,10:00 AM,Yellow Route,r19
+696,S384062806,Santa Clara University,Tuesday,12:00 PM,Orange Route,r7
+697,S384062806,Fremont Hub,Friday,10:00 AM,Green Route,r47
+698,S744493163,Central Park Fremont,Thursday,08:00 AM,Green Route,r51
+699,S744493163,Fremont BART,Tuesday,10:00 AM,Green Route,r46
+700,S870685306,Downtown San Jose,Friday,02:00 PM,Yellow Route,r30
+701,S870685306,Baypointe Station,Tuesday,12:00 PM,Blue Route,r40
+702,S646308392,Sunnyvale Caltrain,Thursday,04:00 PM,Orange Route,r10
+703,S646308392,River Oaks,Tuesday,08:00 AM,Blue Route,r41
+704,S646308392,Milpitas BART,Tuesday,12:00 PM,Blue Route,r31
+705,S646308392,Cisco Campus,Friday,08:00 AM,Blue Route,r39
+706,S645710864,Warm Springs,Wednesday,02:00 PM,Green Route,r48
+707,S645710864,Lake Elizabeth,Tuesday,02:00 PM,Green Route,r52
+708,S645710864,Eastridge Mall,Wednesday,08:00 AM,Yellow Route,r17
+709,S263901434,Fremont Hub,Wednesday,08:00 AM,Green Route,r47
+710,S263901434,Eastridge Mall,Friday,12:00 PM,Yellow Route,r17
+711,S263901434,Levi's Stadium,Friday,02:00 PM,Orange Route,r8
+712,S263901434,Pacific Commons,Tuesday,04:00 PM,Green Route,r53
+713,S133290159,Fremont BART,Monday,10:00 AM,Green Route,r46
+714,S133290159,Oakridge Mall,Thursday,04:00 PM,Yellow Route,r25
+715,S772669210,Alviso Marina,Friday,10:00 AM,Blue Route,r37
+716,S772669210,Milpitas BART,Tuesday,02:00 PM,Blue Route,r31
+717,S772669210,Fremont BART,Friday,12:00 PM,Green Route,r46
+718,S798996752,Santa Clara University,Friday,08:00 AM,Orange Route,r7
+719,S798996752,Union City BART,Thursday,10:00 AM,Green Route,r56
+720,S798996752,Flickinger Park,Tuesday,10:00 AM,Blue Route,r36
+721,S798996752,Flickinger Park,Tuesday,04:00 PM,Blue Route,r36
+722,S177132972,Fremont Hub,Wednesday,10:00 AM,Green Route,r47
+723,S177132972,Champion Station,Friday,02:00 PM,Blue Route,r42
+724,S177132972,Downtown San Jose,Monday,10:00 AM,Yellow Route,r30
+725,S177132972,Eastridge Mall,Thursday,12:00 PM,Yellow Route,r17
+726,S354918037,North San Jose,Friday,12:00 PM,Blue Route,r38
+727,S354918037,Santa Clara Town Centre,Wednesday,02:00 PM,Blue Route,r43
+728,S445130451,Santana Row,Tuesday,12:00 PM,Orange Route,r4
+729,S445130451,Central Park Fremont,Thursday,02:00 PM,Green Route,r51
+730,S571588531,Warm Springs,Friday,08:00 AM,Green Route,r48
+731,S571588531,Diridon Station,Thursday,08:00 AM,Orange Route,r3
+732,S952019266,Diridon Station,Friday,04:00 PM,Orange Route,r3
+733,S952019266,Cambrian Park Plaza,Thursday,10:00 AM,Yellow Route,r28
+734,S655169390,Mountain View Downtown,Wednesday,02:00 PM,Orange Route,r11
+735,S655169390,Hellyer Park,Monday,04:00 PM,Yellow Route,r22
+736,S655169390,Baypointe Station,Thursday,10:00 AM,Blue Route,r40
+737,S065674646,Lake Elizabeth,Tuesday,10:00 AM,Green Route,r52
+738,S065674646,Camden Community Center,Monday,08:00 AM,Yellow Route,r26
+739,S065674646,Great America,Wednesday,04:00 PM,Orange Route,r9
+740,S948620044,Alum Rock,Thursday,02:00 PM,Yellow Route,r16
+741,S948620044,Lake Cunningham Park,Monday,04:00 PM,Yellow Route,r18
+742,S948620044,Camden Community Center,Wednesday,08:00 AM,Yellow Route,r26
+743,S948620044,Sunnyvale Caltrain,Monday,10:00 AM,Orange Route,r10
+744,S637789135,Central Park Fremont,Thursday,02:00 PM,Green Route,r51
+745,S637789135,Independence High School,Friday,08:00 AM,Blue Route,r35
+746,S637789135,Great America,Wednesday,08:00 AM,Orange Route,r9
+747,S422023628,Willow Glen,Thursday,04:00 PM,Yellow Route,r29
+748,S422023628,Great Mall,Wednesday,08:00 AM,Blue Route,r32
+749,S422023628,Blossom Hill,Tuesday,04:00 PM,Yellow Route,r24
+750,S422023628,Hellyer Park,Wednesday,10:00 AM,Yellow Route,r22
+751,S353745430,Stanford University,Thursday,10:00 AM,Orange Route,r14
+752,S353745430,Flickinger Park,Tuesday,12:00 PM,Blue Route,r36
+753,S425025862,Pacific Commons,Tuesday,12:00 PM,Green Route,r53
+754,S425025862,Oakridge Mall,Thursday,10:00 AM,Yellow Route,r25
+755,S425025862,Camden Community Center,Wednesday,02:00 PM,Yellow Route,r26
+756,S425025862,Palo Alto University Avenue,Tuesday,08:00 AM,Orange Route,r13
+757,S112340053,Alum Rock,Monday,12:00 PM,Yellow Route,r16
+758,S112340053,Sunnyvale Caltrain,Wednesday,10:00 AM,Orange Route,r10
+759,S112340053,Champion Station,Tuesday,10:00 AM,Blue Route,r42
+760,S112340053,Sunnyvale Caltrain,Wednesday,04:00 PM,Orange Route,r10
+761,S345866103,Valley Fair Mall,Wednesday,12:00 PM,Orange Route,r5
+762,S345866103,Levi's Stadium,Monday,04:00 PM,Orange Route,r8
+763,S345866103,Alum Rock,Friday,12:00 PM,Yellow Route,r16
+764,S345866103,Diridon Station,Thursday,12:00 PM,Orange Route,r3
+765,S971550134,Pacific Commons,Tuesday,04:00 PM,Green Route,r53
+766,S971550134,Diridon Station,Friday,08:00 AM,Orange Route,r3
+767,S971550134,Stanford Shopping Center,Wednesday,10:00 AM,Orange Route,r15
+768,S971550134,Lake Cunningham Park,Tuesday,08:00 AM,Yellow Route,r18
+769,S653619723,Coyote Hills,Monday,02:00 PM,Green Route,r55
+770,S653619723,Raging Waters,Monday,02:00 PM,Yellow Route,r19
+771,S653619723,Great Mall,Monday,10:00 AM,Blue Route,r32
+772,S653619723,Fremont BART,Friday,10:00 AM,Green Route,r46
+773,S454031438,Valley Fair Mall,Thursday,02:00 PM,Orange Route,r5
+774,S454031438,Alum Rock,Monday,08:00 AM,Yellow Route,r16
+775,S454031438,Downtown San Jose,Thursday,04:00 PM,Yellow Route,r30
+776,S454031438,Santa Teresa,Monday,02:00 PM,Yellow Route,r23
+777,S526952045,Pacific Commons,Thursday,10:00 AM,Green Route,r53
+778,S526952045,Fremont BART,Thursday,12:00 PM,Green Route,r46
+779,S816091031,Alviso Marina,Wednesday,12:00 PM,Blue Route,r37
+780,S816091031,Stanford Shopping Center,Tuesday,12:00 PM,Orange Route,r15
+781,S816091031,Cisco Campus,Friday,02:00 PM,Blue Route,r39
+782,S564877559,Union City BART,Friday,02:00 PM,Green Route,r56
+783,S564877559,Cambrian Park Plaza,Monday,12:00 PM,Yellow Route,r28
+784,S394556868,Hellyer Park,Thursday,08:00 AM,Yellow Route,r22
+785,S394556868,Mission San Jose,Thursday,12:00 PM,Green Route,r50
+786,S394556868,SAP Center,Tuesday,08:00 AM,Orange Route,r2
+787,S492299776,Winchester Mystery House,Tuesday,02:00 PM,Orange Route,r6
+788,S492299776,Branham High School,Wednesday,10:00 AM,Yellow Route,r27
+789,S492299776,Hellyer Park,Wednesday,12:00 PM,Yellow Route,r22
+790,S492299776,Logan High School,Thursday,08:00 AM,Green Route,r57
+791,S459725583,Fremont Hub,Friday,08:00 AM,Green Route,r47
+792,S459725583,Alum Rock,Thursday,04:00 PM,Yellow Route,r16
+793,S459725583,Santa Clara University,Monday,08:00 AM,Orange Route,r7
+794,S459725583,Berryessa,Thursday,02:00 PM,Blue Route,r33
+795,S710909672,Alum Rock,Thursday,08:00 AM,Yellow Route,r16
+796,S710909672,Fremont Hub,Monday,12:00 PM,Green Route,r47
+797,S961652656,Cisco Campus,Friday,04:00 PM,Blue Route,r39
+798,S961652656,Winchester Mystery House,Monday,04:00 PM,Orange Route,r6
+799,S961652656,Mission College,Wednesday,02:00 PM,Blue Route,r44
+800,S471705949,Fremont BART,Tuesday,12:00 PM,Green Route,r46
+801,S471705949,Stanford University,Wednesday,08:00 AM,Orange Route,r14
+802,S471705949,Alviso Marina,Wednesday,08:00 AM,Blue Route,r37
+803,S471705949,Mission San Jose,Monday,08:00 AM,Green Route,r50
+804,S672207627,Hellyer Park,Monday,12:00 PM,Yellow Route,r22
+805,S672207627,Cambrian Park Plaza,Monday,12:00 PM,Yellow Route,r28
+806,S672207627,Silver Creek High School,Friday,12:00 PM,Yellow Route,r21
+807,S672207627,Downtown San Jose,Tuesday,12:00 PM,Yellow Route,r30
+808,S948908717,Lake Cunningham Park,Wednesday,08:00 AM,Yellow Route,r18
+809,S948908717,Pacific Commons,Monday,12:00 PM,Green Route,r53
+810,S026934658,Mountain View Downtown,Friday,08:00 AM,Orange Route,r11
+811,S026934658,Mountain View Downtown,Wednesday,04:00 PM,Orange Route,r11
+812,S026934658,Willow Glen,Thursday,10:00 AM,Yellow Route,r29
+813,S528376703,Lake Elizabeth,Wednesday,10:00 AM,Green Route,r52
+814,S528376703,Blossom Hill,Thursday,02:00 PM,Yellow Route,r24
+815,S616644340,Flickinger Park,Thursday,10:00 AM,Blue Route,r36
+816,S616644340,San Jose State University,Wednesday,08:00 AM,Orange Route,r1
+817,S616644340,Decoto District,Friday,04:00 PM,Green Route,r58
+818,S616644340,Winchester Mystery House,Friday,02:00 PM,Orange Route,r6
+819,S322279370,Alviso Marina,Tuesday,02:00 PM,Blue Route,r37
+820,S322279370,Champion Station,Monday,12:00 PM,Blue Route,r42
+821,S322279370,Penitencia Creek Park,Thursday,02:00 PM,Blue Route,r34
+822,S601345873,Irvington District,Wednesday,04:00 PM,Green Route,r49
+823,S601345873,Hellyer Park,Monday,12:00 PM,Yellow Route,r22
+824,S601345873,Lake Cunningham Park,Monday,02:00 PM,Yellow Route,r18
+825,S926211764,Oakridge Mall,Thursday,04:00 PM,Yellow Route,r25
+826,S926211764,Warm Springs,Tuesday,12:00 PM,Green Route,r48
+827,S926211764,Stanford Shopping Center,Thursday,08:00 AM,Orange Route,r15
+828,S456227804,Eastridge Mall,Friday,10:00 AM,Yellow Route,r17
+829,S456227804,Berryessa,Tuesday,10:00 AM,Blue Route,r33
+830,S456227804,Raging Waters,Monday,04:00 PM,Yellow Route,r19
+831,S456227804,North San Jose,Friday,10:00 AM,Blue Route,r38
+832,S918925184,Lake Elizabeth,Monday,02:00 PM,Green Route,r52
+833,S918925184,Fremont Hub,Tuesday,04:00 PM,Green Route,r47
+834,S505845404,Camden Community Center,Tuesday,02:00 PM,Yellow Route,r26
+835,S505845404,Great America,Tuesday,02:00 PM,Orange Route,r9
+836,S020204750,Sunnyvale Caltrain,Friday,08:00 AM,Orange Route,r10
+837,S020204750,Santana Row,Wednesday,08:00 AM,Orange Route,r4
+838,S020204750,Flickinger Park,Friday,12:00 PM,Blue Route,r36
+839,S020204750,Alviso Marina,Wednesday,08:00 AM,Blue Route,r37
+840,S421167938,Fremont BART,Thursday,04:00 PM,Green Route,r46
+841,S421167938,Coyote Hills,Friday,08:00 AM,Green Route,r55
+842,S421167938,Hellyer Park,Monday,08:00 AM,Yellow Route,r22
+843,S930981819,Downtown San Jose,Monday,10:00 AM,Yellow Route,r30
+844,S930981819,Camden Community Center,Thursday,10:00 AM,Yellow Route,r26
+845,S198794743,Mission College,Wednesday,04:00 PM,Blue Route,r44
+846,S198794743,Pacific Commons,Tuesday,04:00 PM,Green Route,r53
+847,S411870669,Downtown San Jose,Friday,12:00 PM,Yellow Route,r30
+848,S411870669,Downtown San Jose,Friday,02:00 PM,Yellow Route,r30
+849,S411870669,Alum Rock,Friday,02:00 PM,Yellow Route,r16
+850,S411870669,Silver Creek High School,Wednesday,10:00 AM,Yellow Route,r21
+851,S210570742,Lake Elizabeth,Wednesday,02:00 PM,Green Route,r52
+852,S210570742,Great America,Friday,08:00 AM,Orange Route,r9
+853,S805287356,Stanford University,Thursday,10:00 AM,Orange Route,r14
+854,S805287356,Branham High School,Monday,02:00 PM,Yellow Route,r27
+855,S316230989,San Jose State University,Tuesday,02:00 PM,Orange Route,r1
+856,S316230989,Berryessa,Tuesday,02:00 PM,Blue Route,r33
+857,S316230989,Newark Mall,Wednesday,02:00 PM,Green Route,r59
+858,S449967341,Irvington District,Wednesday,12:00 PM,Green Route,r49
+859,S449967341,Santa Clara Town Centre,Tuesday,08:00 AM,Blue Route,r43
+860,S449967341,Camden Community Center,Monday,02:00 PM,Yellow Route,r26
+861,S449967341,Warm Springs,Tuesday,12:00 PM,Green Route,r48
+862,S748378959,Stanford University,Monday,04:00 PM,Orange Route,r14
+863,S748378959,Eastridge Mall,Friday,02:00 PM,Yellow Route,r17
+864,S122698071,Lake Elizabeth,Friday,12:00 PM,Green Route,r52
+865,S122698071,Fremont Hub,Friday,10:00 AM,Green Route,r47
+866,S668177548,Evergreen Valley College,Tuesday,02:00 PM,Yellow Route,r20
+867,S668177548,Evergreen Valley College,Thursday,12:00 PM,Yellow Route,r20
+868,S909919426,Evergreen Valley College,Tuesday,02:00 PM,Yellow Route,r20
+869,S909919426,Ardenwood Historic Farm,Thursday,02:00 PM,Green Route,r54
+870,S957353254,Santa Teresa,Wednesday,04:00 PM,Yellow Route,r23
+871,S957353254,Warm Springs,Friday,02:00 PM,Green Route,r48
+872,S957353254,Shoreline Amphitheatre,Wednesday,12:00 PM,Orange Route,r12
+873,S957353254,Santa Clara Town Centre,Wednesday,08:00 AM,Blue Route,r43
+874,S948934521,Cisco Campus,Friday,10:00 AM,Blue Route,r39
+875,S948934521,Downtown San Jose,Tuesday,02:00 PM,Yellow Route,r30
+876,S948934521,Santa Teresa,Monday,08:00 AM,Yellow Route,r23
+877,S954133846,Branham High School,Friday,04:00 PM,Yellow Route,r27
+878,S954133846,Stanford University,Tuesday,08:00 AM,Orange Route,r14
+879,S954133846,SAP Center,Wednesday,02:00 PM,Orange Route,r2
+880,S954133846,River Oaks,Tuesday,08:00 AM,Blue Route,r41
+881,S747747315,Cambrian Park Plaza,Tuesday,04:00 PM,Yellow Route,r28
+882,S747747315,Decoto District,Monday,08:00 AM,Green Route,r58
+883,S899580800,California's Great America,Friday,08:00 AM,Blue Route,r45
+884,S899580800,Berryessa,Monday,10:00 AM,Blue Route,r33
+885,S899580800,Diridon Station,Friday,10:00 AM,Orange Route,r3
+886,S899580800,Berryessa,Wednesday,10:00 AM,Blue Route,r33
+887,S601240699,Independence High School,Thursday,12:00 PM,Blue Route,r35
+888,S601240699,Diridon Station,Friday,10:00 AM,Orange Route,r3
+889,S054075256,Cambrian Park Plaza,Monday,10:00 AM,Yellow Route,r28
+890,S054075256,Coyote Hills,Monday,08:00 AM,Green Route,r55
+891,S919526237,Willow Glen,Thursday,02:00 PM,Yellow Route,r29
+892,S919526237,Fremont BART,Wednesday,04:00 PM,Green Route,r46
+893,S919526237,Branham High School,Wednesday,12:00 PM,Yellow Route,r27
+894,S919526237,Eastridge Mall,Thursday,08:00 AM,Yellow Route,r17
+895,S942628096,Newark Mall,Wednesday,10:00 AM,Green Route,r59
+896,S942628096,Evergreen Valley College,Wednesday,02:00 PM,Yellow Route,r20
+897,S942628096,Stanford University,Tuesday,04:00 PM,Orange Route,r14
+898,S942628096,San Jose State University,Monday,04:00 PM,Orange Route,r1
+899,S434670863,Coyote Hills,Friday,04:00 PM,Green Route,r55
+900,S434670863,Oakridge Mall,Tuesday,08:00 AM,Yellow Route,r25
+901,S502884009,Fremont Hub,Friday,10:00 AM,Green Route,r47
+902,S502884009,Ardenwood Historic Farm,Friday,04:00 PM,Green Route,r54
+903,S502884009,Independence High School,Wednesday,04:00 PM,Blue Route,r35
+904,S502884009,Logan High School,Tuesday,04:00 PM,Green Route,r57
+905,S618021889,Lake Cunningham Park,Thursday,04:00 PM,Yellow Route,r18
+906,S618021889,Eastridge Mall,Friday,08:00 AM,Yellow Route,r17
+907,S618021889,Logan High School,Tuesday,12:00 PM,Green Route,r57
+908,S618021889,Alum Rock,Thursday,04:00 PM,Yellow Route,r16
+909,S558653776,Cisco Campus,Friday,02:00 PM,Blue Route,r39
+910,S558653776,Camden Community Center,Tuesday,04:00 PM,Yellow Route,r26
+911,S730206659,Berryessa,Tuesday,02:00 PM,Blue Route,r33
+912,S730206659,Irvington District,Friday,08:00 AM,Green Route,r49
+913,S674253153,Union City BART,Friday,08:00 AM,Green Route,r56
+914,S674253153,Decoto District,Tuesday,08:00 AM,Green Route,r58
+915,S674253153,Mountain View Downtown,Tuesday,12:00 PM,Orange Route,r11
+916,S770176731,Silver Creek High School,Tuesday,04:00 PM,Yellow Route,r21
+917,S770176731,Don Edwards Wildlife Refuge,Wednesday,02:00 PM,Green Route,r60
+918,S770176731,Diridon Station,Monday,08:00 AM,Orange Route,r3
+919,S332114540,Ardenwood Historic Farm,Monday,08:00 AM,Green Route,r54
+920,S332114540,Union City BART,Wednesday,02:00 PM,Green Route,r56
+921,S053323099,Shoreline Amphitheatre,Thursday,02:00 PM,Orange Route,r12
+922,S053323099,Stanford University,Wednesday,04:00 PM,Orange Route,r14
+923,S561221122,Great America,Friday,12:00 PM,Orange Route,r9
+924,S561221122,Champion Station,Wednesday,04:00 PM,Blue Route,r42
+925,S561221122,Sunnyvale Caltrain,Wednesday,04:00 PM,Orange Route,r10
+926,S226511393,Ardenwood Historic Farm,Wednesday,08:00 AM,Green Route,r54
+927,S226511393,California's Great America,Monday,02:00 PM,Blue Route,r45
+928,S226511393,Cisco Campus,Thursday,12:00 PM,Blue Route,r39
+929,S226511393,Santana Row,Wednesday,12:00 PM,Orange Route,r4
+930,S833889139,Mountain View Downtown,Wednesday,12:00 PM,Orange Route,r11
+931,S833889139,Don Edwards Wildlife Refuge,Monday,08:00 AM,Green Route,r60
+932,S833889139,Flickinger Park,Thursday,10:00 AM,Blue Route,r36
+933,S399264523,Fremont Hub,Monday,10:00 AM,Green Route,r47
+934,S399264523,Champion Station,Monday,04:00 PM,Blue Route,r42
+935,S399264523,Milpitas BART,Tuesday,08:00 AM,Blue Route,r31
+936,S399264523,Oakridge Mall,Wednesday,02:00 PM,Yellow Route,r25
+937,S155565947,Berryessa,Wednesday,08:00 AM,Blue Route,r33
+938,S155565947,Union City BART,Tuesday,08:00 AM,Green Route,r56
+939,S155565947,Valley Fair Mall,Tuesday,12:00 PM,Orange Route,r5
+940,S268744626,Shoreline Amphitheatre,Monday,04:00 PM,Orange Route,r12
+941,S268744626,Sunnyvale Caltrain,Tuesday,08:00 AM,Orange Route,r10
+942,S268744626,Mission College,Friday,04:00 PM,Blue Route,r44
+943,S345559840,Hellyer Park,Monday,08:00 AM,Yellow Route,r22
+944,S345559840,Stanford Shopping Center,Tuesday,02:00 PM,Orange Route,r15
+945,S345559840,Decoto District,Tuesday,08:00 AM,Green Route,r58
+946,S345559840,Great America,Tuesday,08:00 AM,Orange Route,r9
+947,S856076360,Cisco Campus,Thursday,02:00 PM,Blue Route,r39
+948,S856076360,Levi's Stadium,Wednesday,02:00 PM,Orange Route,r8
+949,S856076360,Central Park Fremont,Wednesday,02:00 PM,Green Route,r51
+950,S693710275,Logan High School,Thursday,08:00 AM,Green Route,r57
+951,S693710275,Branham High School,Tuesday,02:00 PM,Yellow Route,r27
+952,S693710275,Stanford University,Monday,04:00 PM,Orange Route,r14
+953,S693710275,Mountain View Downtown,Tuesday,02:00 PM,Orange Route,r11
+954,S437553014,Blossom Hill,Monday,08:00 AM,Yellow Route,r24
+955,S437553014,Alum Rock,Friday,10:00 AM,Yellow Route,r16
+956,S873375307,Don Edwards Wildlife Refuge,Tuesday,02:00 PM,Green Route,r60
+957,S873375307,Warm Springs,Thursday,12:00 PM,Green Route,r48
+958,S873375307,Irvington District,Tuesday,08:00 AM,Green Route,r49
+959,S873375307,Milpitas BART,Wednesday,08:00 AM,Blue Route,r31
+960,S007031897,Central Park Fremont,Tuesday,10:00 AM,Green Route,r51
+961,S007031897,Decoto District,Monday,02:00 PM,Green Route,r58
+962,S534476163,Blossom Hill,Wednesday,04:00 PM,Yellow Route,r24
+963,S534476163,North San Jose,Wednesday,08:00 AM,Blue Route,r38
+964,S153727801,Alviso Marina,Tuesday,10:00 AM,Blue Route,r37
+965,S153727801,Baypointe Station,Friday,12:00 PM,Blue Route,r40
+966,S153727801,Shoreline Amphitheatre,Thursday,04:00 PM,Orange Route,r12
+967,S153727801,Lake Elizabeth,Friday,08:00 AM,Green Route,r52
+968,S311649333,Coyote Hills,Friday,12:00 PM,Green Route,r55
+969,S311649333,Central Park Fremont,Thursday,02:00 PM,Green Route,r51
+970,S341689563,Pacific Commons,Thursday,10:00 AM,Green Route,r53
+971,S341689563,Shoreline Amphitheatre,Monday,10:00 AM,Orange Route,r12
+972,S131355445,Union City BART,Wednesday,10:00 AM,Green Route,r56
+973,S131355445,Shoreline Amphitheatre,Friday,10:00 AM,Orange Route,r12
+974,S131355445,Levi's Stadium,Friday,08:00 AM,Orange Route,r8
+975,S131355445,Lake Cunningham Park,Tuesday,08:00 AM,Yellow Route,r18
+976,S954134030,Great Mall,Wednesday,04:00 PM,Blue Route,r32
+977,S954134030,Stanford Shopping Center,Friday,04:00 PM,Orange Route,r15
+978,S954134030,Logan High School,Wednesday,10:00 AM,Green Route,r57
+979,S954134030,Union City BART,Friday,12:00 PM,Green Route,r56
+980,S895464840,SAP Center,Thursday,10:00 AM,Orange Route,r2
+981,S895464840,Shoreline Amphitheatre,Thursday,04:00 PM,Orange Route,r12
+982,S895464840,Oakridge Mall,Monday,04:00 PM,Yellow Route,r25
+983,S722514775,Baypointe Station,Wednesday,02:00 PM,Blue Route,r40
+984,S722514775,Downtown San Jose,Wednesday,02:00 PM,Yellow Route,r30
+985,S722514775,Diridon Station,Tuesday,04:00 PM,Orange Route,r3
+986,S722514775,Alviso Marina,Tuesday,02:00 PM,Blue Route,r37
+987,S178380759,Penitencia Creek Park,Friday,08:00 AM,Blue Route,r34
+988,S178380759,Champion Station,Friday,08:00 AM,Blue Route,r42
+989,S872943849,Stanford Shopping Center,Tuesday,10:00 AM,Orange Route,r15
+990,S872943849,Stanford University,Tuesday,02:00 PM,Orange Route,r14
+991,S853761122,Fremont BART,Tuesday,02:00 PM,Green Route,r46
+992,S853761122,Coyote Hills,Monday,12:00 PM,Green Route,r55
+993,S325372289,Decoto District,Wednesday,04:00 PM,Green Route,r58
+994,S325372289,Baypointe Station,Monday,10:00 AM,Blue Route,r40
+995,S325372289,Coyote Hills,Monday,08:00 AM,Green Route,r55
+996,S325372289,Don Edwards Wildlife Refuge,Tuesday,10:00 AM,Green Route,r60
+997,S979981827,Berryessa,Monday,10:00 AM,Blue Route,r33
+998,S979981827,Stanford University,Thursday,12:00 PM,Orange Route,r14
+999,S979981827,Great Mall,Thursday,12:00 PM,Blue Route,r32
+1000,S979981827,Hellyer Park,Friday,02:00 PM,Yellow Route,r22
+1001,S831663077,Downtown San Jose,Tuesday,12:00 PM,Yellow Route,r30
+1002,S831663077,Baypointe Station,Monday,02:00 PM,Blue Route,r40
+1003,S831663077,Alum Rock,Wednesday,04:00 PM,Yellow Route,r16
+1004,S768445880,Coyote Hills,Friday,02:00 PM,Green Route,r55
+1005,S768445880,Berryessa,Tuesday,10:00 AM,Blue Route,r33
+1006,S768445880,SAP Center,Tuesday,10:00 AM,Orange Route,r2
+1007,S768445880,Fremont Hub,Thursday,02:00 PM,Green Route,r47
+1008,S630524228,Warm Springs,Friday,10:00 AM,Green Route,r48
+1009,S630524228,Fremont Hub,Friday,12:00 PM,Green Route,r47
+1010,S630524228,Decoto District,Monday,08:00 AM,Green Route,r58
+1011,S554360074,Independence High School,Wednesday,12:00 PM,Blue Route,r35
+1012,S554360074,Santana Row,Tuesday,02:00 PM,Orange Route,r4
+1013,S840926161,Fremont BART,Tuesday,10:00 AM,Green Route,r46
+1014,S840926161,Newark Mall,Thursday,10:00 AM,Green Route,r59
+1015,S840926161,Santana Row,Monday,12:00 PM,Orange Route,r4
+1016,S623913362,California's Great America,Wednesday,02:00 PM,Blue Route,r45
+1017,S623913362,Lake Cunningham Park,Friday,04:00 PM,Yellow Route,r18
+1018,S623913362,Camden Community Center,Thursday,12:00 PM,Yellow Route,r26
+1019,S704126068,Santana Row,Tuesday,12:00 PM,Orange Route,r4
+1020,S704126068,Penitencia Creek Park,Monday,08:00 AM,Blue Route,r34
+1021,S704126068,Alviso Marina,Wednesday,12:00 PM,Blue Route,r37
+1022,S103713817,Winchester Mystery House,Thursday,12:00 PM,Orange Route,r6
+1023,S103713817,Independence High School,Wednesday,08:00 AM,Blue Route,r35
+1024,S103713817,Milpitas BART,Monday,10:00 AM,Blue Route,r31
+1025,S915064761,River Oaks,Tuesday,08:00 AM,Blue Route,r41
+1026,S915064761,Penitencia Creek Park,Tuesday,02:00 PM,Blue Route,r34
+1027,S680175393,Decoto District,Monday,10:00 AM,Green Route,r58
+1028,S680175393,Newark Mall,Wednesday,04:00 PM,Green Route,r59
+1029,S680175393,Stanford Shopping Center,Thursday,12:00 PM,Orange Route,r15
+1030,S205667686,Stanford University,Tuesday,08:00 AM,Orange Route,r14
+1031,S205667686,Blossom Hill,Tuesday,10:00 AM,Yellow Route,r24
+1032,S205667686,Warm Springs,Wednesday,12:00 PM,Green Route,r48
+1033,S557208941,Santa Clara Town Centre,Monday,08:00 AM,Blue Route,r43
+1034,S557208941,Oakridge Mall,Friday,12:00 PM,Yellow Route,r25
+1035,S559991853,Santa Teresa,Tuesday,04:00 PM,Yellow Route,r23
+1036,S559991853,Cisco Campus,Wednesday,10:00 AM,Blue Route,r39
+1037,S559991853,Oakridge Mall,Monday,02:00 PM,Yellow Route,r25
+1038,S559991853,Eastridge Mall,Tuesday,04:00 PM,Yellow Route,r17
+1039,S490502993,Santa Clara University,Monday,08:00 AM,Orange Route,r7
+1040,S490502993,Santa Teresa,Wednesday,02:00 PM,Yellow Route,r23
+1041,S774465100,Cisco Campus,Friday,02:00 PM,Blue Route,r39
+1042,S774465100,Central Park Fremont,Tuesday,10:00 AM,Green Route,r51
+1043,S774465100,Alum Rock,Wednesday,04:00 PM,Yellow Route,r16
+1044,S774465100,Santa Clara University,Tuesday,02:00 PM,Orange Route,r7
+1045,S853686067,Central Park Fremont,Tuesday,04:00 PM,Green Route,r51
+1046,S853686067,Ardenwood Historic Farm,Friday,08:00 AM,Green Route,r54
+1047,S853686067,Mountain View Downtown,Friday,10:00 AM,Orange Route,r11
+1048,S291606610,Oakridge Mall,Friday,04:00 PM,Yellow Route,r25
+1049,S291606610,Lake Elizabeth,Friday,04:00 PM,Green Route,r52
+1050,S291606610,Stanford University,Monday,12:00 PM,Orange Route,r14
+1051,S043582378,San Jose State University,Tuesday,10:00 AM,Orange Route,r1
+1052,S043582378,Irvington District,Friday,08:00 AM,Green Route,r49
+1053,S043582378,Flickinger Park,Monday,02:00 PM,Blue Route,r36
+1054,S043582378,Diridon Station,Tuesday,08:00 AM,Orange Route,r3
+1055,S834529645,River Oaks,Friday,10:00 AM,Blue Route,r41
+1056,S834529645,Santa Clara Town Centre,Friday,10:00 AM,Blue Route,r43
+1057,S834529645,California's Great America,Friday,04:00 PM,Blue Route,r45
+1058,S834529645,Winchester Mystery House,Thursday,10:00 AM,Orange Route,r6
+1059,S811786170,Diridon Station,Thursday,10:00 AM,Orange Route,r3
+1060,S811786170,Diridon Station,Friday,08:00 AM,Orange Route,r3
+1061,S039190876,Champion Station,Wednesday,10:00 AM,Blue Route,r42
+1062,S039190876,Shoreline Amphitheatre,Tuesday,02:00 PM,Orange Route,r12
+1063,S039190876,Camden Community Center,Thursday,08:00 AM,Yellow Route,r26
+1064,S039190876,Lake Cunningham Park,Friday,08:00 AM,Yellow Route,r18
+1065,S293851602,Central Park Fremont,Monday,04:00 PM,Green Route,r51
+1066,S293851602,Ardenwood Historic Farm,Monday,02:00 PM,Green Route,r54
+1067,S293851602,Santana Row,Thursday,04:00 PM,Orange Route,r4
+1068,S904283502,Camden Community Center,Monday,12:00 PM,Yellow Route,r26
+1069,S904283502,Cambrian Park Plaza,Tuesday,08:00 AM,Yellow Route,r28
+1070,S904283502,Decoto District,Monday,10:00 AM,Green Route,r58
+1071,S364547197,Baypointe Station,Wednesday,04:00 PM,Blue Route,r40
+1072,S364547197,Lake Elizabeth,Thursday,10:00 AM,Green Route,r52
+1073,S042388906,California's Great America,Monday,08:00 AM,Blue Route,r45
+1074,S042388906,Milpitas BART,Thursday,04:00 PM,Blue Route,r31
+1075,S042388906,River Oaks,Friday,10:00 AM,Blue Route,r41
+1076,S294991202,Silver Creek High School,Wednesday,02:00 PM,Yellow Route,r21
+1077,S294991202,Central Park Fremont,Tuesday,10:00 AM,Green Route,r51
+1078,S294991202,Camden Community Center,Tuesday,10:00 AM,Yellow Route,r26
+1079,S294991202,Pacific Commons,Monday,04:00 PM,Green Route,r53
+1080,S739001805,Winchester Mystery House,Thursday,02:00 PM,Orange Route,r6
+1081,S739001805,Alviso Marina,Thursday,04:00 PM,Blue Route,r37
+1082,S739001805,Pacific Commons,Tuesday,04:00 PM,Green Route,r53
+1083,S922387732,Great Mall,Monday,02:00 PM,Blue Route,r32
+1084,S922387732,Santana Row,Tuesday,04:00 PM,Orange Route,r4
+1085,S922387732,Baypointe Station,Thursday,04:00 PM,Blue Route,r40
+1086,S275114459,Silver Creek High School,Thursday,02:00 PM,Yellow Route,r21
+1087,S275114459,Evergreen Valley College,Friday,08:00 AM,Yellow Route,r20
+1088,S275114459,Flickinger Park,Friday,04:00 PM,Blue Route,r36
+1089,S321168608,Valley Fair Mall,Tuesday,02:00 PM,Orange Route,r5
+1090,S321168608,Fremont Hub,Friday,02:00 PM,Green Route,r47
+1091,S321168608,Cambrian Park Plaza,Wednesday,12:00 PM,Yellow Route,r28
+1092,S023562904,Santa Clara University,Wednesday,08:00 AM,Orange Route,r7
+1093,S023562904,Logan High School,Tuesday,02:00 PM,Green Route,r57
+1094,S023562904,Diridon Station,Monday,02:00 PM,Orange Route,r3
+1095,S724810891,Don Edwards Wildlife Refuge,Friday,12:00 PM,Green Route,r60
+1096,S724810891,Oakridge Mall,Monday,08:00 AM,Yellow Route,r25
+1097,S724810891,Santa Teresa,Thursday,12:00 PM,Yellow Route,r23
+1098,S724810891,North San Jose,Friday,10:00 AM,Blue Route,r38
+1099,S690590916,Central Park Fremont,Thursday,08:00 AM,Green Route,r51
+1100,S690590916,SAP Center,Tuesday,12:00 PM,Orange Route,r2
+1101,S690590916,Central Park Fremont,Thursday,08:00 AM,Green Route,r51
+1102,S983041583,Mission San Jose,Wednesday,10:00 AM,Green Route,r50
+1103,S983041583,Alum Rock,Wednesday,04:00 PM,Yellow Route,r16
+1104,S983041583,Warm Springs,Friday,10:00 AM,Green Route,r48
+1105,S612128062,Cisco Campus,Friday,12:00 PM,Blue Route,r39
+1106,S612128062,Evergreen Valley College,Wednesday,12:00 PM,Yellow Route,r20
+1107,S612128062,Santa Clara University,Wednesday,04:00 PM,Orange Route,r7
+1108,S450211856,Newark Mall,Tuesday,12:00 PM,Green Route,r59
+1109,S450211856,Mission San Jose,Friday,10:00 AM,Green Route,r50
+1110,S037473532,Central Park Fremont,Monday,10:00 AM,Green Route,r51
+1111,S037473532,Winchester Mystery House,Thursday,10:00 AM,Orange Route,r6
+1112,S508284352,Branham High School,Monday,08:00 AM,Yellow Route,r27
+1113,S508284352,Stanford University,Tuesday,12:00 PM,Orange Route,r14
+1114,S225777959,Alum Rock,Tuesday,10:00 AM,Yellow Route,r16
+1115,S225777959,Mountain View Downtown,Monday,08:00 AM,Orange Route,r11
+1116,S225777959,Blossom Hill,Wednesday,02:00 PM,Yellow Route,r24
+1117,S225777959,Coyote Hills,Monday,02:00 PM,Green Route,r55
+1118,S991237357,Stanford Shopping Center,Friday,02:00 PM,Orange Route,r15
+1119,S991237357,Independence High School,Friday,08:00 AM,Blue Route,r35
+1120,S991237357,Cambrian Park Plaza,Monday,10:00 AM,Yellow Route,r28
+1121,S519889510,Lake Cunningham Park,Friday,04:00 PM,Yellow Route,r18
+1122,S519889510,SAP Center,Friday,02:00 PM,Orange Route,r2
+1123,S519889510,River Oaks,Monday,04:00 PM,Blue Route,r41
+1124,S604368318,Sunnyvale Caltrain,Tuesday,08:00 AM,Orange Route,r10
+1125,S604368318,San Jose State University,Monday,04:00 PM,Orange Route,r1
+1126,S604368318,San Jose State University,Wednesday,02:00 PM,Orange Route,r1
+1127,S059788939,Independence High School,Wednesday,12:00 PM,Blue Route,r35
+1128,S059788939,SAP Center,Thursday,08:00 AM,Orange Route,r2
+1129,S059788939,Santa Clara University,Wednesday,04:00 PM,Orange Route,r7
+1130,S131197961,Willow Glen,Tuesday,02:00 PM,Yellow Route,r29
+1131,S131197961,Valley Fair Mall,Monday,12:00 PM,Orange Route,r5
+1132,S863683721,Central Park Fremont,Thursday,12:00 PM,Green Route,r51
+1133,S863683721,Palo Alto University Avenue,Friday,08:00 AM,Orange Route,r13
+1134,S758751386,Penitencia Creek Park,Wednesday,08:00 AM,Blue Route,r34
+1135,S758751386,Hellyer Park,Tuesday,02:00 PM,Yellow Route,r22
+1136,S143033698,Levi's Stadium,Tuesday,02:00 PM,Orange Route,r8
+1137,S143033698,Coyote Hills,Wednesday,04:00 PM,Green Route,r55
+1138,S730263770,Valley Fair Mall,Wednesday,12:00 PM,Orange Route,r5
+1139,S730263770,Palo Alto University Avenue,Wednesday,02:00 PM,Orange Route,r13
+1140,S730263770,Fremont BART,Thursday,10:00 AM,Green Route,r46
+1141,S730263770,SAP Center,Thursday,04:00 PM,Orange Route,r2
+1142,S414833875,Valley Fair Mall,Friday,04:00 PM,Orange Route,r5
+1143,S414833875,Downtown San Jose,Friday,04:00 PM,Yellow Route,r30
+1144,S414833875,Valley Fair Mall,Monday,12:00 PM,Orange Route,r5
+1145,S470021381,Fremont BART,Friday,04:00 PM,Green Route,r46
+1146,S470021381,Lake Cunningham Park,Friday,02:00 PM,Yellow Route,r18
+1147,S470021381,Winchester Mystery House,Wednesday,04:00 PM,Orange Route,r6
+1148,S470021381,Eastridge Mall,Tuesday,12:00 PM,Yellow Route,r17
+1149,S993987466,Raging Waters,Monday,04:00 PM,Yellow Route,r19
+1150,S993987466,Alviso Marina,Friday,02:00 PM,Blue Route,r37
+1151,S993987466,River Oaks,Tuesday,04:00 PM,Blue Route,r41
+1152,S039459562,Downtown San Jose,Friday,08:00 AM,Yellow Route,r30
+1153,S039459562,Valley Fair Mall,Friday,12:00 PM,Orange Route,r5
+1154,S039459562,Central Park Fremont,Tuesday,02:00 PM,Green Route,r51
+1155,S354000864,Great America,Thursday,12:00 PM,Orange Route,r9
+1156,S354000864,Alviso Marina,Wednesday,08:00 AM,Blue Route,r37
+1157,S354000864,Warm Springs,Wednesday,12:00 PM,Green Route,r48
+1158,S269417482,Flickinger Park,Thursday,08:00 AM,Blue Route,r36
+1159,S269417482,Hellyer Park,Monday,04:00 PM,Yellow Route,r22
+1160,S269417482,Flickinger Park,Wednesday,12:00 PM,Blue Route,r36
+1161,S269417482,Coyote Hills,Friday,04:00 PM,Green Route,r55
+1162,S333104285,Great Mall,Thursday,08:00 AM,Blue Route,r32
+1163,S333104285,Palo Alto University Avenue,Friday,08:00 AM,Orange Route,r13
+1164,F056789012,California's Great America,Thursday,08:00 AM,Blue Route,r45
+1165,F056789012,Willow Glen,Monday,08:00 AM,Yellow Route,r29
+1166,F056789012,Valley Fair Mall,Thursday,04:00 PM,Orange Route,r5
+1167,F056789012,Mission College,Tuesday,04:00 PM,Blue Route,r44
+1168,F089012345,Cisco Campus,Tuesday,02:00 PM,Blue Route,r39
+1169,F089012345,Flickinger Park,Thursday,04:00 PM,Blue Route,r36
+1170,F089012345,Eastridge Mall,Thursday,04:00 PM,Yellow Route,r17
+1171,F090123456,Mission San Jose,Monday,04:00 PM,Green Route,r50
+1172,F090123456,Cisco Campus,Wednesday,12:00 PM,Blue Route,r39
+1173,F090123456,Lake Cunningham Park,Monday,02:00 PM,Yellow Route,r18
+1174,F123456789,River Oaks,Thursday,08:00 AM,Blue Route,r41
+1175,F123456789,Pacific Commons,Thursday,12:00 PM,Green Route,r53
+1176,F123456789,Mountain View Downtown,Tuesday,12:00 PM,Orange Route,r11
+1177,F134567890,Great America,Monday,02:00 PM,Orange Route,r9
+1178,F134567890,Oakridge Mall,Tuesday,02:00 PM,Yellow Route,r25
+1179,F134567890,Sunnyvale Caltrain,Tuesday,12:00 PM,Orange Route,r10
+1180,F145678901,Raging Waters,Tuesday,08:00 AM,Yellow Route,r19
+1181,F145678901,Union City BART,Friday,04:00 PM,Green Route,r56
+1182,F145678901,Cambrian Park Plaza,Friday,02:00 PM,Yellow Route,r28
+1183,F145678901,SAP Center,Thursday,10:00 AM,Orange Route,r2
+1184,F167890123,Sunnyvale Caltrain,Thursday,02:00 PM,Orange Route,r10
+1185,F167890123,Newark Mall,Monday,10:00 AM,Green Route,r59
+1186,F189012345,Cisco Campus,Wednesday,12:00 PM,Blue Route,r39
+1187,F189012345,Great America,Tuesday,08:00 AM,Orange Route,r9
+1188,F189012345,Mission College,Monday,04:00 PM,Blue Route,r44
+1189,F189012345,Sunnyvale Caltrain,Wednesday,08:00 AM,Orange Route,r10
+1190,F212345678,Great Mall,Thursday,12:00 PM,Blue Route,r32
+1191,F212345678,Champion Station,Wednesday,02:00 PM,Blue Route,r42
+1192,F223456789,Shoreline Amphitheatre,Thursday,04:00 PM,Orange Route,r12
+1193,F223456789,Camden Community Center,Tuesday,08:00 AM,Yellow Route,r26
+1194,F223456789,Logan High School,Friday,10:00 AM,Green Route,r57
+1195,F234567890,Mission San Jose,Friday,04:00 PM,Green Route,r50
+1196,F234567890,Union City BART,Monday,02:00 PM,Green Route,r56
+1197,F245678901,California's Great America,Tuesday,02:00 PM,Blue Route,r45
+1198,F245678901,California's Great America,Tuesday,12:00 PM,Blue Route,r45
+1199,F245678901,Logan High School,Thursday,04:00 PM,Green Route,r57
+1200,F245678901,Lake Elizabeth,Friday,10:00 AM,Green Route,r52
+1201,F256789012,River Oaks,Tuesday,10:00 AM,Blue Route,r41
+1202,F256789012,Hellyer Park,Tuesday,08:00 AM,Yellow Route,r22
+1203,F256789012,River Oaks,Tuesday,10:00 AM,Blue Route,r41
+1204,F334567890,Irvington District,Friday,04:00 PM,Green Route,r49
+1205,F334567890,Santa Teresa,Tuesday,12:00 PM,Yellow Route,r23
+1206,F334567890,Palo Alto University Avenue,Wednesday,10:00 AM,Orange Route,r13
+1207,F334567890,Irvington District,Thursday,02:00 PM,Green Route,r49
+1208,F345678901,Downtown San Jose,Friday,02:00 PM,Yellow Route,r30
+1209,F345678901,Cambrian Park Plaza,Tuesday,08:00 AM,Yellow Route,r28
+1210,F345678901,Santa Clara Town Centre,Friday,08:00 AM,Blue Route,r43
+1211,F390123456,Sunnyvale Caltrain,Thursday,08:00 AM,Orange Route,r10
+1212,F390123456,Great America,Thursday,02:00 PM,Orange Route,r9
+1213,F390123456,Baypointe Station,Wednesday,04:00 PM,Blue Route,r40
+1214,F390123456,Sunnyvale Caltrain,Thursday,08:00 AM,Orange Route,r10
+1215,F434567890,Coyote Hills,Thursday,04:00 PM,Green Route,r55
+1216,F434567890,Alum Rock,Thursday,12:00 PM,Yellow Route,r16
+1217,F434567890,Mountain View Downtown,Friday,12:00 PM,Orange Route,r11
+1218,F445678901,Irvington District,Friday,04:00 PM,Green Route,r49
+1219,F445678901,Independence High School,Thursday,02:00 PM,Blue Route,r35
+1220,F445678901,Camden Community Center,Thursday,04:00 PM,Yellow Route,r26
+1221,F445678901,Penitencia Creek Park,Wednesday,10:00 AM,Blue Route,r34
+1222,F456789012,Levi's Stadium,Thursday,04:00 PM,Orange Route,r8
+1223,F456789012,Mountain View Downtown,Tuesday,04:00 PM,Orange Route,r11
+1224,F456789012,Blossom Hill,Wednesday,08:00 AM,Yellow Route,r24
+1225,F456789012,Santa Clara University,Thursday,02:00 PM,Orange Route,r7
+1226,F478901234,Union City BART,Monday,04:00 PM,Green Route,r56
+1227,F478901234,Evergreen Valley College,Friday,10:00 AM,Yellow Route,r20
+1228,F478901234,Stanford University,Friday,10:00 AM,Orange Route,r14
+1229,F490123456,Stanford Shopping Center,Monday,12:00 PM,Orange Route,r15
+1230,F490123456,Levi's Stadium,Monday,10:00 AM,Orange Route,r8
+1231,F490123456,Willow Glen,Friday,02:00 PM,Yellow Route,r29
+1232,F490123456,Mission San Jose,Tuesday,12:00 PM,Green Route,r50
+1233,F501234567,Champion Station,Friday,12:00 PM,Blue Route,r42
+1234,F501234567,Hellyer Park,Thursday,02:00 PM,Yellow Route,r22
+1235,F545678901,Berryessa,Wednesday,04:00 PM,Blue Route,r33
+1236,F545678901,Camden Community Center,Tuesday,10:00 AM,Yellow Route,r26
+1237,F545678901,Coyote Hills,Tuesday,08:00 AM,Green Route,r55
+1238,F556789012,Flickinger Park,Monday,10:00 AM,Blue Route,r36
+1239,F556789012,Valley Fair Mall,Tuesday,12:00 PM,Orange Route,r5
+1240,F556789012,San Jose State University,Friday,10:00 AM,Orange Route,r1
+1241,F556789012,Sunnyvale Caltrain,Thursday,04:00 PM,Orange Route,r10
+1242,F578901234,San Jose State University,Thursday,02:00 PM,Orange Route,r1
+1243,F578901234,Newark Mall,Tuesday,12:00 PM,Green Route,r59
+1244,F578901234,Coyote Hills,Wednesday,12:00 PM,Green Route,r55
+1245,F578901234,Eastridge Mall,Friday,02:00 PM,Yellow Route,r17
+1246,F590123456,Baypointe Station,Monday,04:00 PM,Blue Route,r40
+1247,F590123456,Mission College,Monday,12:00 PM,Blue Route,r44
+1248,F590123456,Don Edwards Wildlife Refuge,Wednesday,10:00 AM,Green Route,r60
+1249,F612345678,Great Mall,Tuesday,08:00 AM,Blue Route,r32
+1250,F612345678,Cisco Campus,Wednesday,08:00 AM,Blue Route,r39
+1251,F612345678,Winchester Mystery House,Thursday,04:00 PM,Orange Route,r6
+1252,F612345678,Fremont Hub,Wednesday,12:00 PM,Green Route,r47
+1253,F623456789,Raging Waters,Monday,08:00 AM,Yellow Route,r19
+1254,F623456789,Downtown San Jose,Thursday,10:00 AM,Yellow Route,r30
+1255,F623456789,Silver Creek High School,Tuesday,04:00 PM,Yellow Route,r21
+1256,F634567890,Irvington District,Friday,12:00 PM,Green Route,r49
+1257,F634567890,Eastridge Mall,Thursday,10:00 AM,Yellow Route,r17
+1258,F645678901,Decoto District,Wednesday,08:00 AM,Green Route,r58
+1259,F645678901,Champion Station,Thursday,04:00 PM,Blue Route,r42
+1260,F667890123,Alum Rock,Friday,08:00 AM,Yellow Route,r16
+1261,F667890123,Hellyer Park,Monday,02:00 PM,Yellow Route,r22
+1262,F667890123,Winchester Mystery House,Wednesday,10:00 AM,Orange Route,r6
+1263,F678901234,Sunnyvale Caltrain,Wednesday,08:00 AM,Orange Route,r10
+1264,F678901234,Penitencia Creek Park,Wednesday,10:00 AM,Blue Route,r34
+1265,F678901234,Coyote Hills,Monday,04:00 PM,Green Route,r55
+1266,F678901234,Stanford University,Wednesday,08:00 AM,Orange Route,r14
+1267,F689012345,California's Great America,Thursday,10:00 AM,Blue Route,r45
+1268,F689012345,Santa Teresa,Friday,08:00 AM,Yellow Route,r23
+1269,F689012345,Mission College,Tuesday,12:00 PM,Blue Route,r44
+1270,F723456789,Sunnyvale Caltrain,Monday,12:00 PM,Orange Route,r10
+1271,F723456789,Oakridge Mall,Thursday,12:00 PM,Yellow Route,r25
+1272,F723456789,Fremont Hub,Tuesday,02:00 PM,Green Route,r47
+1273,F756789012,Lake Cunningham Park,Monday,02:00 PM,Yellow Route,r18
+1274,F756789012,SAP Center,Tuesday,04:00 PM,Orange Route,r2
+1275,F767890123,Baypointe Station,Thursday,02:00 PM,Blue Route,r40
+1276,F767890123,Don Edwards Wildlife Refuge,Monday,12:00 PM,Green Route,r60
+1277,F767890123,Baypointe Station,Wednesday,02:00 PM,Blue Route,r40
+1278,F767890123,Hellyer Park,Friday,10:00 AM,Yellow Route,r22
+1279,F778901234,Penitencia Creek Park,Tuesday,02:00 PM,Blue Route,r34
+1280,F778901234,Mountain View Downtown,Monday,08:00 AM,Orange Route,r11
+1281,F778901234,Willow Glen,Monday,04:00 PM,Yellow Route,r29
+1282,F789012345,Cisco Campus,Monday,12:00 PM,Blue Route,r39
+1283,F789012345,Flickinger Park,Thursday,12:00 PM,Blue Route,r36
+1284,F789012345,Fremont BART,Wednesday,04:00 PM,Green Route,r46
+1285,F801234567,Central Park Fremont,Wednesday,02:00 PM,Green Route,r51
+1286,F801234567,Penitencia Creek Park,Monday,10:00 AM,Blue Route,r34
+1287,F823456789,North San Jose,Thursday,02:00 PM,Blue Route,r38
+1288,F823456789,Mission San Jose,Tuesday,08:00 AM,Green Route,r50
+1289,F823456789,Stanford Shopping Center,Tuesday,02:00 PM,Orange Route,r15
+1290,F823456789,Warm Springs,Monday,02:00 PM,Green Route,r48
+1291,F834567890,Santa Clara Town Centre,Wednesday,10:00 AM,Blue Route,r43
+1292,F834567890,Central Park Fremont,Monday,08:00 AM,Green Route,r51
+1293,F856789012,Evergreen Valley College,Tuesday,02:00 PM,Yellow Route,r20
+1294,F856789012,Lake Cunningham Park,Monday,02:00 PM,Yellow Route,r18
+1295,F878901234,Hellyer Park,Monday,12:00 PM,Yellow Route,r22
+1296,F878901234,Lake Cunningham Park,Thursday,04:00 PM,Yellow Route,r18
+1297,F878901234,Branham High School,Wednesday,08:00 AM,Yellow Route,r27
+1298,F890123456,Independence High School,Monday,12:00 PM,Blue Route,r35
+1299,F890123456,Levi's Stadium,Wednesday,02:00 PM,Orange Route,r8
+1300,F890123456,Lake Elizabeth,Thursday,02:00 PM,Green Route,r52
+1301,F890123456,Pacific Commons,Thursday,02:00 PM,Green Route,r53
+1302,F901234567,Don Edwards Wildlife Refuge,Thursday,08:00 AM,Green Route,r60
+1303,F901234567,Mountain View Downtown,Monday,12:00 PM,Orange Route,r11
+1304,F901234567,River Oaks,Tuesday,12:00 PM,Blue Route,r41
+1305,F923456789,Mission College,Monday,12:00 PM,Blue Route,r44
+1306,F923456789,Silver Creek High School,Tuesday,10:00 AM,Yellow Route,r21
+1307,F934567890,Logan High School,Monday,04:00 PM,Green Route,r57
+1308,F934567890,California's Great America,Wednesday,04:00 PM,Blue Route,r45
+1309,F945678901,Willow Glen,Tuesday,02:00 PM,Yellow Route,r29
+1310,F945678901,Warm Springs,Friday,10:00 AM,Green Route,r48
+1311,F978901234,Milpitas BART,Thursday,08:00 AM,Blue Route,r31
+1312,F978901234,Irvington District,Wednesday,04:00 PM,Green Route,r49
+1313,F978901234,Palo Alto University Avenue,Friday,12:00 PM,Orange Route,r13
+1314,F990123456,Milpitas BART,Friday,02:00 PM,Blue Route,r31
+1315,F990123456,Santana Row,Tuesday,10:00 AM,Orange Route,r4
+1316,F990123456,Blossom Hill,Thursday,10:00 AM,Yellow Route,r24
+1317,F990123456,Santa Clara University,Wednesday,10:00 AM,Orange Route,r7
