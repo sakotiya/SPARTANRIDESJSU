@@ -56,7 +56,7 @@ class RideHistoryDialog(QDialog):
 class StudentDialog(QDialog):
     def __init__(self):
         super().__init__()
-        uic.loadUi("Student_Dialog.ui", self)
+        uic.loadUi("../UI_Files/Student_Dialog.ui", self)
         self.setWindowTitle("Student - Spartan Ride")
 
         self.user_id = "U001"  # Replace with dynamic ID if needed

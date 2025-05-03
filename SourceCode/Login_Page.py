@@ -2,10 +2,10 @@ import sys
 import configparser
 import mysql.connector
 from PyQt5 import QtWidgets
-from Login_Page_ui import Ui_LoginPage
-from Student_Dialog_ui import Ui_Student_Dialog
-from Sign_Up_Dialog_ui import Ui_SignUp_Dialog
-from Driver_MyProfile_ui import Ui_SignUp_Dialog as Ui_Driver_Profile
+from UI_Python.Login_Page_ui import Ui_LoginPage
+from UI_Python.Student_Dialog_ui import Ui_Student_Dialog
+from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
+from UI_Python.Driver_MyProfile_ui import Ui_SignUp_Dialog as Ui_Driver_Profile
 
 class StudentDialog(QtWidgets.QDialog, Ui_Student_Dialog):
     def __init__(self):
@@ -36,7 +36,7 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
 
     def connect_to_db(self):
         config = configparser.ConfigParser()
-        config.read("baskbashers.ini")
+        config.read("../config/config.ini")
         return mysql.connector.connect(
             host=config["mysql"]["host"],
             user=config["mysql"]["user"],
