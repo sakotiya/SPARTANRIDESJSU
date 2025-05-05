@@ -497,6 +497,10 @@ QPushButton:hover {
       <height>21</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFACD;;  /* match your pale-yellow group-box */
+color: black;               /* label text in black */</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -509,6 +513,10 @@ QPushButton:hover {
       <width>181</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFACD;;  /* match your pale-yellow group-box */
+color: black;               /* label text in black */</string>
     </property>
     <property name="text">
      <string/>
@@ -523,6 +531,10 @@ QPushButton:hover {
       <height>21</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFACD;  /* match your pale-yellow group-box */
+color: black;               /* label text in black */</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -536,10 +548,50 @@ QPushButton:hover {
       <height>21</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFACD;  /* match your pale-yellow group-box */
+color: black;               /* label text in black */</string>
+    </property>
     <property name="text">
      <string/>
     </property>
    </widget>
+  </widget>
+  <widget class="QPushButton" name="HomeButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>590</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI,sans-serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="shortcut">
+    <string/>
+   </property>
   </widget>
  </widget>
  <resources/>

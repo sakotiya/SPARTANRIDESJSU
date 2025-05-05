@@ -354,7 +354,7 @@ QPushButton:hover {
     <number>8</number>
    </property>
    <property name="columnCount">
-    <number>8</number>
+    <number>6</number>
    </property>
    <attribute name="horizontalHeaderVisible">
     <bool>true</bool>
@@ -375,17 +375,22 @@ QPushButton:hover {
    <row/>
    <column>
     <property name="text">
-     <string>Ride Date</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
      <string>Trip Id</string>
     </property>
    </column>
    <column>
     <property name="text">
-     <string>User Id</string>
+     <string>Status</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SJSU Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Driver Id</string>
     </property>
    </column>
    <column>
@@ -395,91 +400,62 @@ QPushButton:hover {
    </column>
    <column>
     <property name="text">
-     <string>Driver Name</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
      <string>Start Time</string>
     </property>
    </column>
-   <column>
-    <property name="text">
-     <string>End Time</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>Fare</string>
-    </property>
-   </column>
   </widget>
-  <widget class="QDateEdit" name="Month">
+  <widget class="QLabel" name="RideHistoryText">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>260</y>
-     <width>110</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="dateTime">
-    <datetime>
-     <hour>0</hour>
-     <minute>0</minute>
-     <second>0</second>
-     <year>2000</year>
-     <month>2</month>
-     <day>1</day>
-    </datetime>
-   </property>
-   <property name="displayFormat">
-    <string>MMM/yyyy</string>
-   </property>
-   <property name="calendarPopup">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QLabel" name="MonthSelection">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>260</y>
-     <width>101</width>
-     <height>21</height>
+     <x>30</x>
+     <y>220</y>
+     <width>151</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">QLabel
  {
     color: #FAFAD2;
-    font-size: 12px;
-    font-weight: bold;
-}</string>
-   </property>
-   <property name="text">
-    <string>Month Selection</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="MonthSelection_2">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>210</y>
-     <width>81</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLabel
- {
-    color: #FAFAD2;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
 }</string>
    </property>
    <property name="text">
     <string>Ride History</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HomeButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>590</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI,sans-serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home </string>
    </property>
   </widget>
  </widget>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Student_Dialog</class>
- <widget class="QDialog" name="Student_Dialog">
+ <class>Student_Dialog_Route</class>
+ <widget class="QDialog" name="Student_Dialog_Route">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -408,6 +408,39 @@ QPushButton:hover {
      <string>Sunday</string>
     </property>
    </item>
+  </widget>
+  <widget class="QPushButton" name="Home">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>590</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI,sans-serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
   </widget>
  </widget>
  <resources/>
