@@ -23,9 +23,9 @@
    <property name="geometry">
     <rect>
      <x>180</x>
-     <y>80</y>
-     <width>371</width>
-     <height>51</height>
+     <y>70</y>
+     <width>391</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="font">
@@ -447,6 +447,42 @@ QCalendarWidget QSpinBox {
    </property>
    <property name="scaledContents">
     <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="HomeLabel">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>590</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI,sans-serif</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
    </property>
   </widget>
  </widget>

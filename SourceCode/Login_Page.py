@@ -3,14 +3,11 @@ import configparser
 import mysql.connector
 from PyQt5 import QtWidgets
 from UI_Python.Login_Page_ui import Ui_LoginPage
-from UI_Python.Student_Dialog_ui import Ui_Student_Dialog
+from Student_Dialog_RideHistory import StudentDialog
 from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
 from UI_Python.Driver_MyProfile_ui import Ui_SignUp_Dialog as Ui_Driver_Profile
+from Student_Dialog_RideHistory import  StudentDialog
 
-class StudentDialog(QtWidgets.QDialog, Ui_Student_Dialog):
-    def __init__(self):
-        super(StudentDialog, self).__init__()
-        self.setupUi(self)
 
 class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
     def __init__(self):
@@ -70,13 +67,13 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
         result = cursor.fetchone()
 
         if result:
-            self.open_role_window(role)
+            self.open_role_window(role, sjsu_id)
         else:
             QtWidgets.QMessageBox.warning(self, "Login Failed", "Invalid credentials.")
 
-    def open_role_window(self, role):
+    def open_role_window(self, role, user_id):
         if role in ["student", "faculty"]:
-            self.dialog = StudentDialog()
+            self.dialog = StudentDialog(user_id)
             self.dialog.exec_()
         elif role == "driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
             self.dialog = DriverProfileDialog()
