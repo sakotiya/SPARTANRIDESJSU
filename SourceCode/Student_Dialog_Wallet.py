@@ -4,7 +4,7 @@ import mysql.connector
 from data201 import db_connection
 
 class WalletDialog(QDialog):
-    def __init__(self, user_id):
+    def __init__(self, user_id, login_window, parent):
         super().__init__()
         uic.loadUi("../UI_Files/Student_Dialog_Wallet.ui", self)
 
@@ -14,6 +14,8 @@ class WalletDialog(QDialog):
             print(f"   • {w.objectName():<25} {type(w).__name__}")
 
         self.user_id = user_id
+        self.login_window = login_window
+        self.parent = parent
         self.setWindowTitle("Student Wallet")
         self.load_wallet_data()
 
@@ -72,7 +74,15 @@ class WalletDialog(QDialog):
         self.homeButton = self.findChild(QPushButton, "HomeButton")
         if self.homeButton:
             self.homeButton.clicked.connect(self.go_home)
+        self.signOutButton = self.findChild(QPushButton, "SignOutButton")
+        if self.signOutButton:
+            self.signOutButton.clicked.connect(self.sign_out)
 
     def go_home(self):
         # close the ride-history dialog and reveal the StudentDialog again
         self.close()
+    def sign_out(self):
+        self.close()
+        if self.parent:
+            self.parent.close()
+        self.login_window.show()

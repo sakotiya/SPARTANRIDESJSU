@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FeedbackDialog</class>
+ <widget class="QDialog" name="FeedbackDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>415</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* 1) Global window background (light-gray gradient) */
+
+
+QWidget {
+    background-color: #73C2FB;; /* Ice Blue*/
+}
+/* 3) Title label */
+QTextEdit{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 60;
+    margin-bottom: 12px;
+}
+
+/* 4) Feedback text area */
+QTextEdit {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 8px;
+    color: #555555;
+    font-size: 24px;
+}
+QTextEdit#FeedbackText:focus {
+    border: 1px solid #66afe9;
+}
+
+/* 5) Star buttons (if you switch to Unicode ★/☆) */
+QToolButton#StarButton {
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: #cccccc;
+    margin: 0 4px;
+}
+QToolButton#StarButton:hover,
+QToolButton#StarButton[checked=&quot;true&quot;] {
+    color: #FFD700;   /* gold */
+}
+
+/* 6) Submit button */
+QPushButton#SubmitButton {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+QPushButton#SubmitButton:hover {
+    background-color: #1c86ee;
+}
+QPushButton#SubmitButton:pressed {
+    background-color: #1874cd;
+}
+</string>
+  </property>
+  <widget class="QTextEdit" name="feedback">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit
+ {
+    color: #FFFFF;
+    font-size: 30px;
+    font-weight: bold;
+}</string>
+   </property>
+   <property name="tabChangesFocus">
+    <bool>true</bool>
+   </property>
+   <property name="documentTitle">
+    <string>Feedback</string>
+   </property>
+   <property name="acceptRichText">
+    <bool>true</bool>
+   </property>
+   <property name="placeholderText">
+    <string>FeedBack</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>371</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <weight>7</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>Write your feedback....</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SubmitButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>300</y>
+     <width>113</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

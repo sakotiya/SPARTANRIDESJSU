@@ -302,7 +302,7 @@ QPushButton:hover {
     <string>Feedback</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="SignOut">
+  <widget class="QPushButton" name="SignOutButton">
    <property name="geometry">
     <rect>
      <x>610</x>

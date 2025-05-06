@@ -1,7 +1,7 @@
 from PyQt5 import uic
 import mysql.connector
 from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget
-
+#from ui_helpers import show_flash
 from Student_Dialog_Wallet import WalletDialog
 import sys
 from data201 import db_connection
@@ -10,13 +10,15 @@ import pandas as pd
 
 # ----- Ride History Dialog -----
 class RideHistoryDialog(QDialog):
-    def __init__(self, user_id):
+    def __init__(self, user_id, login_window, parent):
         super().__init__()
         uic.loadUi("../UI_Files/Student_Dialog_RideHistory.ui", self)
         self.user_id = user_id
+        self.login_window = login_window
+        self.parent = parent
         self.setWindowTitle("Ride History")
         self.populate_table()
-
+        #show_flash(self, "Each ride costs $2.00", duration_ms=5000)
 
 
     def populate_table(self):
@@ -66,55 +68,27 @@ class RideHistoryDialog(QDialog):
             cursor.close()
             conn.close()
 
- # find and wire up the Home button
+        # Home button
         self.homeButton = self.findChild(QPushButton, "HomeButton")
         if self.homeButton:
             self.homeButton.clicked.connect(self.go_home)
 
+        self.signOutButton = self.findChild(QPushButton, "SignOutButton")
+        if self.signOutButton:
+            self.signOutButton.clicked.connect(self.sign_out)
+
     def go_home(self):
         # this will close the ride-history dialog and reveal the StudentDialog again
         self.close()
+        # Sign Out button
+
+    def sign_out(self):
+        self.close()
+        if self.parent:
+            self.parent.close()
+        self.login_window.show()
 
 
-
-# ----- Student Dialog -----
-class StudentDialog(QDialog):
-    def __init__(self, user_id):
-        super().__init__()
-
-        uic.loadUi("../UI_Files/Student_Dialog.ui", self)
-        self.setWindowTitle("Student - Spartan Ride")
-        self.user_id = user_id
-
-        from PyQt5.QtWidgets import QPushButton
-        print("Buttons:", [b.objectName() for b in self.findChildren(QPushButton)])
-        # Connect Ride History button
-        self.RideHistory = self.findChild(QPushButton, "RideHistory")
-        self.RideHistory.clicked.connect(self.open_ride_history)
-        # Connect Wallet Button
-        self.walletButton = self.findChild(QPushButton, "Wallet")
-        if self.walletButton:
-            print("✅ Wallet button found")
-            self.walletButton.clicked.connect(self.open_wallet)
-        else:
-            print("❌ Wallet button NOT found — check objectName")
-        if self.walletButton:
-            self.walletButton.clicked.connect(self.open_wallet)
-    def open_ride_history(self):
-        self.ride_dialog = RideHistoryDialog(self.user_id)
-        self.ride_dialog.exec_()
-
-    def open_wallet(self):
-        self.wallet_dialog = WalletDialog(self.user_id)
-        self.wallet_dialog.exec_()
-
-
-# ----- Entry Point -----
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = StudentDialog()
-    window.show()
-    sys.exit(app.exec_())
 
 
 
