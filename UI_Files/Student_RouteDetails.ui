@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>707</width>
-    <height>639</height>
+    <width>726</width>
+    <height>718</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,8 +22,8 @@
   <widget class="QLineEdit" name="Welcome">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>80</y>
+     <x>170</x>
+     <y>70</y>
      <width>371</width>
      <height>51</height>
     </rect>
@@ -143,7 +143,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>125</y>
+     <y>110</y>
      <width>701</width>
      <height>21</height>
     </rect>
@@ -152,11 +152,11 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QPushButton" name="SignOut">
+  <widget class="QPushButton" name="SignOutButton">
    <property name="geometry">
     <rect>
-     <x>610</x>
-     <y>590</y>
+     <x>620</x>
+     <y>670</y>
      <width>91</width>
      <height>41</height>
     </rect>
@@ -185,235 +185,11 @@ QPushButton:hover {
     <string>Sign Out</string>
    </property>
   </widget>
-  <widget class="QLabel" name="Route_Label">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>160</y>
-     <width>91</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI,sans-serif</family>
-     <pointsize>-1</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLabel
- {
-    color: #FAFAD2;
-    font-size: 20px;
-    font-weight: bold;
-}</string>
-   </property>
-   <property name="text">
-    <string>Route </string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="Time_Label_2">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>220</y>
-     <width>91</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI,sans-serif</family>
-     <pointsize>-1</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLabel
- {
-    color: #FAFAD2;
-    font-size: 20px;
-    font-weight: bold;
-}</string>
-   </property>
-   <property name="text">
-    <string>Time</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="Day_Labe">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>160</y>
-     <width>91</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI,sans-serif</family>
-     <pointsize>-1</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QLabel
- {
-    color: #FAFAD2;
-    font-size: 20px;
-    font-weight: bold;
-}</string>
-   </property>
-   <property name="text">
-    <string>Day</string>
-   </property>
-  </widget>
-  <widget class="QTimeEdit" name="timeEdit">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>230</y>
-     <width>118</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QtimeEdit {
-    background-color: white;       /* Yellow background */
-    color: blue;                    /* Blue text */
-    border: 2px solid blue;          /* Blue border */
-    border-radius: 8px;
-    padding: 5px;
-    font-size: 16px;
-}
-
-QComboBox::drop-down {
-    background-color: blue;          /* Blue dropdown button */
-    width: 30px;
-    border-left: 1px solid yellow;
-}
-
-QComboBox::down-arrow {
-    image: none;                     /* Remove default arrow */
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid  white;    /* Custom yellow arrow */
-}
-</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="BookRide_Label">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>300</y>
-     <width>171</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton {
-    background-color: #FAFAD2; /* Gold */
-    color: #0B1D3A;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-}
-QPushButton:hover {
-    background-color: #FAFAD2;
-}</string>
-   </property>
-   <property name="text">
-    <string>BOOK RIDE</string>
-   </property>
-  </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>170</y>
-     <width>121</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>Yellow Line</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Orange Line</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Blue Line</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Green Line</string>
-    </property>
-   </item>
-  </widget>
-  <widget class="QComboBox" name="comboBox_2">
-   <property name="geometry">
-    <rect>
-     <x>470</x>
-     <y>160</y>
-     <width>104</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>Monday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Tuesday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Wednesday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Thursday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Friday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Saturday</string>
-    </property>
-   </item>
-   <item>
-    <property name="text">
-     <string>Sunday</string>
-    </property>
-   </item>
-  </widget>
-  <widget class="QPushButton" name="Home">
+  <widget class="QPushButton" name="HomeButton">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>590</y>
+     <y>670</y>
      <width>91</width>
      <height>41</height>
     </rect>
@@ -440,6 +216,261 @@ QPushButton:hover {
    </property>
    <property name="text">
     <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>641</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="Route_Label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+ {
+    color: #FAFAD2;
+    font-size: 20px;
+    font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>Route </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Time_Label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+ {
+    color: #FAFAD2;
+    font-size: 20px;
+    font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>Time</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Date_Label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>80</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+ {
+    color: #FAFAD2;
+    font-size: 20px;
+    font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxRoute">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>&lt;Select Route&gt;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>&lt;Select Route&gt;</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yellow Route</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Orange Route</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blue Route</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Green Route</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>80</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="dateTime">
+     <datetime>
+      <hour>0</hour>
+      <minute>0</minute>
+      <second>0</second>
+      <year>2000</year>
+      <month>2</month>
+      <day>1</day>
+     </datetime>
+    </property>
+    <property name="displayFormat">
+     <string>MM/dd/yyyy</string>
+    </property>
+    <property name="calendarPopup">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Stop_Name">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI,sans-serif</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+ {
+    color: #FAFAD2;
+    font-size: 18px;
+    font-weight: bold;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stop Name</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxStopName">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>131</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BookRideLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+    </property>
+    <property name="text">
+     <string>BOOK RIDE</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxTime">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="MapImage">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>330</y>
+     <width>551</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Images/Maps/blue_route.png</pixmap>
    </property>
   </widget>
  </widget>

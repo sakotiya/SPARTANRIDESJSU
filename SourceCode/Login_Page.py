@@ -3,10 +3,9 @@ import configparser
 import mysql.connector
 from PyQt5 import QtWidgets
 from UI_Python.Login_Page_ui import Ui_LoginPage
-from Student_Dialog_RideHistory import StudentDialog
+from Student_Dialog import StudentDialog
 from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
 from UI_Python.Driver_MyProfile_ui import Ui_SignUp_Dialog as Ui_Driver_Profile
-from Student_Dialog_RideHistory import  StudentDialog
 
 
 class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
@@ -73,11 +72,16 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
 
     def open_role_window(self, role, user_id):
         if role in ["student", "faculty"]:
-            self.dialog = StudentDialog(user_id)
+
+            self.hide()
+            self.dialog = StudentDialog(user_id, login_window=self)
             self.dialog.exec_()
+            self.show()
         elif role == "driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
+            self.hide()
             self.dialog = DriverProfileDialog()
             self.dialog.exec_()
+            self.show()
         else:
             QtWidgets.QMessageBox.information(self, "Access", f"No window implemented for role: {role}")
 
