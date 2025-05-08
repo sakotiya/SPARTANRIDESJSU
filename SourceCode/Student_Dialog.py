@@ -5,11 +5,10 @@ from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton
 from Student_Dialog_Wallet import WalletDialog
 from Student_Dialog_RideHistory import RideHistoryDialog
 from Student_Dialog_Route import RouteDialog
-#from ui_helpers import show_flash
-from PyQt5.QtWidgets import QPushButton
+from Feedback_Dialog import FeedbackDialog
 import sys
 from data201 import db_connection
-import pandas as pd
+
 
 
 # ----- Student Dialog -----
@@ -21,8 +20,6 @@ class StudentDialog(QDialog):
         self.setWindowTitle("Student - Spartan Ride")
         self.user_id = user_id
         self.login_window = login_window
-        # Flash banner
-        #show_flash(self, "Each ride costs $2.00", duration_ms=5000)
         from PyQt5.QtWidgets import QPushButton
         print("Buttons:", [b.objectName() for b in self.findChildren(QPushButton)])
         # Connect Ride History button
@@ -31,6 +28,9 @@ class StudentDialog(QDialog):
         # Connect Wallet Button
         self.walletButton = self.findChild(QPushButton, "Wallet")
         self.walletButton.clicked.connect(self.open_wallet)
+        # Feedback
+        self.feedbackButton = self.findChild(QPushButton, "Feedback")
+        self.feedbackButton.clicked.connect(self.open_feedback)
         #Book the ride
         print("🔘 Buttons in StudentDialog:")
         for b in self.findChildren(QPushButton):
@@ -59,6 +59,10 @@ class StudentDialog(QDialog):
     def open_wallet(self):
         self.wallet_dialog = WalletDialog(self.user_id,login_window = self.login_window, parent=self)
         self.wallet_dialog.exec_()
+
+    def open_feedback(self):
+        self.feedback_dialog = FeedbackDialog(self.user_id)
+        self.feedback_dialog.exec_()
 
     def open_book_ride(self):
         # instantiate and show modally
