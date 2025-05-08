@@ -6,11 +6,9 @@ from Student_Dialog_Wallet import WalletDialog
 from Student_Dialog_RideHistory import RideHistoryDialog
 from Student_Dialog_Route import RouteDialog
 from Feedback_Dialog import FeedbackDialog
-#from ui_helpers import show_flash
-from PyQt5.QtWidgets import QPushButton
 import sys
 from data201 import db_connection
-import pandas as pd
+
 
 
 # ----- Student Dialog -----
@@ -22,8 +20,6 @@ class StudentDialog(QDialog):
         self.setWindowTitle("Student - Spartan Ride")
         self.user_id = user_id
         self.login_window = login_window
-        # Flash banner
-        #show_flash(self, "Each ride costs $2.00", duration_ms=5000)
         from PyQt5.QtWidgets import QPushButton
         print("Buttons:", [b.objectName() for b in self.findChildren(QPushButton)])
         # Connect Ride History button

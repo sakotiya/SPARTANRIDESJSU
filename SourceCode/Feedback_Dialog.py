@@ -19,7 +19,7 @@ class FeedbackDialog(QDialog):
         self.setWindowTitle("Feedback")
         self.setFixedSize(400, 400)
         self.rating = "1"
-
+        self.text_edit = self.findChild(QTextEdit, "textEdit")
         self.b1 = self.findChild(QToolButton, "toolButton_1")
         self.b1.clicked.connect(self.set_rating)
         self.b2 = self.findChild(QToolButton, "toolButton_2")
@@ -30,28 +30,11 @@ class FeedbackDialog(QDialog):
         self.b4.clicked.connect(self.set_rating)
         self.b5 = self.findChild(QToolButton, "toolButton_5")
         self.b5.clicked.connect(self.set_rating)
+        self.submit_button = self.findChild(QPushButton, "SubmitButton")
+        self.submit_button.clicked.connect(self.on_submit)
 
-        # 3) Star rating row
-        # self.rating = 0
-        # star_row = QHBoxLayout()
-        # star_row.setSpacing(4)
-        # self.stars = []
-        # for i in range(1, 6):
-        #     btn = QToolButton()
-        #     btn.setObjectName("StarButton" + i)
-        #     btn.setText("★")
-        #     btn.setCheckable(True)
-        #     btn.setFont(QFont("", 32))
-        #     # capture the index in the lambda
-        #     btn.clicked.connect(lambda _, idx=i: self.set_rating(idx))
-        #     star_row.addWidget(btn)
-        #     self.stars.append(btn)
-        #card_layout.addLayout(star_row)
-        # 4) Submit button
-        # submit = QPushButton("Submit")
-        # submit.setObjectName("SubmitButton")
-        # submit.clicked.connect(self.on_submit)
-        #card_layout.addWidget(submit)
+
+
 
     def set_rating(self):
         """Highlight stars 1..idx and unhighlight the rest."""

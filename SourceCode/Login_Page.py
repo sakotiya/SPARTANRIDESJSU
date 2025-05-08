@@ -5,7 +5,8 @@ from PyQt5 import QtWidgets
 from UI_Python.Login_Page_ui import Ui_LoginPage
 from Student_Dialog import StudentDialog
 from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
-from UI_Python.Driver_MyProfile_ui import Ui_SignUp_Dialog as Ui_Driver_Profile
+from UI_Python.Driver_MyProfile import Ui_SignUp_Dialog as Ui_Driver_Profile
+from main import ProfileWindow
 
 
 class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
@@ -13,10 +14,10 @@ class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
         super(SignUpDialog, self).__init__()
         self.setupUi(self)
 
-class DriverProfileDialog(QtWidgets.QDialog, Ui_Driver_Profile):
-    def __init__(self):
-        super(DriverProfileDialog, self).__init__()
-        self.setupUi(self)
+#class ProfileWindow(QtWidgets.QDialog, Ui_Driver_Profile):
+    #def __init__(self):
+      #  super(ProfileWindow, self).__init__()
+       # self.setupUi(self)
 
 class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
     def __init__(self):
@@ -79,7 +80,7 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             self.show()
         elif role == "driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
             self.hide()
-            self.dialog = DriverProfileDialog()
+            self.dialog = ProfileWindow(user_id)
             self.dialog.exec_()
             self.show()
         else:

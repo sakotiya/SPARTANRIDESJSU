@@ -1,7 +1,6 @@
 from PyQt5 import uic
 import mysql.connector
 from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget
-#from ui_helpers import show_flash
 from Student_Dialog_Wallet import WalletDialog
 import sys
 from data201 import db_connection
