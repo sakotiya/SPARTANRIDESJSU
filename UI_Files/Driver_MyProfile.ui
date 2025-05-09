@@ -420,7 +420,7 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../Downloads/SpartanLogo_small.png</pixmap>
+    <pixmap>../SpartanLogo_small.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="EmailID_5">
@@ -475,7 +475,33 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>Driver_Image.png</pixmap>
+    <pixmap>../Images/Driver_Image.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SignoutButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FAFAD2; /* Gold */
+    color: #0B1D3A;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #FAFAD2;
+}</string>
+   </property>
+   <property name="text">
+    <string>Sign Out</string>
    </property>
   </widget>
  </widget>

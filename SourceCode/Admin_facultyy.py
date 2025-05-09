@@ -8,7 +8,7 @@ class FacultyDialog(QDialog):
         self.setMinimumSize(800, 600)
 
         # Load data from database
-        self.conn = db_connection(config_file='config.ini')
+        self.conn = db_connection()
         self.cursor = self.conn.cursor()
         self.cursor.execute("SELECT * FROM faculty")
         self.data = self.cursor.fetchall()
@@ -31,7 +31,7 @@ class FacultyDialog(QDialog):
         self.btnDelete = QPushButton("Delete Record")
         self.btnDelete.clicked.connect(self.delete_selected_rows)       
 
-    # Layout
+        # Layout
         layout = QVBoxLayout()
         layout.addWidget(self.table)
         layout.addWidget(self.btnSave)

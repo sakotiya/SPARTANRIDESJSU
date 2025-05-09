@@ -1,6 +1,6 @@
 from PyQt5 import uic
 import mysql.connector
-from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget
+from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget,QLabel
 from Student_Dialog_Wallet import WalletDialog
 import sys
 from data201 import db_connection
@@ -17,7 +17,10 @@ class RideHistoryDialog(QDialog):
         self.parent = parent
         self.setWindowTitle("Ride History")
         self.populate_table()
-        #show_flash(self, "Each ride costs $2.00", duration_ms=5000)
+        self.name_label = self.findChild(QLabel, "namelabel")
+        self.balance_label = self.findChild(QLabel, "balancelabel")
+        self.load_user_info()
+
 
 
     def populate_table(self):
@@ -76,6 +79,31 @@ class RideHistoryDialog(QDialog):
         if self.signOutButton:
             self.signOutButton.clicked.connect(self.sign_out)
 
+    def load_user_info(self):
+        try:
+            conn = db_connection()
+            cursor = conn.cursor()
+            query = "SELECT first_name, last_name FROM login WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                first_name, last_name = result
+            else:
+                first_name, last_name = "N/A", "N/A"
+
+            query = "SELECT current_balance FROM wallet WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                (balance,) = result
+            else:
+                (balance,) = (0.0,)
+
+            self.name_label.setText(str(first_name) + " " + str(last_name))
+            self.balance_label.setText(f"{balance:.2f}")
+        finally:
+            cursor.close()
+            conn.close()
     def go_home(self):
         # this will close the ride-history dialog and reveal the StudentDialog again
         self.close()

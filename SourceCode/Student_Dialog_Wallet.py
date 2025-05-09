@@ -7,8 +7,6 @@ class WalletDialog(QDialog):
     def __init__(self, user_id, login_window, parent):
         super().__init__()
         uic.loadUi("../UI_Files/Student_Dialog_Wallet.ui", self)
-
-        # Debug: print every widget so you know their exact objectName & class
         print("🔍 WalletDialog children:")
         for w in self.findChildren(QtWidgets.QWidget):
             print(f"   • {w.objectName():<25} {type(w).__name__}")
@@ -18,6 +16,34 @@ class WalletDialog(QDialog):
         self.parent = parent
         self.setWindowTitle("Student Wallet")
         self.load_wallet_data()
+        self.name_label = self.findChild(QLabel, "namelabel")
+        self.balance_label = self.findChild(QLabel, "balancelabel")
+        self.load_user_info()
+    def load_user_info(self):
+        try:
+            conn = db_connection()
+            cursor = conn.cursor()
+            query = "SELECT first_name, last_name FROM login WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                first_name, last_name = result
+            else:
+                first_name, last_name = "N/A", "N/A"
+
+            query = "SELECT current_balance FROM wallet WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                (balance,) = result
+            else:
+                (balance,) = (0.0,)
+
+            self.name_label.setText(str(first_name) + " " + str(last_name))
+            self.balance_label.setText(f"{balance:.2f}")
+        finally:
+            cursor.close()
+            conn.close()
 
 
     def load_wallet_data(self):

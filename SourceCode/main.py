@@ -31,6 +31,15 @@ class ProfileWindow(QDialog):
         ]
         for field in fields:
             field.setReadOnly(True)
+        self.signOutButton = self.findChild(QPushButton, "SignoutButton")
+        if self.signOutButton:
+            self.signOutButton.clicked.connect(self.sign_out)
+
+    def sign_out(self):
+        self.close()
+        if self.parent:
+            self.parent.close()
+        self.login_window.show()
 
     def load_data(self):
         profile = backend.get_driver_profile(self.user_id)

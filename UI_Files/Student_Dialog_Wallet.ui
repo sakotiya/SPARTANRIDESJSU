@@ -61,7 +61,7 @@
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../Spartan_Ride_App/SpartanLogo.png</pixmap>
+    <pixmap>../SpartanLogo.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -268,39 +268,6 @@ QPushButton:hover {
      <string>Profile</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QPushButton" name="Feedback">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>590</y>
-     <width>81</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Segoe UI,sans-serif</family>
-     <weight>75</weight>
-     <bold>true</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton {
-    background-color: #FAFAD2; /* Gold */
-    color: #0B1D3A;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: bold;
-}
-QPushButton:hover {
-    background-color: #FAFAD2;
-}</string>
-   </property>
-   <property name="text">
-    <string>Feedback</string>
-   </property>
   </widget>
   <widget class="QPushButton" name="SignOutButton">
    <property name="geometry">
@@ -560,7 +527,7 @@ color: black;               /* label text in black */</string>
   <widget class="QPushButton" name="HomeButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>10</x>
      <y>590</y>
      <width>91</width>
      <height>41</height>
@@ -590,6 +557,32 @@ QPushButton:hover {
     <string>Home</string>
    </property>
    <property name="shortcut">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="namelabel">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="balancelabel">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>40</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
     <string/>
    </property>
   </widget>

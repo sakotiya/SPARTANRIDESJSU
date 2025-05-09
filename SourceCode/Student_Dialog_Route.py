@@ -23,7 +23,9 @@ class RouteDialog(QDialog):
         self.login_window = login_window
         self.parent = parent
         self.setWindowTitle("Book a Ride")
-
+        self.name_label = self.findChild(QLabel, "namelabel")
+        self.balance_label = self.findChild(QLabel, "balancelabel")
+        self.load_user_info()
 
         self.load_route_data()
         # Home Button
@@ -34,6 +36,32 @@ class RouteDialog(QDialog):
         self.signOutButton = self.findChild(QPushButton, "SignOutButton")
         if self.signOutButton:
             self.signOutButton.clicked.connect(self.sign_out)
+
+    def load_user_info(self):
+        try:
+            conn = db_connection()
+            cursor = conn.cursor()
+            query = "SELECT first_name, last_name FROM login WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                first_name, last_name = result
+            else:
+                first_name, last_name = "N/A", "N/A"
+
+            query = "SELECT current_balance FROM wallet WHERE sjsu_id = %s"
+            cursor.execute(query, (self.user_id,))
+            result = cursor.fetchone()
+            if result:
+                (balance,) = result
+            else:
+                (balance,) = (0.0,)
+
+            self.name_label.setText(str(first_name) + " " + str(last_name))
+            self.balance_label.setText(f"{balance:.2f}")
+        finally:
+            cursor.close()
+            conn.close()
 
     def load_route_data(self):
 

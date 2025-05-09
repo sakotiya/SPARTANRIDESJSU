@@ -5,7 +5,7 @@ from PyQt5 import QtWidgets
 from UI_Python.Login_Page_ui import Ui_LoginPage
 from Student_Dialog import StudentDialog
 from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
-from UI_Python.Driver_MyProfile import Ui_SignUp_Dialog as Ui_Driver_Profile
+from Admin_window import UI_Admin
 from main import ProfileWindow
 
 
@@ -14,10 +14,6 @@ class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
         super(SignUpDialog, self).__init__()
         self.setupUi(self)
 
-#class ProfileWindow(QtWidgets.QDialog, Ui_Driver_Profile):
-    #def __init__(self):
-      #  super(ProfileWindow, self).__init__()
-       # self.setupUi(self)
 
 class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
     def __init__(self):
@@ -51,14 +47,17 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             return
 
         # Prefix role validation
-        if role == "student" and not sjsu_id.startswith("S"):
+        if role == "Student" and not sjsu_id.startswith("S"):
             QtWidgets.QMessageBox.warning(self, "Invalid ID", "Student IDs must start with 'S'.")
             return
-        if role == "faculty" and not sjsu_id.startswith("F"):
+        if role == "Faculty" and not sjsu_id.startswith("F"):
             QtWidgets.QMessageBox.warning(self, "Invalid ID", "Faculty IDs must start with 'F'.")
             return
-        if role == "driver" and not sjsu_id.startswith("D"):
+        if role == "Driver" and not sjsu_id.startswith("D"):
             QtWidgets.QMessageBox.warning(self, "Invalid ID", "Driver IDs must start with 'D'.")
+            return
+        if role == "Admin" and not sjsu_id.startswith("A"):
+            QtWidgets.QMessageBox.warning(self, "Invalid ID", "Admin IDs must start with 'A'.")
             return
 
         cursor = self.db.cursor()
@@ -72,13 +71,19 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             QtWidgets.QMessageBox.warning(self, "Login Failed", "Invalid credentials.")
 
     def open_role_window(self, role, user_id):
-        if role in ["student", "faculty"]:
-
+        print("role: " + role)
+        print("user: " + self.EnterYourEmailUser.text().strip())
+        if role in ["Student", "Faculty"]:
             self.hide()
             self.dialog = StudentDialog(user_id, login_window=self)
             self.dialog.exec_()
             self.show()
-        elif role == "driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
+        elif role == "Admin" and self.EnterYourEmailUser.text().strip().startswith("A"):
+            self.hide()
+            self.dialog = UI_Admin(user_id)
+            self.dialog.show()
+            #self.show()
+        elif role == "Driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
             self.hide()
             self.dialog = ProfileWindow(user_id)
             self.dialog.exec_()
