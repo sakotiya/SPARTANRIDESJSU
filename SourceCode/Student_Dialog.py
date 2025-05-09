@@ -2,12 +2,12 @@ from PyQt5 import uic
 import mysql.connector
 from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget, QLabel
 
-from Student_Dialog_Wallet import WalletDialog
-from Student_Dialog_RideHistory import RideHistoryDialog
-from Student_Dialog_Route import RouteDialog
-from Feedback_Dialog import FeedbackDialog
+from SourceCode.Student_Dialog_Wallet import WalletDialog
+from SourceCode.Student_Dialog_RideHistory import RideHistoryDialog
+from SourceCode.Student_Dialog_Route import RouteDialog
+from SourceCode.Feedback_Dialog import FeedbackDialog
 import sys
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 
 
 
@@ -16,7 +16,7 @@ class StudentDialog(QDialog):
     def __init__(self, user_id, login_window):
         super().__init__()
 
-        uic.loadUi("../UI_Files/Student_Dialog.ui", self)
+        uic.loadUi("UI_Files/Student_Dialog.ui", self)
         self.setWindowTitle("Student - Spartan Ride")
         self.user_id = user_id
         self.name_label = self.findChild(QLabel, "namelabel")
@@ -53,30 +53,28 @@ class StudentDialog(QDialog):
         self.load_user_info()
 
     def load_user_info(self):
-        try:
-            conn = db_connection()
-            cursor = conn.cursor()
-            query = "SELECT first_name, last_name FROM login WHERE sjsu_id = %s"
-            cursor.execute(query, (self.user_id,))
-            result = cursor.fetchone()
-            if result:
-                first_name, last_name = result
-            else:
-                first_name, last_name = "N/A", "N/A"
+        conn = db_connection()
+        cursor = conn.cursor()
+        query = "SELECT first_name, last_name FROM login WHERE sjsu_id = %s"
+        cursor.execute(query, (self.user_id,))
+        result = cursor.fetchone()
+        if result:
+            first_name, last_name = result
+        else:
+            first_name, last_name = "N/A", "N/A"
 
-            query = "SELECT current_balance FROM wallet WHERE sjsu_id = %s"
-            cursor.execute(query, (self.user_id,))
-            result = cursor.fetchone()
-            if result:
-                (balance,) = result
-            else:
-                (balance,) = (0.0,)
+        query = "SELECT current_balance FROM wallet WHERE sjsu_id = %s"
+        cursor.execute(query, (self.user_id,))
+        result = cursor.fetchone()
+        if result:
+            (balance,) = result
+        else:
+            (balance,) = (0.0,)
 
-            self.name_label.setText(str(first_name) + " " + str(last_name))
-            self.balance_label.setText(f"{balance:.2f}")
-        finally:
-            cursor.close()
-            conn.close()
+        self.name_label.setText(str(first_name) + " " + str(last_name))
+        self.balance_label.setText(f"{balance:.2f}")
+        cursor.close()
+        conn.close()
 
     def sign_out(self):
         self.close()
@@ -107,5 +105,4 @@ class StudentDialog(QDialog):
 
     def open_route(self):
         self.wallet_dialog = WalletDialog(self.user_id,login_window = self.login_window, parent=self)
-
         self.wallet_dialog.exec_()

@@ -23,5 +23,12 @@ Shreya - There are 4 folders
 Also we dont need to have all the files in one folder 
 now all the files can run from their respective folders 
 
-Before running application ----> Connect to Remote server
-    Use Terminal to run the file Login_Page.py
+ 
+
+To run application 
+1. Connect to Remote server
+2. User terminal to go to project folder
+3. Run following command
+
+````SPARTANRIDESJSU % python -m SourceCode.Login_Page````
+

@@ -108,7 +108,7 @@ class Ui_SignUp_Dialog(object):
         self.label = QtWidgets.QLabel(SignUp_Dialog)
         self.label.setGeometry(QtCore.QRect(360, 20, 61, 51))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("SpartanLogo_small.png"))
+        self.label.setPixmap(QtGui.QPixmap("Images/SpartanLogo_small.png"))
         self.label.setObjectName("label")
         self.tableWidget = QtWidgets.QTableWidget(SignUp_Dialog)
         self.tableWidget.setGeometry(QtCore.QRect(50, 270, 691, 192))

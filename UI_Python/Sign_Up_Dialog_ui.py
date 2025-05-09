@@ -154,7 +154,7 @@ class Ui_SignUp_Dialog(object):
 "    font-family: \'Segoe UI\', sans-serif;\n"
 "}")
         self.Image.setText("")
-        self.Image.setPixmap(QtGui.QPixmap("../Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png"))
+        self.Image.setPixmap(QtGui.QPixmap("Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png"))
         self.Image.setScaledContents(True)
         self.Image.setObjectName("Image")
         self.Password_2 = QtWidgets.QLabel(SignUp_Dialog)

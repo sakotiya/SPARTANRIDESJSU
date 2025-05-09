@@ -3,11 +3,11 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QLa
 import sys
 import datetime
 
-from db_util import db_connection
+from SourceCode.db_util import db_connection
 
 
 def query_begin():
-    conn = db_connection(config_file='../config/config.ini')
+    conn = db_connection()
     cursor = conn.cursor()
     return cursor, conn
 

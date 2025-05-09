@@ -52,7 +52,7 @@ QFont{
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../SpartanLogo.png</pixmap>
+     <pixmap>Images/SpartanLogo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -169,7 +169,7 @@ QFont{
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../../../../../../.designer/backup/Users/shreya/Library/Mobile Documents/com~apple~CloudDocs/Shreya/SJSU/DATA201_RON/Project/FinalProject/Images/mail.png</pixmap>
+     <pixmap>mail.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

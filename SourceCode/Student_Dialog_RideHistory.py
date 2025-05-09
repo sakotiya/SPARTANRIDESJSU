@@ -1,17 +1,13 @@
 from PyQt5 import uic
-import mysql.connector
 from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget,QLabel
-from Student_Dialog_Wallet import WalletDialog
-import sys
-from data201 import db_connection
-import pandas as pd
+from SourceCode.data201 import db_connection
 
 
 # ----- Ride History Dialog -----
 class RideHistoryDialog(QDialog):
     def __init__(self, user_id, login_window, parent):
         super().__init__()
-        uic.loadUi("../UI_Files/Student_Dialog_RideHistory.ui", self)
+        uic.loadUi("UI_Files/Student_Dialog_RideHistory.ui", self)
         self.user_id = user_id
         self.login_window = login_window
         self.parent = parent
@@ -33,7 +29,7 @@ class RideHistoryDialog(QDialog):
         try:
 
 
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
 
             cursor = conn.cursor()
 

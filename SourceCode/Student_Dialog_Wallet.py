@@ -1,12 +1,12 @@
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QDialog, QLabel, QPushButton
 import mysql.connector
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 
 class WalletDialog(QDialog):
     def __init__(self, user_id, login_window, parent):
         super().__init__()
-        uic.loadUi("../UI_Files/Student_Dialog_Wallet.ui", self)
+        uic.loadUi("UI_Files/Student_Dialog_Wallet.ui", self)
         print("🔍 WalletDialog children:")
         for w in self.findChildren(QtWidgets.QWidget):
             print(f"   • {w.objectName():<25} {type(w).__name__}")
@@ -50,7 +50,7 @@ class WalletDialog(QDialog):
         # 1) Fetch once, safely
         result = None
         try:
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
             cursor = conn.cursor()
             cursor.execute("""
                 SELECT w.current_balance, w.promo_code, w.spartan_card_no, s.email

@@ -3,10 +3,10 @@ import configparser
 import mysql.connector
 from PyQt5 import QtWidgets
 from UI_Python.Login_Page_ui import Ui_LoginPage
-from Student_Dialog import StudentDialog
+from SourceCode.Student_Dialog import StudentDialog
 from UI_Python.Sign_Up_Dialog_ui import Ui_SignUp_Dialog
-from Admin_window import UI_Admin
-from main import ProfileWindow
+from SourceCode.Admin_window import UI_Admin
+from SourceCode.main import ProfileWindow
 
 
 class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
@@ -29,7 +29,7 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
 
     def connect_to_db(self):
         config = configparser.ConfigParser()
-        config.read("../config/config.ini")
+        config.read("config/config.ini")
         return mysql.connector.connect(
             host=config["mysql"]["host"],
             user=config["mysql"]["user"],
@@ -85,7 +85,7 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             #self.show()
         elif role == "Driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
             self.hide()
-            self.dialog = ProfileWindow(user_id)
+            self.dialog = ProfileWindow(user_id=user_id)
             self.dialog.exec_()
             self.show()
         else:

@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QTableWidget, QTableWidgetItem, QPushButton
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 
 class FacultyDialog(QDialog):
     def __init__(self):

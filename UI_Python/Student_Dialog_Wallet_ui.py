@@ -37,7 +37,7 @@ class Ui_Student_Wallet(object):
         self.label = QtWidgets.QLabel(Student_Wallet)
         self.label.setGeometry(QtCore.QRect(300, 0, 81, 71))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("../../Spartan_Ride_App/SpartanLogo.png"))
+        self.label.setPixmap(QtGui.QPixmap("Images/SpartanLogo.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(Student_Wallet)
@@ -52,7 +52,7 @@ class Ui_Student_Wallet(object):
 "}\n"
 "")
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("../Images/person.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("Images/person.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.student_name = QtWidgets.QLabel(Student_Wallet)

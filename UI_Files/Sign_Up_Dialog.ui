@@ -307,7 +307,7 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png</pixmap>
+    <pixmap>Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>

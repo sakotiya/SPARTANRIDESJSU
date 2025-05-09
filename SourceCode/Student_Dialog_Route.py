@@ -1,8 +1,7 @@
 from PyQt5 import uic, QtWidgets
 from PyQt5.QtCore import QDate
 from PyQt5.QtWidgets import QDialog, QLabel, QPushButton,QComboBox, QDateEdit,QTimeEdit,QMessageBox, QSizePolicy, QVBoxLayout
-import mysql.connector
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 from mysql.connector import Error
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
@@ -13,7 +12,7 @@ import os
 class RouteDialog(QDialog):
     def __init__(self, user_id, login_window, parent):
         super().__init__()
-        uic.loadUi("../UI_Files/Student_RouteDetails.ui", self)
+        uic.loadUi("UI_Files/Student_RouteDetails.ui", self)
 
         print("🔍 RouteDialog children:")
         for w in self.findChildren(QtWidgets.QWidget):
@@ -99,7 +98,7 @@ class RouteDialog(QDialog):
             self.daySelector.setDate(today)
 
 
-            img_path = os.path.join("../Images/Maps/Bay.png")
+            img_path = os.path.join("Images/Maps/Bay.png")
 
             if os.path.exists(img_path):
                 pixmap = QPixmap(img_path)
@@ -123,7 +122,7 @@ class RouteDialog(QDialog):
             return
 
         try:
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
             cursor = conn.cursor()
 
             insert_sql = """
@@ -147,7 +146,7 @@ class RouteDialog(QDialog):
             self.stopNameCombo.currentIndexChanged.connect(self.change_stop_name)
 
             fname = route_name.lower() + ".png"
-            img_path = os.path.join("../Images/Maps", fname)
+            img_path = os.path.join("Images/Maps", fname)
 
             if os.path.exists(img_path):
                 pixmap = QPixmap(img_path)
@@ -181,7 +180,7 @@ class RouteDialog(QDialog):
         print(self.user_id + " : " + route_name + " : " + stop_name)
 
         try:
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
             cursor = conn.cursor()
 
             insert_sql = """
@@ -217,7 +216,7 @@ class RouteDialog(QDialog):
         print(self.user_id + " : " + route_name + " : " + stop_name + " : " + ride_time)
 
         try:
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
             cursor = conn.cursor()
 
             insert_sql = """
@@ -259,7 +258,7 @@ class RouteDialog(QDialog):
         route_id = self.get_route_id()
 
         try:
-            conn = db_connection(config_file='../config/config.ini')
+            conn = db_connection()
             cursor = conn.cursor()
 
             # insert new booking entry

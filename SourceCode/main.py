@@ -6,9 +6,8 @@ from UI_Python.Driver_MyProfile import Ui_SignUp_Dialog as ProfileUI
 from UI_Python.Driver_MyRoutes import Ui_SignUp_Dialog as RoutesUI
 from UI_Python.Driver_MyLog import Ui_SignUp_Dialog as LogUI
 from UI_Python.Driver_Notification import Ui_SignUp_Dialog as NotificationUI
-from db_util import db_connection
 
-import backend_driver_ui as backend
+import SourceCode.backend_driver_ui as backend
 import datetime
 
 # Generic window for each UI type
@@ -37,9 +36,6 @@ class ProfileWindow(QDialog):
 
     def sign_out(self):
         self.close()
-        if self.parent:
-            self.parent.close()
-        self.login_window.show()
 
     def load_data(self):
         profile = backend.get_driver_profile(self.user_id)

@@ -420,7 +420,7 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../../Downloads/SpartanLogo_small.png</pixmap>
+    <pixmap>Images/SpartanLogo_small.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="EmailID_5">

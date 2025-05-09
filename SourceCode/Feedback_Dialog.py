@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QToolButton, QLCDNumber, QMessageBox
 import sys
 import time
 from PyQt5 import uic
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 from PyQt5.QtWidgets import (
     QApplication, QDialog, QWidget,
     QVBoxLayout, QHBoxLayout,
@@ -18,7 +18,7 @@ class FeedbackDialog(QDialog):
     def __init__(self, user_id):
         super().__init__()
         self.user_id = user_id
-        uic.loadUi("../UI_Files/feedback.ui", self)
+        uic.loadUi("UI_Files/feedback.ui", self)
 
         self.setWindowTitle("Feedback")
         self.setFixedSize(400, 400)

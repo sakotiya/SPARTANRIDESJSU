@@ -1,17 +1,17 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow
-from Admin_drivery import DriverDialog
-from Admin_student import StudentDialog
-from Admin_facultyy import FacultyDialog
-from Admin_dashboard import DashboardDialog
+from SourceCode.Admin_drivery import DriverDialog
+from SourceCode.Admin_student import StudentDialog
+from SourceCode.Admin_facultyy import FacultyDialog
+from SourceCode.Admin_dashboard import DashboardDialog
 from UI_Python.admin import Ui_Admin
 from PyQt5.QtWidgets import QDialog, QLabel
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 
 class UI_Admin(QMainWindow, Ui_Admin):
     def __init__(self, user_id):
         super().__init__()
-        uic.loadUi('../UI_Files/admin.ui', self)
+        uic.loadUi('UI_Files/admin.ui', self)
         self.user_id = user_id
         self.name_label = self.findChild(QLabel, "namelabel")
         self.admin_label = self.findChild(QLabel, "adminlabel")

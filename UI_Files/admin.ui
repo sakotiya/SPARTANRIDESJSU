@@ -515,7 +515,7 @@ QPushButton:hover {
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../SpartanLogo_small.png</pixmap>
+     <pixmap>../Images/SpartanLogo_small.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

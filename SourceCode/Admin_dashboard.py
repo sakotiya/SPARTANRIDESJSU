@@ -5,7 +5,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import pandas as pd
 import matplotlib.pyplot as plt 
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 from matplotlib.patches import Circle
 
 class DashboardDialog(QMainWindow):
@@ -16,7 +16,7 @@ class DashboardDialog(QMainWindow):
 
 
         # connect the database
-        self.conn = db_connection(config_file='../config/config_wh.ini')
+        self.conn = db_connection(config_file='config/config_wh.ini')
         self.cursor = self.conn.cursor()
 
         # Main container widget
@@ -32,7 +32,7 @@ class DashboardDialog(QMainWindow):
 
         # Logo
         logo_label = QLabel()
-        pixmap = QPixmap("/Users/bavishna/Documents/Bavishna_Masters/DATA201/SJSU_Shuttle_project/SpartanLogo.png")  # <-- Use your real path
+        pixmap = QPixmap("Images/SpartanLogo.png")  # <-- Use your real path
         pixmap = pixmap.scaled(50, 50, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         logo_label.setPixmap(pixmap)
 

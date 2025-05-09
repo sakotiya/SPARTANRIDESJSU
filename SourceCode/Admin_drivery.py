@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import (
     QDialog, QVBoxLayout, QTableWidget, QTableWidgetItem,
     QPushButton, QMessageBox
 )
-from data201 import db_connection
+from SourceCode.data201 import db_connection
 
 class DriverDialog(QDialog):
     def __init__(self):

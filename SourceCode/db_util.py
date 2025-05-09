@@ -9,7 +9,7 @@ from configparser import ConfigParser
 from mysql.connector import MySQLConnection, Error
 from pandas import DataFrame
 
-def __read_config(config_file = 'config.ini', section = 'mysql'):
+def __read_config(config_file = 'config/config.ini', section = 'mysql'):
     """
     Private function to read the configuration file config_file 
     with the given section. If successful, return the configuration 
@@ -40,7 +40,7 @@ def __read_config(config_file = 'config.ini', section = 'mysql'):
     
     return config
 
-def db_connection(config_file = 'config.ini', section = 'mysql'):
+def db_connection(config_file = 'config/config.ini', section = 'mysql'):
     """
     Public function to make a database connection using the 
     configuration file config_file with the given section. 
