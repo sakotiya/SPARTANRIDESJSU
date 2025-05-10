@@ -8,6 +8,7 @@ from SourceCode.Student_Dialog_Route import RouteDialog
 from SourceCode.Feedback_Dialog import FeedbackDialog
 import sys
 from SourceCode.data201 import db_connection
+from SourceCode.Profile_DialogBox import ProfileDialog
 
 
 
@@ -23,6 +24,8 @@ class StudentDialog(QDialog):
         self.balance_label = self.findChild(QLabel, "balancelabel")
         self.login_window = login_window
         from PyQt5.QtWidgets import QPushButton
+
+
 
 
         print("Buttons:", [b.objectName() for b in self.findChildren(QPushButton)])
@@ -51,6 +54,16 @@ class StudentDialog(QDialog):
             self.signOutButton.clicked.connect(self.sign_out)
 
         self.load_user_info()
+
+        self.profileButton = self.findChild(QPushButton, "Profile")
+        if self.profileButton:
+            self.profileButton.clicked.connect(self.open_profile)
+
+    def open_profile(self):
+        self.profile_dialog = ProfileDialog(self.user_id, parent=self)
+        self.profile_dialog.exec_()
+
+
 
     def load_user_info(self):
         conn = db_connection()
