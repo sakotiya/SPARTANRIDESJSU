@@ -1,3 +1,4 @@
+
 import sys
 import configparser
 import mysql.connector
@@ -77,12 +78,12 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             self.hide()
             self.dialog = StudentDialog(user_id, login_window=self)
             self.dialog.exec_()
-            self.show()
+            if self.dialog.parent() is None:
+                self.show()
         elif role == "Admin" and self.EnterYourEmailUser.text().strip().startswith("A"):
             self.hide()
             self.dialog = UI_Admin(user_id)
             self.dialog.show()
-            #self.show()
         elif role == "Driver" and self.EnterYourEmailUser.text().strip().startswith("D"):
             self.hide()
             self.dialog = ProfileWindow(user_id=user_id)
@@ -103,4 +104,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
