@@ -67,9 +67,6 @@ class ProfileDialog(QDialog):
             label.setText(text)
 
     def go_home(self):
-        from SourceCode.Student_Dialog import StudentDialog
-        self.close()
+        self.close()  # just close the profile window
         if self.parent:
-            self.parent.close()
-        self.student_dialog = StudentDialog(self.user_id, login_window=self.parent.login_window, launched_from_profile=True)
-        self.student_dialog.exec_()
+            self.parent.show()  # re-show StudentDialog if it was hidden
