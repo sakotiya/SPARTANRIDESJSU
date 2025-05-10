@@ -78,7 +78,7 @@ class LoginWindow(QtWidgets.QMainWindow, Ui_LoginPage):
             self.hide()
             self.dialog = StudentDialog(user_id, login_window=self)
             self.dialog.exec_()
-            if self.dialog.parent() is None:
+            if not getattr(self.dialog, "launched_from_profile", False):
                 self.show()
         elif role == "Admin" and self.EnterYourEmailUser.text().strip().startswith("A"):
             self.hide()

@@ -13,7 +13,6 @@ class ProfileDialog(QDialog):
         self.user_id = user_id
         self.parent = parent
 
-        # Setup HOME button to return to Student dialog
         self.home_button = self.findChild(QPushButton, "HOME_Label")
         if self.home_button:
             self.home_button.clicked.connect(self.go_home)
@@ -68,9 +67,9 @@ class ProfileDialog(QDialog):
             label.setText(text)
 
     def go_home(self):
-        from SourceCode.Student_Dialog import StudentDialog  # moved here to break circular import
+        from SourceCode.Student_Dialog import StudentDialog
         self.close()
         if self.parent:
             self.parent.close()
-        self.student_dialog = StudentDialog(self.user_id, login_window=self.parent.login_window if self.parent else None)
-        self.student_dialog.show()
+        self.student_dialog = StudentDialog(self.user_id, login_window=self.parent.login_window, launched_from_profile=True)
+        self.student_dialog.exec_()
