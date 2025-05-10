@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_SignUp_Dialog(object):
     def setupUi(self, SignUp_Dialog):
         SignUp_Dialog.setObjectName("SignUp_Dialog")
-        SignUp_Dialog.resize(767, 494)
+        SignUp_Dialog.resize(782, 553)
         SignUp_Dialog.setStyleSheet("QWidget {\n"
 "    background-color: #73C2FB; /* Ice Blue*/\n"
 "    font-family: \'Segoe UI\', sans-serif;\n"
@@ -47,9 +47,9 @@ class Ui_SignUp_Dialog(object):
 "    font-weight: bold;\n"
 "}")
         self.AlreadySignIn.setObjectName("AlreadySignIn")
-        self.Login = QtWidgets.QPushButton(SignUp_Dialog)
-        self.Login.setGeometry(QtCore.QRect(210, 70, 113, 41))
-        self.Login.setStyleSheet("QPushButton {\n"
+        self.Loginlabel = QtWidgets.QPushButton(SignUp_Dialog)
+        self.Loginlabel.setGeometry(QtCore.QRect(210, 70, 113, 41))
+        self.Loginlabel.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
 "    color: #0B1D3A;\n"
 "    border: none;\n"
@@ -60,7 +60,7 @@ class Ui_SignUp_Dialog(object):
 "QPushButton:hover {\n"
 "    background-color: #FAFAD2;\n"
 "}")
-        self.Login.setObjectName("Login")
+        self.Loginlabel.setObjectName("Loginlabel")
         self.User_ID_Label = QtWidgets.QLabel(SignUp_Dialog)
         self.User_ID_Label.setGeometry(QtCore.QRect(20, 140, 121, 16))
         self.User_ID_Label.setStyleSheet("QLabel {\n"
@@ -71,9 +71,9 @@ class Ui_SignUp_Dialog(object):
         self.User_ID_Label.setTextFormat(QtCore.Qt.RichText)
         self.User_ID_Label.setScaledContents(True)
         self.User_ID_Label.setObjectName("User_ID_Label")
-        self.EnterYourEmailUser = QtWidgets.QLineEdit(SignUp_Dialog)
-        self.EnterYourEmailUser.setGeometry(QtCore.QRect(150, 130, 331, 31))
-        self.EnterYourEmailUser.setStyleSheet("QLineEdit {\n"
+        self.sjsuIdQline = QtWidgets.QLineEdit(SignUp_Dialog)
+        self.sjsuIdQline.setGeometry(QtCore.QRect(150, 130, 331, 31))
+        self.sjsuIdQline.setStyleSheet("QLineEdit {\n"
 "    background-color: transparent;\n"
 "    border: 2px solid white;\n"
 "    border-radius: 4px;\n"
@@ -81,20 +81,20 @@ class Ui_SignUp_Dialog(object):
 "    font-size: 14px;\n"
 "    color: yellow;\n"
 "}")
-        self.EnterYourEmailUser.setObjectName("EnterYourEmailUser")
-        self.Name = QtWidgets.QLabel(SignUp_Dialog)
-        self.Name.setGeometry(QtCore.QRect(20, 200, 121, 16))
-        self.Name.setStyleSheet("QLabel {\n"
+        self.sjsuIdQline.setObjectName("sjsuIdQline")
+        self.firstname = QtWidgets.QLabel(SignUp_Dialog)
+        self.firstname.setGeometry(QtCore.QRect(20, 200, 121, 16))
+        self.firstname.setStyleSheet("QLabel {\n"
 "    color: #FAFAD2;\n"
 "    font-size: 14px;\n"
 "    font-weight: bold;\n"
 "}")
-        self.Name.setTextFormat(QtCore.Qt.RichText)
-        self.Name.setScaledContents(True)
-        self.Name.setObjectName("Name")
-        self.EnterYourEmailUser_2 = QtWidgets.QLineEdit(SignUp_Dialog)
-        self.EnterYourEmailUser_2.setGeometry(QtCore.QRect(150, 190, 331, 31))
-        self.EnterYourEmailUser_2.setStyleSheet("QLineEdit {\n"
+        self.firstname.setTextFormat(QtCore.Qt.RichText)
+        self.firstname.setScaledContents(True)
+        self.firstname.setObjectName("firstname")
+        self.nameQline = QtWidgets.QLineEdit(SignUp_Dialog)
+        self.nameQline.setGeometry(QtCore.QRect(150, 190, 331, 31))
+        self.nameQline.setStyleSheet("QLineEdit {\n"
 "    background-color: transparent;\n"
 "    border: 2px solid white;\n"
 "    border-radius: 4px;\n"
@@ -102,20 +102,20 @@ class Ui_SignUp_Dialog(object):
 "    font-size: 14px;\n"
 "    color: yellow;\n"
 "}")
-        self.EnterYourEmailUser_2.setObjectName("EnterYourEmailUser_2")
-        self.EmailId_label = QtWidgets.QLabel(SignUp_Dialog)
-        self.EmailId_label.setGeometry(QtCore.QRect(20, 260, 111, 16))
-        self.EmailId_label.setStyleSheet("QLabel {\n"
+        self.nameQline.setObjectName("nameQline")
+        self.EmailId = QtWidgets.QLabel(SignUp_Dialog)
+        self.EmailId.setGeometry(QtCore.QRect(20, 320, 111, 16))
+        self.EmailId.setStyleSheet("QLabel {\n"
 "    color: #FAFAD2;\n"
 "    font-size: 14px;\n"
 "    font-weight: bold;\n"
 "}")
-        self.EmailId_label.setTextFormat(QtCore.Qt.RichText)
-        self.EmailId_label.setScaledContents(True)
-        self.EmailId_label.setObjectName("EmailId_label")
-        self.EnterYourEmailUser_3 = QtWidgets.QLineEdit(SignUp_Dialog)
-        self.EnterYourEmailUser_3.setGeometry(QtCore.QRect(150, 250, 331, 31))
-        self.EnterYourEmailUser_3.setStyleSheet("QLineEdit {\n"
+        self.EmailId.setTextFormat(QtCore.Qt.RichText)
+        self.EmailId.setScaledContents(True)
+        self.EmailId.setObjectName("EmailId")
+        self.lastnameQline = QtWidgets.QLineEdit(SignUp_Dialog)
+        self.lastnameQline.setGeometry(QtCore.QRect(150, 250, 331, 31))
+        self.lastnameQline.setStyleSheet("QLineEdit {\n"
 "    background-color: transparent;\n"
 "    border: 2px solid white;\n"
 "    border-radius: 4px;\n"
@@ -123,18 +123,18 @@ class Ui_SignUp_Dialog(object):
 "    font-size: 14px;\n"
 "    color: yellow;\n"
 "}")
-        self.EnterYourEmailUser_3.setObjectName("EnterYourEmailUser_3")
+        self.lastnameQline.setObjectName("lastnameQline")
         self.Checkbox = QtWidgets.QCheckBox(SignUp_Dialog)
-        self.Checkbox.setGeometry(QtCore.QRect(30, 370, 431, 20))
+        self.Checkbox.setGeometry(QtCore.QRect(20, 510, 431, 20))
         self.Checkbox.setStyleSheet("Check Box{\n"
 "    color: #FAFAD2;\n"
 "    font-size: 14px;\n"
 "    font-weight: bold;\n"
 "}")
         self.Checkbox.setObjectName("Checkbox")
-        self.Submit = QtWidgets.QPushButton(SignUp_Dialog)
-        self.Submit.setGeometry(QtCore.QRect(260, 420, 121, 41))
-        self.Submit.setStyleSheet("QPushButton {\n"
+        self.Submitlabel = QtWidgets.QPushButton(SignUp_Dialog)
+        self.Submitlabel.setGeometry(QtCore.QRect(600, 490, 121, 41))
+        self.Submitlabel.setStyleSheet("QPushButton {\n"
 "    background-color: #FAFAD2; /* Gold */\n"
 "    color: #0B1D3A;\n"
 "    border: none;\n"
@@ -145,7 +145,7 @@ class Ui_SignUp_Dialog(object):
 "QPushButton:hover {\n"
 "    background-color: #FAFAD2;\n"
 "}")
-        self.Submit.setObjectName("Submit")
+        self.Submitlabel.setObjectName("Submitlabel")
         self.Image = QtWidgets.QLabel(SignUp_Dialog)
         self.Image.setGeometry(QtCore.QRect(510, 100, 211, 231))
         self.Image.setAutoFillBackground(False)
@@ -157,19 +157,20 @@ class Ui_SignUp_Dialog(object):
         self.Image.setPixmap(QtGui.QPixmap("Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png"))
         self.Image.setScaledContents(True)
         self.Image.setObjectName("Image")
-        self.Password_2 = QtWidgets.QLabel(SignUp_Dialog)
-        self.Password_2.setGeometry(QtCore.QRect(20, 320, 111, 16))
-        self.Password_2.setStyleSheet("QLabel {\n"
+        self.Image.setGeometry(QtCore.QRect(510, 100, 241, 301))
+        self.password = QtWidgets.QLabel(SignUp_Dialog)
+        self.password.setGeometry(QtCore.QRect(20, 380, 111, 16))
+        self.password.setStyleSheet("QLabel {\n"
 "    color: #FAFAD2;\n"
 "    font-size: 14px;\n"
 "    font-weight: bold;\n"
 "}")
-        self.Password_2.setTextFormat(QtCore.Qt.RichText)
-        self.Password_2.setScaledContents(True)
-        self.Password_2.setObjectName("Password_2")
-        self.EnterYourEmailUser_4 = QtWidgets.QLineEdit(SignUp_Dialog)
-        self.EnterYourEmailUser_4.setGeometry(QtCore.QRect(150, 310, 331, 31))
-        self.EnterYourEmailUser_4.setStyleSheet("QLineEdit {\n"
+        self.password.setTextFormat(QtCore.Qt.RichText)
+        self.password.setScaledContents(True)
+        self.password.setObjectName("password")
+        self.emailQline = QtWidgets.QLineEdit(SignUp_Dialog)
+        self.emailQline.setGeometry(QtCore.QRect(150, 310, 331, 31))
+        self.emailQline.setStyleSheet("QLineEdit {\n"
 "    background-color: transparent;\n"
 "    border: 2px solid white;\n"
 "    border-radius: 4px;\n"
@@ -177,7 +178,43 @@ class Ui_SignUp_Dialog(object):
 "    font-size: 14px;\n"
 "    color: yellow;\n"
 "}")
-        self.EnterYourEmailUser_4.setObjectName("EnterYourEmailUser_4")
+        self.emailQline.setObjectName("emailQline")
+        self.lastname = QtWidgets.QLabel(SignUp_Dialog)
+        self.lastname.setGeometry(QtCore.QRect(20, 260, 121, 16))
+        self.lastname.setStyleSheet("QLabel {\n"
+"    color: #FAFAD2;\n"
+"    font-size: 14px;\n"
+"    font-weight: bold;\n"
+"}")
+        self.lastname.setTextFormat(QtCore.Qt.RichText)
+        self.lastname.setScaledContents(True)
+        self.lastname.setObjectName("lastname")
+        self.passwordQline = QtWidgets.QLineEdit(SignUp_Dialog)
+        self.passwordQline.setGeometry(QtCore.QRect(150, 370, 331, 31))
+        self.passwordQline.setStyleSheet("QLineEdit {\n"
+"    background-color: transparent;\n"
+"    border: 2px solid white;\n"
+"    border-radius: 4px;\n"
+"    padding: 6px;\n"
+"    font-size: 14px;\n"
+"    color: yellow;\n"
+"}")
+        self.passwordQline.setObjectName("passwordQline")
+        self.rolelabel = QtWidgets.QComboBox(SignUp_Dialog)
+        self.rolelabel.setGeometry(QtCore.QRect(150, 430, 104, 26))
+        self.rolelabel.setObjectName("rolelabel")
+        self.rolelabel.addItem("")
+        self.rolelabel.addItem("")
+        self.role = QtWidgets.QLabel(SignUp_Dialog)
+        self.role.setGeometry(QtCore.QRect(20, 440, 111, 16))
+        self.role.setStyleSheet("QLabel {\n"
+"    color: #FAFAD2;\n"
+"    font-size: 14px;\n"
+"    font-weight: bold;\n"
+"}")
+        self.role.setTextFormat(QtCore.Qt.RichText)
+        self.role.setScaledContents(True)
+        self.role.setObjectName("role")
 
         self.retranslateUi(SignUp_Dialog)
         QtCore.QMetaObject.connectSlotsByName(SignUp_Dialog)
@@ -187,10 +224,24 @@ class Ui_SignUp_Dialog(object):
         SignUp_Dialog.setWindowTitle(_translate("SignUp_Dialog", "Dialog"))
         self.Sign_Up.setText(_translate("SignUp_Dialog", "Sign Up"))
         self.AlreadySignIn.setText(_translate("SignUp_Dialog", "Already have account ?"))
-        self.Login.setText(_translate("SignUp_Dialog", "Login"))
+        self.Loginlabel.setText(_translate("SignUp_Dialog", "Login"))
         self.User_ID_Label.setText(_translate("SignUp_Dialog", "SJSU Id"))
-        self.Name.setText(_translate("SignUp_Dialog", "Name"))
-        self.EmailId_label.setText(_translate("SignUp_Dialog", "Email Id"))
+        self.firstname.setText(_translate("SignUp_Dialog", "First Name"))
+        self.EmailId.setText(_translate("SignUp_Dialog", "Email Id"))
         self.Checkbox.setText(_translate("SignUp_Dialog", "By Signing up you agree to recieve updates and special offers"))
-        self.Submit.setText(_translate("SignUp_Dialog", "Submit"))
-        self.Password_2.setText(_translate("SignUp_Dialog", "Password"))
+        self.Submitlabel.setText(_translate("SignUp_Dialog", "Submit"))
+        self.password.setText(_translate("SignUp_Dialog", "Password"))
+        self.lastname.setText(_translate("SignUp_Dialog", "Last Name"))
+        self.rolelabel.setItemText(0, _translate("SignUp_Dialog", "Student"))
+        self.rolelabel.setItemText(1, _translate("SignUp_Dialog", "Faculty"))
+        self.role.setText(_translate("SignUp_Dialog", "Role"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    SignUp_Dialog = QtWidgets.QDialog()
+    ui = Ui_SignUp_Dialog()
+    ui.setupUi(SignUp_Dialog)
+    SignUp_Dialog.show()
+    sys.exit(app.exec_())

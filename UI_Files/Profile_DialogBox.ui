@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Profile_Window_Dialog</class>
  <widget class="QDialog" name="Profile_Window_Dialog">
@@ -5,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1050</width>
-    <height>600</height>
+    <width>813</width>
+    <height>463</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,19 +19,6 @@
     font-family: 'Segoe UI', sans-serif;
 }</string>
   </property>
-  <widget class="Line" name="line">
-   <property name="geometry">
-    <rect>
-     <x>190</x>
-     <y>0</y>
-     <width>20</width>
-     <height>411</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Vertical</enum>
-   </property>
-  </widget>
   <widget class="QLabel" name="Photo">
    <property name="geometry">
     <rect>
@@ -40,8 +28,15 @@
      <height>81</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string>QLabel {
+    color: #FAFAD2;
+    font-size: 14px;
+    font-weight: bold;
+}</string>
+   </property>
    <property name="text">
-    <string />
+    <string/>
    </property>
    <property name="pixmap">
     <pixmap>Images/person.png</pixmap>
@@ -49,18 +44,14 @@
    <property name="scaledContents">
     <bool>true</bool>
    </property>
-  <property name="styleSheet"><string>QLabel {
-    color: #FAFAD2;
-    font-size: 14px;
-    font-weight: bold;
-}</string></property></widget>
+  </widget>
   <widget class="QLabel" name="Name_Label">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>80</x>
      <y>100</y>
-     <width>350</width>
-     <height>21</height>
+     <width>201</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="layoutDirection">
@@ -84,7 +75,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>150</y>
+     <y>170</y>
      <width>350</width>
      <height>21</height>
     </rect>
@@ -104,7 +95,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>200</y>
+     <y>220</y>
      <width>350</width>
      <height>21</height>
     </rect>
@@ -124,7 +115,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>250</y>
+     <y>270</y>
      <width>350</width>
      <height>21</height>
     </rect>
@@ -143,9 +134,9 @@
   <widget class="Line" name="line_2">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>440</x>
      <y>250</y>
-     <width>311</width>
+     <width>381</width>
      <height>16</height>
     </rect>
    </property>
@@ -156,7 +147,7 @@
   <widget class="QLabel" name="CourseName_label">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>450</x>
      <y>20</y>
      <width>350</width>
      <height>41</height>
@@ -176,7 +167,7 @@
   <widget class="QLabel" name="Enrollment_Number_label">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>450</x>
      <y>80</y>
      <width>350</width>
      <height>41</height>
@@ -196,7 +187,7 @@
   <widget class="QLabel" name="Department">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>450</x>
      <y>200</y>
      <width>350</width>
      <height>41</height>
@@ -216,7 +207,7 @@
   <widget class="QLabel" name="Admission_YearLabel">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>450</x>
      <y>140</y>
      <width>350</width>
      <height>41</height>
@@ -236,8 +227,8 @@
   <widget class="QPushButton" name="HOME_Label">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>360</y>
+     <x>580</x>
+     <y>410</y>
      <width>113</width>
      <height>32</height>
     </rect>
@@ -262,7 +253,7 @@ QPushButton:hover {
   <widget class="QLabel" name="Account_Status_label">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>440</x>
      <y>280</y>
      <width>350</width>
      <height>41</height>
@@ -283,8 +274,8 @@ QPushButton:hover {
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>300</y>
-     <width>350</width>
+     <y>330</y>
+     <width>261</width>
      <height>21</height>
     </rect>
    </property>
@@ -299,7 +290,52 @@ QPushButton:hover {
     <string>Mobile Phone</string>
    </property>
   </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>10</y>
+     <width>20</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Photo_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>91</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../../../Library/Mobile Documents/com~apple~CloudDocs/Shreya/SJSU/DATA201_RON/Project/FinalProject/Images/person.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>401</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
  </widget>
- <resources />
- <connections />
+ <resources/>
+ <connections/>
 </ui>

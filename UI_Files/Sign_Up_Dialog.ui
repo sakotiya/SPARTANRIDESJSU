@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>767</width>
-    <height>494</height>
+    <width>782</width>
+    <height>553</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,7 +75,7 @@
     <string>Already have account ?</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Login">
+  <widget class="QPushButton" name="Loginlabel">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -127,7 +127,7 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="EnterYourEmailUser">
+  <widget class="QLineEdit" name="sjsuIdQline">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -147,7 +147,7 @@ QPushButton:hover {
 }</string>
    </property>
   </widget>
-  <widget class="QLabel" name="Name">
+  <widget class="QLabel" name="firstname">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -164,7 +164,7 @@ QPushButton:hover {
 }</string>
    </property>
    <property name="text">
-    <string>Name</string>
+    <string>First Name</string>
    </property>
    <property name="textFormat">
     <enum>Qt::RichText</enum>
@@ -173,7 +173,7 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="EnterYourEmailUser_2">
+  <widget class="QLineEdit" name="nameQline">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -193,11 +193,11 @@ QPushButton:hover {
 }</string>
    </property>
   </widget>
-  <widget class="QLabel" name="EmailId_label">
+  <widget class="QLabel" name="EmailId">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>260</y>
+     <y>320</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -219,7 +219,7 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="EnterYourEmailUser_3">
+  <widget class="QLineEdit" name="lastnameQline">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -242,8 +242,8 @@ QPushButton:hover {
   <widget class="QCheckBox" name="Checkbox">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>370</y>
+     <x>20</x>
+     <y>510</y>
      <width>431</width>
      <height>20</height>
     </rect>
@@ -259,11 +259,11 @@ QPushButton:hover {
     <string>By Signing up you agree to recieve updates and special offers</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Submit">
+  <widget class="QPushButton" name="Submitlabel">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>420</y>
+     <x>600</x>
+     <y>490</y>
      <width>121</width>
      <height>41</height>
     </rect>
@@ -290,8 +290,8 @@ QPushButton:hover {
     <rect>
      <x>510</x>
      <y>100</y>
-     <width>211</width>
-     <height>231</height>
+     <width>241</width>
+     <height>301</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -307,17 +307,17 @@ QPushButton:hover {
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png</pixmap>
+    <pixmap>../../../../Library/Mobile Documents/com~apple~CloudDocs/Shreya/SJSU/DATA201_RON/Project/FinalProject/Images/ChatGPT Image Apr 21, 2025, 12_09_12 AM.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLabel" name="Password_2">
+  <widget class="QLabel" name="password">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>320</y>
+     <y>380</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -339,7 +339,7 @@ QPushButton:hover {
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="EnterYourEmailUser_4">
+  <widget class="QLineEdit" name="emailQline">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -357,6 +357,98 @@ QPushButton:hover {
     font-size: 14px;
     color: yellow;
 }</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lastname">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: #FAFAD2;
+    font-size: 14px;
+    font-weight: bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Last Name</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordQline">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>370</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    color: yellow;
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="rolelabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>430</y>
+     <width>104</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Student</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Faculty</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="role">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: #FAFAD2;
+    font-size: 14px;
+    font-weight: bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Role</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
