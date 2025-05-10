@@ -34,7 +34,7 @@ class SignUpDialog(QtWidgets.QDialog, Ui_SignUp_Dialog):
         self.roleCombo = self.findChild(QComboBox, "rolelabel")
 
     def open_login(self):
-        self.login_window.show()
+        self.hide()
 
     def add_new_user(self):
         sjsu_id = self.input_field1.text()
