@@ -1,7 +1,7 @@
 
 from PyQt5 import uic
 import mysql.connector
-from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget, QLabel
+from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget, QLabel, QCalendarWidget
 
 from SourceCode.Student_Dialog_Wallet import WalletDialog
 from SourceCode.Student_Dialog_RideHistory import RideHistoryDialog
@@ -21,6 +21,7 @@ class StudentDialog(QDialog):
         self.login_window = login_window
         self.launched_from_profile = launched_from_profile
 
+
         self.name_label = self.findChild(QLabel, "namelabel")
         self.balance_label = self.findChild(QLabel, "balancelabel")
 
@@ -32,6 +33,10 @@ class StudentDialog(QDialog):
 
         self.feedbackButton = self.findChild(QPushButton, "Feedback")
         self.feedbackButton.clicked.connect(self.open_feedback)
+
+        self.calenderwidget = self.findChild(QCalendarWidget, "calendarWidget")
+        self.calenderwidget.clicked.connect(self.open_book_ride)
+
 
         self.bookRideBtn = self.findChild(QPushButton, "BookaRide")
         if self.bookRideBtn:
