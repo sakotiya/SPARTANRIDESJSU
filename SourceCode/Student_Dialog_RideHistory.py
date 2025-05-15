@@ -1,6 +1,9 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QDialog, QTableWidgetItem, QPushButton, QTableWidget,QLabel
 from SourceCode.data201 import db_connection
+from SourceCode.Student_Dialog_Wallet import WalletDialog
+from SourceCode.Student_Dialog_Route import RouteDialog
+from SourceCode.Profile_DialogBox import ProfileDialog
 
 
 # ----- Ride History Dialog -----
@@ -16,8 +19,12 @@ class RideHistoryDialog(QDialog):
         self.name_label = self.findChild(QLabel, "namelabel")
         self.balance_label = self.findChild(QLabel, "balancelabel")
         self.load_user_info()
-
-
+        self.walletButton = self.findChild(QPushButton, "Wallet")
+        self.walletButton.clicked.connect(self.open_wallet)
+        self.bookRideBtn = self.findChild(QPushButton, "BookaRide")
+        self.bookRideBtn.clicked.connect(self.open_book_ride)
+        self.profileButton = self.findChild(QPushButton, "Profile")
+        self.profileButton.clicked.connect(self.open_profile)
 
     def populate_table(self):
         self.rideHistoryTable = self.findChild(QTableWidget, "tableWidget")
@@ -34,7 +41,7 @@ class RideHistoryDialog(QDialog):
             cursor = conn.cursor()
 
 
-            query = "SELECT trip_id, trip_date, status, sjsu_id, driver_id,	shuttle_id,	bus_stop,route_id, start_time FROM trip_history WHERE sjsu_id = %s"
+            query = "SELECT trip_id, status, sjsu_id, driver_id, bus_stop, start_time FROM trip_history WHERE sjsu_id = %s"
             print("▶ SQL:", query.strip(), "params:", (self.user_id,))
             cursor.execute(query, (self.user_id,))
             rows = cursor.fetchall()
@@ -110,6 +117,16 @@ class RideHistoryDialog(QDialog):
         if self.parent:
             self.parent.close()
         self.login_window.show()
+    def open_wallet(self):
+       self.wallet_dialog = WalletDialog(self.user_id, login_window=self.login_window, parent=self)
+       self.wallet_dialog.exec_()
+    def open_book_ride(self):
+        self.route_dialog = RouteDialog(self.user_id, login_window=self.login_window, parent=self)
+        self.route_dialog.exec_()
+    def open_profile(self):
+        self.profile_dialog = ProfileDialog(self.user_id, parent=self)
+        self.profile_dialog.exec_()
+
 
 
 

@@ -2,6 +2,8 @@ from PyQt5 import uic, QtWidgets
 from PyQt5.QtWidgets import QDialog, QLabel, QPushButton
 import mysql.connector
 from SourceCode.data201 import db_connection
+from SourceCode.Student_Dialog_Route import RouteDialog
+from SourceCode.Profile_DialogBox import ProfileDialog
 
 class WalletDialog(QDialog):
     def __init__(self, user_id, login_window, parent):
@@ -19,6 +21,12 @@ class WalletDialog(QDialog):
         self.name_label = self.findChild(QLabel, "namelabel")
         self.balance_label = self.findChild(QLabel, "balancelabel")
         self.load_user_info()
+        self.bookRideBtn = self.findChild(QPushButton, "BookaRide")
+        self.bookRideBtn.clicked.connect(self.open_book_ride)
+        self.profileButton = self.findChild(QPushButton, "Profile")
+        self.profileButton.clicked.connect(self.open_profile)
+
+
     def load_user_info(self):
         try:
             conn = db_connection()
@@ -112,3 +120,10 @@ class WalletDialog(QDialog):
         if self.parent:
             self.parent.close()
         self.login_window.show()
+    def open_book_ride(self):
+        self.route_dialog = RouteDialog(self.user_id, login_window=self.login_window, parent=self)
+        self.route_dialog.exec_()
+    def open_profile(self):
+        self.profile_dialog = ProfileDialog(self.user_id, parent=self)
+        self.profile_dialog.exec_()
+

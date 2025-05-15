@@ -52,6 +52,8 @@ class StudentDialog(QDialog):
         if self.profileButton:
             self.profileButton.clicked.connect(self.open_profile)
 
+
+
     def open_profile(self):
         self.profile_dialog = ProfileDialog(self.user_id, parent=self)
         self.profile_dialog.exec_()
@@ -84,15 +86,22 @@ class StudentDialog(QDialog):
         self.close()
         if self.parent():
             self.parent().close()
+
         self.login_window.show()
 
     def open_ride_history(self):
         self.ride_dialog = RideHistoryDialog(self.user_id, login_window=self.login_window, parent=self)
         self.ride_dialog.exec_()
+        self.window = RideHistoryDialog(self.user_id, login_window=self.login_window, parent=self)
+
+
 
     def open_wallet(self):
         self.wallet_dialog = WalletDialog(self.user_id, login_window=self.login_window, parent=self)
         self.wallet_dialog.exec_()
+        self.window = WalletDialog(self.user_id, login_window=self.login_window, parent=self)
+
+
 
     def open_feedback(self):
         self.feedback_dialog = FeedbackDialog(self.user_id)
@@ -101,6 +110,9 @@ class StudentDialog(QDialog):
     def open_book_ride(self):
         self.route_dialog = RouteDialog(self.user_id, login_window=self.login_window, parent=self)
         self.route_dialog.exec_()
+        self.window = RouteDialog(self.user_id, login_window=self.login_window, parent=self)
+
+
 
     def open_route(self):
         self.wallet_dialog = WalletDialog(self.user_id, login_window=self.login_window, parent=self)
