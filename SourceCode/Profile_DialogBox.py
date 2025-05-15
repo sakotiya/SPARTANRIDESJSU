@@ -34,19 +34,32 @@ class ProfileDialog(QDialog):
 
         user_type = "student" if str(self.user_id).startswith("S") else "faculty"
         table = "student" if user_type == "student" else "faculty"
+        email_column = "email" if user_type == "student" else "email_id"
 
-        query = f"""
-            SELECT first_name, email, phone, course, department, enrollment_year
-            FROM {table}
-            WHERE {table}_id = %s
-        """
+        if user_type == "student":
+            query = f"""
+                SELECT first_name, {email_column}, phone, course, department, enrollment_year
+                FROM {table}
+                WHERE {table}_id = %s
+            """
+        else:
+            query = f"""
+                SELECT first_name, {email_column}, phone, department, enrollment_year
+                FROM {table}
+                WHERE {table}_id = %s
+            """
+
         cursor.execute(query, (self.user_id,))
         result = cursor.fetchone()
         cursor.close()
         conn.close()
 
         if result:
-            first_name, email, phone, course, department, enrollment_year = result
+            if user_type == "student":
+                first_name, email, phone, course, department, enrollment_year = result
+            else:
+                first_name, email, phone, department, enrollment_year = result
+                course = "Not Available"
 
             self.set_label("Name_Label", f"Name: {first_name}")
             self.set_label("User_id_label", f"SJSU ID: {self.user_id}")
