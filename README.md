@@ -6,7 +6,10 @@ The platform provides a streamlined digital interface through which users can ea
 The Spartan Ride is built on a carefully normalized relational database that underpins the platform’s reliability, efficiency, and scalability. From the initial design phase, the database schema was structured with industry-standard best practices, ensuring referential integrity, data consistency, and logical clarity across all entities.
 Normalization principles were rigorously applied to eliminate data redundancy and ensure that each table, such as student, driver, route, booking, and trip_history, serves a distinct and cohesive purpose. By defining clear foreign key relationships between tables (e.g., linking booking to both user and route), the system minimizes duplication and facilitates accurate, real-time queries without performance bottlenecks.
 
-![Alt text]<img width="555" alt="Screenshot 2025-06-03 at 8 04 16 PM" src="https://github.com/user-attachments/assets/61e1d8e0-38c3-48ce-8b46-fd443324915c" />
+<img width="555" alt="Screenshot 2025-06-03 at 8 04 16 PM" src="https://github.com/user-attachments/assets/61e1d8e0-38c3-48ce-8b46-fd443324915c" />
+
+
+<img width="726" alt="Screenshot 2025-06-03 at 8 04 36 PM" src="https://github.com/user-attachments/assets/b3061f0a-3c75-4b83-a212-29fcf529ed20" />
 
 
 
